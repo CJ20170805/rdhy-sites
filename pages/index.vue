@@ -110,6 +110,13 @@
           </div>
         </div>
       </div>
+      <div class="compa-case">
+        <div class="cc-content">
+          <div class="cc-title">
+            <h1>客户案例 <i></i></h1>
+          </div>
+        </div>
+      </div>
     </div>
 </template>
 
@@ -263,6 +270,30 @@ export default {
               font-weight: 700;}
             a:hover{color: #f60;}
           }
+        }
+      }
+    }
+  }
+  .compa-case{
+    width: 100%;
+    .cc-content{
+      width: 1200px;
+      height: 650px;
+      margin: 0 auto;
+      background: url('/images/xieWBg.jpg');
+
+      .cc-title{
+        width: 100%;
+        height: 134px;
+        background: url('/images/cgalbg.jpg') no-repeat center;
+        padding-top: 40px;
+        
+        h1{font-size: 24px;color: #fff;line-height: 34px;text-align: center;
+          i{width: 30px;
+            height: 5px;
+            background: #ccc;
+            display: block;
+            margin: 10px auto 0 auto;}
         }
       }
     }
