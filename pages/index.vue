@@ -7,7 +7,109 @@
             </el-carousel-item>
           </el-carousel>
        </div>
-      
+      <div class="compa-introduce">
+        <div class="ci-content">
+          <b>荣德海越</b>
+          <span></span>
+          <p>提供一站式全网运营服务，依托大数据，洞察消费导向，整合资源打爆<br>你的店铺 
+          成熟的服务大客户运营经验，其中包括海尔、科沃斯、廖记、渔米之湘<br> 等国内外品牌。
+          未来我们仍将不忘初心，继续前行，为企业、店铺提供更加全面的代运营服务，共创电商新局面</p>
+        </div>
+      </div>
+      <div class="compa-service">
+        <div class="cs-list">
+          <h1>灵动共创为您提供全网电商代运营服务</h1>
+          <div class="cs-list-wrap">
+            <div class="cs-list-item">
+              <i></i>
+              <div class="cs-list-item-desc">
+                <span>整店代运营服务</span>
+                <p>Whole shop opreator</p>
+              </div>
+            </div>
+            <span class="cs-line"></span>
+            <div class="cs-list-item">
+              <i></i>
+              <div class="cs-list-item-desc">
+                <span>整店代运营服务</span>
+                <p>Whole shop opreator</p>
+              </div>
+            </div>
+            <span class="cs-line"></span>
+            <div class="cs-list-item">
+              <i></i>
+              <div class="cs-list-item-desc">
+                <span>整店代运营服务</span>
+                <p>Whole shop opreator</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cs-detail">
+          <div class="cs-detail-item">
+            <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+          </div>
+          <div class="cs-detail-item">
+            <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+            <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+            <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+          </div>
+          <div class="cs-detail-item">
+            <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">天猫代运营</a>
+                <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
 </template>
 
@@ -34,15 +136,10 @@ export default {
 .container {
   width: 100%;
   min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 
   .banner{
     width: 100%;
     height: 550px;
-    background-color: lightblue;
-    margin-top: -4px;
 
     .el-carousel{
       width: 100%;
@@ -52,6 +149,121 @@ export default {
       height: 550px;
       img{
         height: 550px;
+      }
+    }
+  }
+  .compa-introduce{
+    width: 100%;
+    background: url('/images/xieWBg.jpg');
+    .ci-content{
+      width: 1200px;
+      height: 300px;
+      margin: 0 auto;
+      padding: 56px 100px;
+      b{font-size: 18px;display: block;font-size: bold;color: crimson;width: 100%;text-align: center;}
+      span{
+        width: 30px;
+        height: 5px;
+        background: #ccc;
+        display: block;
+        margin: 10px auto 36px auto;}
+      p{text-align: center;font-size: 17px;line-height: 30px;}
+    }
+  }
+  .compa-service{
+    width: 100%;
+    height: 790px;
+    .cs-list{
+      padding-top: 60px;
+      width: 100%;
+      height: 290px;
+      background-color: #f60;
+      h1{height: 40px;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;}
+      .cs-list-wrap{
+        width: 1200px;
+        margin: 24px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .cs-list-item{
+          height: 110px;
+          width: 350px;
+          i{
+            float: left;
+            width: 94px;
+            height: 94px;
+            margin-top: 8px;
+            background: url('/images/services_icon.png') no-repeat center;
+          }
+          .cs-list-item-desc{
+            width: 200px;
+            height: 110px;
+            float: left;
+            span{
+              display: block;
+              width: 170px;
+              color:#fff;
+              height: 30px;
+              font-size: 24px;
+              font-weight: lighter;
+              float: left;
+              margin: 28px 50px 0 0;
+              border-bottom: 1px solid #fff;}
+            p{
+              display: block;
+              height: 27px;
+              color: #fff;
+              line-height: 27px;
+              font-weight: 400;
+              font-size: 18px;
+            }
+          }
+        }
+        .cs-line{width: 5px;
+          height: 28px;
+          display: block;
+          // float: left;
+          margin: 10px 17px 0 20px;
+          background: #ccc;}
+      }
+    }
+    .cs-detail{
+      width: 100%;
+      height: 500px;
+      background: url('/images/servesbg.png') no-repeat center;
+      display: flex;
+      justify-content: space-around;
+
+      .cs-detail-item{
+        width: 290px;
+        height: 420px;
+        padding: 50px 2px 0 8px;
+        margin-top: 36px;
+        background: url('/images/servesListbg.png') no-repeat center;
+
+        span{
+          display: block;
+          width: 100%;
+          height: 85px;
+          padding: 20px 10px;
+
+          i{display: block;margin:16px 10px 0 10px;float: left;width: 20px;height: 20px;background: url('/images/servesListTb.png') no-repeat center;}
+          div{width: 220px;float: left;
+            p{font-size: 14px;line-height: 20px;}
+            a{
+              display: block;
+              line-height: 30px;
+              font-size: 16px;
+              color: #222;
+              text-decoration: none;
+              font-weight: 700;}
+            a:hover{color: #f60;}
+          }
+        }
       }
     }
   }
