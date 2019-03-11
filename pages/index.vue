@@ -117,6 +117,50 @@
           </div>
         </div>
       </div>
+      <div class="compa-why">
+        <div class="cw-title">
+          <h1>为什么选择我们</h1>
+          <i></i>
+          <p>企业认证咨询服务的领跑者</p>
+        </div>
+        <div class="cw-desc">
+           <ul>
+             <li>
+               <img src="/images/Ticon1.png" alt="">
+               <h3>绝对让您放心</h3>
+               <i></i>
+               <h6>专业 真诚 用心</h6>
+               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+             </li>
+              <li>
+               <img src="/images/Ticon2.png" alt="">
+               <h3>绝对让您放心</h3>
+               <i></i>
+               <h6>专业 真诚 用心</h6>
+               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+             </li>
+              <li>
+               <img src="/images/Ticon3.png" alt="">
+               <h3>绝对让您放心</h3>
+               <i></i>
+               <h6>专业 真诚 用心</h6>
+               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+             </li>
+              <li>
+               <img src="/images/Ticon4.png" alt="">
+               <h3>绝对让您放心</h3>
+               <i></i>
+               <h6>专业 真诚 用心</h6>
+               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+             </li>
+           </ul>
+        </div>
+      </div>
+      <div class="compa-strength">
+        <div class="cs-content">
+          aaa
+        </div>
+      </div>
     </div>
 </template>
 
@@ -147,7 +191,6 @@ export default {
   .banner{
     width: 100%;
     height: 550px;
-
     .el-carousel{
       width: 100%;
     }
@@ -156,6 +199,7 @@ export default {
       height: 550px;
       img{
         height: 550px;
+        width: 100%;
       }
     }
   }
@@ -296,6 +340,59 @@ export default {
             margin: 10px auto 0 auto;}
         }
       }
+    }
+  }
+  .compa-why{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: lightblue;
+    .cw-title{
+      text-align: center;
+      background-color: #f60;
+      padding-top: 30px;
+
+      height: 130px;
+      i{width: 30px;
+        height: 5px;
+        background: #ccc;
+        display: block;
+        margin: 10px auto 0 auto};
+      h1{color: #fff;font-size: 24px;}
+      p{font-size: 14px;color: #ddd;padding-top: 6px;}
+    }
+    .cw-desc{
+      width: 100%;
+      ul{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        li{
+          list-style-type: none;
+          width: 25%;
+          height: 370px;
+          background-color: #fff;
+          text-align: center;
+          padding: 40px 26px;
+
+          img{width: 100px;height:100px;}
+          h3{line-height: 30px; font-size: 18px;font-weight: bold;margin: 20px 0 0 0;}
+          i{width: 75px;height: 4px;background: #E63337;display: block;margin:8px auto 20px auto;}
+          h6{color: #E63337;line-height: 25px;font-weight: bold;font-size: 14px;margin: 10px 0;}
+          p{line-height: 17px;font-size: 12px;}
+        }
+      }
+    }
+  }
+  .compa-strength{
+    height: 436px;
+    width: 100%;
+    background: url('/images/sljzbg.jpg') no-repeat center top;
+    .cs-content{
+      width: 1200px;
+      height: 436px;
+      margin: 0 auto;
+      // background-color: red;
     }
   }
 }
