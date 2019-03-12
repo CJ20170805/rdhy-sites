@@ -49,7 +49,7 @@
               <li><a href="#">软件评测</a></li>
               <li><a href="#">软件评测</a></li>
             </ul>
-            <p>地址：上海市xx区xx路xx广场x号楼xx号　　电话：86-130-xxxx-0000　　传真：86-021-xxxxxxxxxxxxxxxx</p>
+            <p>地址：北京市海淀区万寿路27号院　　电话：86-130-xxxx-0000　　传真：86-021-xxxxxxxxxxxxxxxx</p>
             <p>邮箱：xxxxxxxxx@qq.com　　网址：www.xxxxxx.com​</p>
           </div>
           <div class="fc-top-3">
@@ -66,7 +66,7 @@
       </div>
       <div class="fc-bottom">
          <div class="fc-bot-cont">
-            <p>© 2015-2020 All Rights Reserved.  ICP备案号：1234567890   版权所有：©您公司网站名称</p>
+            <p>© 2019 All Rights Reserved.  ICP备案号：1234567890   版权所有：©荣德海越（北京）信息技术有限公司</p>
          </div>
       </div>
     </div>
@@ -241,7 +241,7 @@ html {
             width: 80px;
             height: 60px;
             line-height: 60px;
-            a{text-decoration: none;color: #fff;font-size: 12px;font-weight: 540;}
+            a{text-decoration: none;color: #fff;font-size: 13px;font-weight: 540;}
             a:hover{color: #f60;}
             text-align: center;
           }
