@@ -113,7 +113,63 @@
       <div class="compa-case">
         <div class="cc-content">
           <div class="cc-title">
-            <h1>客户案例 <i></i></h1>
+            <h1>推荐服务 <i></i></h1>
+          </div>
+          <div class="cc-service">
+            <a href="#">
+              <img src="/images/p-4.jpg" alt="">
+              <p>商标注册</p>
+            </a>
+            <a href="#">
+              <img src="/images/p-4.jpg" alt="">
+              <p>商标注册</p>
+            </a>
+            <a href="#">
+              <img src="/images/p-4.jpg" alt="">
+              <p>商标注册</p>
+            </a>
+            <a href="#">
+              <img src="/images/p-4.jpg" alt="">
+              <p>商标注册</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="compa-contact">
+        <div class="cc-content">
+          <p>我们有  <span>超过20年</span>  的经验，在这里我们可以向您提供较好的指导！ <a href="#">联系我们</a></p>
+        </div>
+      </div>
+      <div class="compa-step">
+         <div class="cs-title">
+            <b>服务流程</b>
+            <p>快速审核，优化提交流程、全程跟踪</p>
+          </div>
+        <div class="cs-content">
+          <div class="cs-item">
+            <img src="/images/step01.png" alt="">
+            <p>商标注册</p>
+          </div>
+          <div class="cs-arrow-item">
+            <img src="/images/step_arrow.png" alt="">
+          </div>
+             <div class="cs-item">
+            <img src="/images/step02.png" alt="">
+            <p>商标注册</p>
+          </div>
+          <div class="cs-arrow-item">
+            <img src="/images/step_arrow.png" alt="">
+          </div>
+             <div class="cs-item">
+            <img src="/images/step03.png" alt="">
+            <p>商标注册</p>
+          </div>
+          <div class="cs-arrow-item">
+            <img src="/images/step_arrow.png" alt="">
+          </div>
+             <div class="cs-item">
+            <img src="/images/step04.png" alt="">
+            <p>商标注册</p>
           </div>
         </div>
       </div>
@@ -121,7 +177,7 @@
         <div class="cw-title">
           <h1>为什么选择我们</h1>
           <i></i>
-          <p>企业认证咨询服务的领跑者</p>
+          <p>企业认证咨询服务的行业领跑者</p>
         </div>
         <div class="cw-desc">
            <ul>
@@ -158,7 +214,51 @@
       </div>
       <div class="compa-strength">
         <div class="cs-content">
-          aaa
+          <div class="cs-item cs-item-1">
+            <span>2011年荣德海越成立</span>
+            <p>率先提出“代运营”升级“带运
+              营”并制定行业标准。</p>
+          </div>
+           <div class="cs-item cs-item-2">
+            <span>2011年荣德海越成立</span>
+            <p>率先提出“代运营”升级“带运
+              营”并制定行业标准。</p>
+          </div>
+           <div class="cs-item cs-item-3">
+           <span>2011年荣德海越成立</span>
+            <p>率先提出“代运营”升级“带运
+              营”并制定行业标准。</p>
+          </div>
+           <div class="cs-item cs-item-4">
+            <span>2011年荣德海越成立</span>
+            <p>率先提出“代运营”升级“带运
+              营”并制定行业标准。</p>
+          </div>
+           <div class="cs-item cs-item-5">
+           <span>2011年荣德海越成立</span>
+            <p>率先提出“代运营”升级“带运
+              营”并制定行业标准。</p>
+          </div>
+        </div>
+      </div>
+      <div class="compa-friends">
+        <div class="cw-title">
+          <h1>合作伙伴</h1>
+          <i></i>
+        </div>
+        <div class="cf-list">
+          <ul>
+            <li><img src="/images/clients_img04.jpg" alt=""></li>
+            <li><img src="/images/clients_img18.jpg" alt=""></li>
+            <li><img src="/images/clients_img15.jpg" alt=""></li>
+            <li><img src="/images/friends7.jpg" alt=""></li>
+            <li><img src="/images/friends3.jpg" alt=""></li>
+            <li><img src="/images/clients_img01.jpg" alt=""></li>
+            <li><img src="/images/clients_img12.jpg" alt=""></li>
+            <li><img src="/images/clients_img09.jpg" alt=""></li>
+            <li><img src="/images/clients_img16.jpg" alt=""></li>
+            <li><img src="/images/clients_img08.jpg" alt=""></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -224,6 +324,7 @@ export default {
   .compa-service{
     width: 100%;
     height: 790px;
+    min-width: 1100px;
     .cs-list{
       padding-top: 60px;
       width: 100%;
@@ -322,10 +423,9 @@ export default {
     width: 100%;
     .cc-content{
       width: 1200px;
-      height: 650px;
+      height: 440px;
       margin: 0 auto;
-      background: url('/images/xieWBg.jpg');
-
+      // background: url('/images/xieWBg.jpg');
       .cc-title{
         width: 100%;
         height: 134px;
@@ -340,19 +440,36 @@ export default {
             margin: 10px auto 0 auto;}
         }
       }
+      .cc-service{
+        padding: 20px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        a{
+          display: inline-block;
+          width: 270px;
+          height: 260px;
+          text-decoration: none;
+          padding: 5px;
+          box-sizing: border-box;
+          // background-color: #E63337;
+
+          img{width: 260px;height: 200px;}
+          p{color: #666;text-align: center;line-height: 50px;}
+        }
+      }
     }
   }
   .compa-why{
-    width: 1200px;
-    height: 500px;
+    width: 100%;
+    height: 520px;
     margin: 0 auto;
-    background-color: lightblue;
+    // background-color: lightblue;
     .cw-title{
       text-align: center;
       background-color: #f60;
       padding-top: 30px;
-
-      height: 130px;
+      height: 140px;
       i{width: 30px;
         height: 5px;
         background: #ccc;
@@ -362,7 +479,8 @@ export default {
       p{font-size: 14px;color: #ddd;padding-top: 6px;}
     }
     .cw-desc{
-      width: 100%;
+      width: 1200px;
+      margin: 0 auto;
       ul{
         width: 100%;
         padding: 0;
@@ -370,10 +488,10 @@ export default {
         li{
           list-style-type: none;
           width: 25%;
-          height: 370px;
+          height: 376px;
           background-color: #fff;
           text-align: center;
-          padding: 40px 26px;
+          padding: 44px 26px;
 
           img{width: 100px;height:100px;}
           h3{line-height: 30px; font-size: 18px;font-weight: bold;margin: 20px 0 0 0;}
@@ -386,13 +504,156 @@ export default {
   }
   .compa-strength{
     height: 436px;
+    min-width: 1234px;
     width: 100%;
     background: url('/images/sljzbg.jpg') no-repeat center top;
     .cs-content{
       width: 1200px;
       height: 436px;
       margin: 0 auto;
+      position: relative;
       // background-color: red;
+      .cs-item{
+        width: 194px;
+        height: 112px;
+        // background-color:rgb(231, 176, 176);
+        box-sizing: border-box;
+        padding: 20px 18px;
+        position: absolute;
+        span{font-size: 15px;color: #222;}
+        p{font-size: 12px;color: #333;padding-top: 8px;}
+      }
+      .cs-item-1{
+        left: 100px;
+        top: 110px;
+      }
+      .cs-item-2{
+        width: 246px;
+        left: 262px;
+        top: 275px;
+      }
+      .cs-item-3{
+        left: 483px;
+        top: 104px;
+      }
+      .cs-item-4{
+        width: 223px;
+        left: 662px;
+        top: 273px;
+      }
+      .cs-item-5{
+        width: 232px;
+        left: 866px;
+        top: 105px;
+      }
+    }
+  }
+  .compa-friends{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    .cw-title{
+      text-align: center;
+      background-color: #f60;
+      padding-top: 30px;
+
+      height: 100px;
+      i{width: 30px;
+        height: 5px;
+        background: #ccc;
+        display: block;
+        margin: 10px auto 0 auto};
+      h1{color: #fff;font-size: 24px;}
+      p{font-size: 14px;color: #ddd;padding-top: 6px;}
+    }
+    .cf-list{
+      ul{
+        width: 1051px;
+        height: 180px;
+        margin: 40px auto;
+        padding: 0;
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        li{
+          border-right: 1px solid #ccc;
+          border-bottom: 1px solid #ccc;
+          list-style-type: none;
+          float: left;
+          padding: 2px;
+          box-sizing: border-box;
+          margin: 0;
+          height: 90px;
+          width: 210px;
+          img{width: 206px;height: 86px;}
+        }
+      }
+    }
+  }
+  .compa-contact{
+    width: 100%;
+    height: 140px;
+    background-color: #f60;
+    margin: 20px auto;
+    .cc-content{
+      width: 1200px;
+      margin: 0 auto;
+      height: 140px;
+      p{
+        color: #fff;
+        font-size: 20px;
+        line-height: 140px;
+        height: 140px;
+        padding-left: 60px;
+        span{
+          font-size: 36px;
+        }
+        a{
+          display: inline-block;
+          width: 152px;
+          text-decoration: none;
+          height: 48px;
+          border: 1px solid #fff;
+          border-radius: 4px;
+          line-height: 48px;
+          text-align: center;
+          color: #fff;
+          margin-left: 280px;
+        }
+        a:hover{background-color: #fff;color: #f60;}
+      }
+    }
+  }
+  .compa-step{
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    .cs-title{
+      text-align: center;
+      b{font-size: 25px;color: #f60;}
+      p{font-size: 14px;line-height: 40px;color: rgb(194, 192, 192);}
+    }
+    .cs-content{
+      width: 100%;
+      padding: 0 160px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+      .cs-item{
+        width: 140px;
+        height:200px;
+        padding: 5px;
+        img{
+          width: 130px;
+          margin: 0 auto;
+        }
+        p{text-align: center;font-size: 18px;color: rgb(85, 83, 83);line-height: 60px;}
+      }
+      .cs-arrow-item{
+        width: 40px;
+        height:200px;
+        padding-top: 63px;
+      }
     }
   }
 }

@@ -1,29 +1,6 @@
 <template>
   <div>
     <div class="head"> 
-      <!-- <div class="head-container">
-          <div class="headNav">
-            <ul> 
-              <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
-              <li @click="navCheck('nav-1')" @mouseenter="navCheck('nav-1')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-1' ? 'nav-active':'']"><a :class="[navName == 'nav-1' ? 'nav-a-active':'nav-a-normal']" href="/">首页</a></li>
-              <li @click="navCheck('nav-2')" @mouseenter="navCheck('nav-2')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-2' ? 'nav-active':'']"><a :class="[navName == 'nav-2' ? 'nav-a-active':'nav-a-normal']" href="#">知识产权</a></li> 
-              <li @click="navCheck('nav-3')" @mouseenter="navCheck('nav-3')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-3' ? 'nav-active':'']"><a :class="[navName == 'nav-3' ? 'nav-a-active':'nav-a-normal']" href="#">软件评测</a></li> 
-              <li @click="navCheck('nav-4')" @mouseenter="navCheck('nav-4')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-4' ? 'nav-active':'']"><a :class="[navName == 'nav-4' ? 'nav-a-active':'nav-a-normal']" href="#">高新企业认定</a></li> 
-              <li @click="navCheck('nav-5')" @mouseenter="navCheck('nav-5')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-5' ? 'nav-active':'']"><a :class="[navName == 'nav-5' ? 'nav-a-active':'nav-a-normal']" href="#">体系认定</a></li> 
-
-              <li @click="navCheck('nav-6')" @mouseenter="navCheck('nav-6')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-6' ? 'nav-active':'']"><a :class="[navName == 'nav-6' ? 'nav-a-active':'nav-a-normal']" href="#">资质认定</a></li> 
-              
-              <li @click="navCheck('nav-7')" @mouseenter="navCheck('nav-7')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-7' ? 'nav-active':'']"><a :class="[navName == 'nav-7' ? 'nav-a-active':'nav-a-normal']" href="#">关于我们</a></li> 
-
-              <li @mouseenter="navCheck('nav-8')" @mouseleave="navCheck(navName)" :class="[navName == 'nav-8' ? 'nav-active':'']"><a :class="[navName == 'nav-8' ? 'nav-a-active':'nav-a-normal']" href="/AboutUS">联系我们</a></li> 
-            </ul>
-          </div>
-          <div class="drop-down" :class="[navName == 'nav-2' ? 'nav-dropDown-active':'']">
-            <a href="#">软件</a>
-            <a href="#">专利</a>
-            <a href="#">商标</a>
-          </div>
-      </div> -->
       <div class="nav">
         <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
         <el-menu
@@ -56,6 +33,43 @@
       </div> 
     </div>
     <nuxt />
+    <div class="foot">
+      <div class="foot-content">
+        <div class="fc-top">
+          <div class="fc-top-1">
+            <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
+          </div>
+          <div class="fc-top-2">
+            <ul class="foot-nav">
+              <li><a href="#">网站首页</a></li>
+              <li><a href="#">软件评测</a></li>
+              <li><a href="#">软件评测</a></li>
+              <li><a href="#">软件评测</a></li>
+              <li><a href="#">软件评测</a></li>
+              <li><a href="#">软件评测</a></li>
+              <li><a href="#">软件评测</a></li>
+            </ul>
+            <p>地址：上海市xx区xx路xx广场x号楼xx号　　电话：86-130-xxxx-0000　　传真：86-021-xxxxxxxxxxxxxxxx</p>
+            <p>邮箱：xxxxxxxxx@qq.com　　网址：www.xxxxxx.com​</p>
+          </div>
+          <div class="fc-top-3">
+            <div class="fc-ewm">
+              <img src="/images/erweima.jpg" alt="">
+              <p>新浪微博</p>
+            </div>
+            <div class="fc-ewm">
+              <img src="/images/erweima.jpg" alt="">
+              <p>微信公众号</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fc-bottom">
+         <div class="fc-bot-cont">
+            <p>© 2015-2020 All Rights Reserved.  ICP备案号：1234567890   版权所有：©您公司网站名称</p>
+         </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -129,21 +143,6 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-/*head */
-// .head{width: 100%;height: 100px;background-color: rgb(248, 246, 246);}
-// .head .head-container{width: 1200px;height: 100px;margin: 0 auto;position: relative;}
-// .head .headNav{width: 100%;height:100px;margin: 0 auto;}
-// .head .headNav .headLogo{float:left;width: 200px;margin-right: 30px;}
-// .head .headNav li{float: left;height: 100px;width: 130px;line-height: 100px;text-align: center;list-style: none;}
-// /* .head .headNav li a:hover{background: url('/images/nav_bg.png') no-repeat;color: #fff!important;} */
-// .nav-active{background: url('/images/nav_bg.png') no-repeat;color: #fff!important;}
-// .head .headNav li a{display: block;color: #222;text-decoration: none;}
-// .nav-a-normal{color: #222;}
-// .nav-a-active{color: #fff!important;}
-// .nav-dropDown-active{display: block!important}
-
-// .head .head-container .drop-down{display: none;position: absolute;top:100px;left: 466px;z-index:10;width: 130px;background-color: #f60;}
-// .head .head-container .drop-down a{display:block;text-align: center;text-decoration: none;color:#fff;height: 30px;width: 100%}
 
 .head{
   width: 100%;
@@ -202,6 +201,82 @@ html {
   }
 }
 /*head end*/
+.foot{
+  width: 100%;
+  background-color: #333;
+  .foot-content{
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    // background-color: #333;
+    padding: 50px 0px;
 
+    .fc-top{
+      width: 100%;
+      height: 210px;
+      div{float: left;}
+      .fc-top-1{
+        height: 200px;
+        width: 200px;
+        padding-top: 26px;
+        .headLogo{
+          background-color: rgb(134, 134, 134);
+          display: inline-block;
+          img{
+            width: 210px;
+            height: 80px;
+          }
+        }
+      }
+      .fc-top-2{
+        height: 200px;
+        width: 700px;
+        padding-left: 24px;
+        .foot-nav{
+          width: inherit;
+          height: 60px;
+          li{
+            float: left;
+            list-style-type: none;
+            width: 80px;
+            height: 60px;
+            line-height: 60px;
+            a{text-decoration: none;color: #fff;font-size: 12px;font-weight: 540;}
+            a:hover{color: #f60;}
+            text-align: center;
+          }
+        }
+        p{color: #fff;font-size: 12px;padding-left: 56px;margin: 8px 0;}
+      }
+      .fc-top-3{
+        height: 200px;
+        width: 300px;
+        padding-top: 10px;
+        .fc-ewm{
+          width: 110px;
+          height: 140px;
+          padding: 5px;
+          margin: 0 10px;
+          img{
+            width: 100px;
+            height: 100px;
+          }
+          p{line-height: 30px;text-align: center;color: #fff;font-size: 12px;}
+        }
+      }
+    }
+  }
+  .fc-bottom{
+    border-top: 1px solid #ccc;
+    height: 50px;
+    width: 100%;
+    .fc-bot-cont{
+      width: 1200px;
+      margin: 0 auto;
+      height: 50px;
+      p{color: #fff;font-size: 12px;line-height: 50px;}
+    }
+  }
+}
 
 </style>
