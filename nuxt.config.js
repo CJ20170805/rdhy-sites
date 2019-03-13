@@ -1,7 +1,14 @@
 const pkg = require('./package')
 
+// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/cj20170805/'
+  }
+} : {};
 
 module.exports = {
+  ...routerBase,
   mode: 'universal',
   // mode: 'spa',
 
@@ -27,7 +34,8 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: {   color: 'blue',
+  height: '5px'},
 
   /*
   ** Global CSS
@@ -57,7 +65,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }

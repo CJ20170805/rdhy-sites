@@ -1,6 +1,9 @@
 <template>
   <div>
     <div class="head"> 
+      <div class="nav-contact">
+
+      </div>
       <div class="nav">
         <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
         <el-menu
@@ -11,12 +14,12 @@
           background-color="rgb(248,246,246)"
           text-color="#222"
           active-text-color="#ffd04b">
-          <el-menu-item index="1">首页</el-menu-item>
+          <el-menu-item index="1"><nuxt-link to="/">首页</nuxt-link></el-menu-item>
           <el-submenu index="2">
             <template slot="title">知识产权</template>
-            <el-menu-item index="2-1">选项1</el-menu-item>
-            <el-menu-item index="2-2">选项2</el-menu-item>
-            <el-menu-item index="2-3">选项3</el-menu-item>
+            <el-menu-item index="2-1">专利申请</el-menu-item>
+            <el-menu-item index="2-2">商标注册</el-menu-item>
+            <el-menu-item index="2-3">软件著作权</el-menu-item>
             <el-submenu index="2-4">
               <template slot="title">软件评测</template>
               <el-menu-item index="2-4-1">选项1</el-menu-item>
@@ -26,9 +29,35 @@
           </el-submenu>
             <el-menu-item index="3">软件评测</el-menu-item>
               <el-menu-item index="4">高新企业认定</el-menu-item>
-                <el-menu-item index="5">体系认定</el-menu-item>
-                  <el-menu-item index="6">资质认定</el-menu-item>
-                    <el-menu-item index="7">关于我们</el-menu-item>
+                <!-- <el-menu-item index="5">体系认定</el-menu-item> -->
+
+          <el-submenu index="5">
+            <template slot="title">体系认定</template>
+            <el-submenu index="5-4">
+              <template slot="title">质量体系</template>
+              <el-menu-item index="5-4-1">ISO9001</el-menu-item>
+              <el-menu-item index="5-4-2">ISO14001</el-menu-item>
+              <el-menu-item index="5-4-3">OHSAS18001</el-menu-item>
+              <el-menu-item index="5-4-4">ISO20000</el-menu-item>
+              <el-menu-item index="5-4-5">ISO27000</el-menu-item>
+            </el-submenu>
+            <el-submenu index="5-5">
+              <template slot="title">其他体系</template>
+              <el-menu-item index="5-5-1">选项1</el-menu-item>
+              <el-menu-item index="5-5-2">选项2</el-menu-item>
+              <el-menu-item index="5-5-3">选项3</el-menu-item>
+            </el-submenu>
+          </el-submenu>
+
+          <el-submenu index="6">
+            <template slot="title">资质认定</template>
+            <el-menu-item index="6-1">信息系统集成服务资质</el-menu-item>
+            <el-menu-item index="6-2">信息安全服务资质</el-menu-item>
+            <el-menu-item index="6-3">安防工程资质</el-menu-item>
+          </el-submenu>
+
+          <!-- <el-menu-item index="6">资质认定</el-menu-item> -->
+            <el-menu-item index="7"><nuxt-link to="AboutUS">关于我们</nuxt-link></el-menu-item>
         </el-menu>  
       </div> 
     </div>
@@ -38,16 +67,17 @@
         <div class="fc-top">
           <div class="fc-top-1">
             <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
+            <!-- <a href="#" class="headLogo">荣德海越</a> -->
           </div>
           <div class="fc-top-2">
             <ul class="foot-nav">
               <li><a href="#">网站首页</a></li>
+              <li><a href="#">知识产权</a></li>
               <li><a href="#">软件评测</a></li>
-              <li><a href="#">软件评测</a></li>
-              <li><a href="#">软件评测</a></li>
-              <li><a href="#">软件评测</a></li>
-              <li><a href="#">软件评测</a></li>
-              <li><a href="#">软件评测</a></li>
+              <li><a href="#">高新企业认定</a></li>
+              <li><a href="#">体系认定</a></li>
+              <li><a href="#">资质认定</a></li>
+              <li><a href="#">关于我们</a></li>
             </ul>
             <p>地址：北京市海淀区万寿路27号院　　电话：86-130-xxxx-0000　　传真：86-021-xxxxxxxxxxxxxxxx</p>
             <p>邮箱：xxxxxxxxx@qq.com　　网址：www.xxxxxx.com​</p>
@@ -154,6 +184,7 @@ html {
     height: 90px;
     background-color: rgb(248,246,246);
     display: flex;
+    a{color: rgb(34, 34, 34);font-size: 14px;display: block;text-decoration: none;}
     .headLogo{
       height: 90px;
       width: 200px;
@@ -167,6 +198,9 @@ html {
       height: 90px;
       width: 100%;
       border: none;
+      .el-menu--horizontal .el-menu .el-submenu__title{
+         background-color: #f60!important;
+      }
       .el-menu-item{
         width: 134px;
         height: 90px!important;
@@ -174,6 +208,9 @@ html {
         border: none;
         text-align: center;
       }
+        //     .el-menu-item:hover{
+        // background-color: #f60!important;
+        //     }
       .el-menu-item:hover{
         // background: url('/images/nav_bg.png') no-repeat center!important;
         // background-size: 96px 80px!important;
@@ -197,6 +234,9 @@ html {
         background: url('/images/nav_bg.png') no-repeat center!important;
         background-size: 110px 90px!important;
       }
+      .el-menu-item.is-active>a{
+         color: #fff!important;
+      }
     }
   }
 }
@@ -218,13 +258,14 @@ html {
       .fc-top-1{
         height: 200px;
         width: 200px;
-        padding-top: 26px;
+        padding-top: 20px;
         .headLogo{
-          background-color: rgb(134, 134, 134);
+          // background-color: rgb(134, 134, 134);
           display: inline-block;
           img{
             width: 210px;
             height: 80px;
+            filter: invert(100%);
           }
         }
       }

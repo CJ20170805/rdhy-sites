@@ -11,42 +11,76 @@
         <div class="ci-content">
           <b>荣德海越</b>
           <span></span>
-          <p>提供一站式全网运营服务，依托大数据，洞察消费导向，整合资源打爆<br>你的店铺 
-          成熟的服务大客户运营经验，其中包括海尔、科沃斯、廖记、渔米之湘<br> 等国内外品牌。
-          未来我们仍将不忘初心，继续前行，为企业、店铺提供更加全面的代运营服务，共创电商新局面</p>
+          <p>本公司专业从事资质咨询服务<br>自成立以来，至今已为北京地区上百家企业
+          提供过专业的服务<br>其中不乏集成行业顶级软件开发商、交通行业前十大集成商、电力行业顶级集成商等等，累积了大量的专业化经验。</p>
         </div>
       </div>
       <div class="compa-service">
         <div class="cs-list">
-          <h1>灵动共创为您提供全网电商代运营服务</h1>
+          <h1>荣德海越为您提供专业的资质咨询服务</h1>
           <div class="cs-list-wrap">
             <div class="cs-list-item">
               <i></i>
               <div class="cs-list-item-desc">
-                <span>整店代运营服务</span>
-                <p>Whole shop opreator</p>
+                <span>通用资质服务</span>
+                <p>General qualification</p>
               </div>
             </div>
             <span class="cs-line"></span>
             <div class="cs-list-item">
               <i></i>
               <div class="cs-list-item-desc">
-                <span>整店代运营服务</span>
-                <p>Whole shop opreator</p>
+                <span>管理体系服务</span>
+                <p>Management system</p>
               </div>
             </div>
             <span class="cs-line"></span>
             <div class="cs-list-item">
               <i></i>
               <div class="cs-list-item-desc">
-                <span>整店代运营服务</span>
-                <p>Whole shop opreator</p>
+                <span>信息技术服务</span>
+                <p>Information skill</p>
+              </div>
+            </div>
+            <span class="cs-line"></span>
+            <div class="cs-list-item">
+              <i></i>
+              <div class="cs-list-item-desc">
+                <span>信息安全服务</span>
+                <p>Information safety</p>
               </div>
             </div>
           </div>
         </div>
         <div class="cs-detail">
-          <div class="cs-detail-item">
+          <div class="cs-item-wrap">
+            <div class="cs-detail-item">
+            <span>
+              <i></i>
+              <div>
+                <a href="#">高新技术企业认证 </a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">国家企业技术中心认定</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">企业荣誉证书资质</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">重合同守信用企业认定年检</a>
+              </div>
+            </span>
+          </div>
+          <!-- <div class="cs-detail-item">
             <span>
               <i></i>
               <div>
@@ -54,18 +88,44 @@
                 <p>天猫入驻、整店运营、策划推广</p>
               </div>
             </span>
-             <span>
+            <span>
               <i></i>
               <div>
                 <a href="#">天猫代运营</a>
                 <p>天猫入驻、整店运营、策划推广</p>
               </div>
             </span>
-             <span>
+            <span>
               <i></i>
               <div>
                 <a href="#">天猫代运营</a>
                 <p>天猫入驻、整店运营、策划推广</p>
+              </div>
+            </span>
+          </div> -->
+           <div class="cs-detail-item">
+            <span>
+              <i></i>
+              <div>
+                <a href="#">ISO9001质量管理体系认证 </a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">ISO 13485认证 </a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">ISO10015认证</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">ISO14001环境管理体系认证 </a>
               </div>
             </span>
           </div>
@@ -73,22 +133,31 @@
             <span>
               <i></i>
               <div>
-                <a href="#">天猫代运营</a>
-                <p>天猫入驻、整店运营、策划推广</p>
+                <a href="#">ISO20000信息管理体系认证</a>
               </div>
             </span>
-            <span>
+             <span>
               <i></i>
               <div>
-                <a href="#">天猫代运营</a>
-                <p>天猫入驻、整店运营、策划推广</p>
+                <a href="#">信息技术服务管理（ITSM）</a>
               </div>
             </span>
-            <span>
+             <span>
               <i></i>
               <div>
-                <a href="#">天猫代运营</a>
-                <p>天猫入驻、整店运营、策划推广</p>
+                <a href="#">认证 ITSS（运行维护）</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">四级 ITSS（运行维护）</a>
+              </div>
+            </span>
+                 <span>
+              <i></i>
+              <div>
+                <a href="#">二级 ITSS（运行维护）</a>
               </div>
             </span>
           </div>
@@ -96,18 +165,35 @@
             <span>
               <i></i>
               <div>
-                <a href="#">天猫代运营</a>
-                <p>天猫入驻、整店运营、策划推广</p>
+                <a href="#">ISO27001信息安全体系认证</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">天猫代运营</a>
-                <p>天猫入驻、整店运营、策划推广</p>
+                <a href="#">信息安全体系（ISMS）认证</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">信息安全集成服务资质二级</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">信息安全集成服务资质三级</a>
+              </div>
+            </span>
+              <span>
+              <i></i>
+              <div>
+                <a href="#">信息安全集成服务资质三级</a>
               </div>
             </span>
           </div>
+        </div>
         </div>
       </div>
       <div class="compa-case">
@@ -121,23 +207,23 @@
               <p>商标注册</p>
             </a>
             <a href="#">
-              <img src="/images/p-4.jpg" alt="">
-              <p>商标注册</p>
+              <img src="/images/p-5.jpg" alt="">
+              <p>专利申请</p>
             </a>
             <a href="#">
-              <img src="/images/p-4.jpg" alt="">
-              <p>商标注册</p>
+              <img src="/images/p-6.jpg" alt="">
+              <p>CMMI认证</p>
             </a>
             <a href="#">
-              <img src="/images/p-4.jpg" alt="">
-              <p>商标注册</p>
+              <img src="/images/p-7.jpg" alt="">
+              <p>信息安全认证</p>
             </a>
           </div>
         </div>
       </div>
       <div class="compa-contact">
         <div class="cc-content">
-          <p>我们有  <span>超过20年</span>  的经验，在这里我们可以向您提供较好的指导！ <a href="#">联系我们</a></p>
+          <p>提供科学、系统、建设咨询、全生命周期维护、资质公关等全方位、<span>一站式的优质服务</span> <a href="#">联系我们</a></p>
         </div>
       </div>
       <div class="compa-step">
@@ -148,28 +234,28 @@
         <div class="cs-content">
           <div class="cs-item">
             <img src="/images/step01.png" alt="">
-            <p>商标注册</p>
+            <p>线上咨询</p>
           </div>
           <div class="cs-arrow-item">
             <img src="/images/step_arrow.png" alt="">
           </div>
              <div class="cs-item">
             <img src="/images/step02.png" alt="">
-            <p>商标注册</p>
+            <p>准备材料</p>
           </div>
           <div class="cs-arrow-item">
             <img src="/images/step_arrow.png" alt="">
           </div>
              <div class="cs-item">
             <img src="/images/step03.png" alt="">
-            <p>商标注册</p>
+            <p>提交申请</p>
           </div>
           <div class="cs-arrow-item">
             <img src="/images/step_arrow.png" alt="">
           </div>
              <div class="cs-item">
             <img src="/images/step04.png" alt="">
-            <p>商标注册</p>
+            <p>授权领证</p>
           </div>
         </div>
       </div>
@@ -183,61 +269,61 @@
            <ul>
              <li>
                <img src="/images/Ticon1.png" alt="">
-               <h3>绝对让您放心</h3>
+               <h3>专业一对一服务</h3>
                <i></i>
-               <h6>专业 真诚 用心</h6>
-               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+               <h6>更专业</h6>
+               <p>一对一即时咨询服务，<br>专业领域顾问，至少二年以上从业经验</p>
              </li>
               <li>
                <img src="/images/Ticon2.png" alt="">
-               <h3>绝对让您放心</h3>
+               <h3>严控风险 安全保障</h3>
                <i></i>
-               <h6>专业 真诚 用心</h6>
-               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+               <h6>更多保障</h6>
+               <p>严格把控业务办理风<br>险，保障办理过程安全顺利、平稳</p>
              </li>
               <li>
                <img src="/images/Ticon3.png" alt="">
-               <h3>绝对让您放心</h3>
+               <h3>全程化透明操作</h3>
                <i></i>
-               <h6>专业 真诚 用心</h6>
-               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+               <h6>更放心</h6>
+               <p>服务产品化定制规范，<br>全程可监控、可追溯、业务进度实时跟进</p>
              </li>
               <li>
                <img src="/images/Ticon4.png" alt="">
-               <h3>绝对让您放心</h3>
+               <h3>一站式企业服务</h3>
                <i></i>
-               <h6>专业 真诚 用心</h6>
-               <p>我们有多年的电商经验和专业的团队，精良的技术，不仅仅是节省您的成本，提升效益，也能让您省心，省事。</p>
+               <h6>更无忧</h6>
+               <p>涵盖企业初创期、成长<br>期、成熟期，满足各类不同业务办理需求</p>
              </li>
            </ul>
         </div>
       </div>
       <div class="compa-strength">
         <div class="cs-content">
+          <div class="cs-title">
+            <h3>实力见证</h3>
+            <i></i>
+          </div>
           <div class="cs-item cs-item-1">
             <span>2011年荣德海越成立</span>
-            <p>率先提出“代运营”升级“带运
-              营”并制定行业标准。</p>
+            <p>原名为北京中软瑞邦科技咨询服务中心，是由原中国软件行业协会秘书长胡崑山创建</p>
           </div>
            <div class="cs-item cs-item-2">
-            <span>2011年荣德海越成立</span>
-            <p>率先提出“代运营”升级“带运
-              营”并制定行业标准。</p>
+              <span>2013年整合资源 一站式服务</span>
+            <p>为全方位服务品牌商和多家知名企业达
+              成合作帮助品牌商提供资质咨询服务</p>
           </div>
            <div class="cs-item cs-item-3">
-           <span>2011年荣德海越成立</span>
-            <p>率先提出“代运营”升级“带运
-              营”并制定行业标准。</p>
+             <span>2014年企业更名</span>
+            <p>更名为荣德海越（北京）信息技术有限公司</p>
           </div>
            <div class="cs-item cs-item-4">
-            <span>2011年荣德海越成立</span>
-            <p>率先提出“代运营”升级“带运
-              营”并制定行业标准。</p>
+            <span>2016年硕果累累</span>
+            <p>拥有资质管理和服务平台 、资质风险控制管理系统 、第三方平台监管系统等8项自主知识产权的软件产品。</p>
           </div>
-           <div class="cs-item cs-item-5">
-           <span>2011年荣德海越成立</span>
-            <p>率先提出“代运营”升级“带运
-              营”并制定行业标准。</p>
+           <div class="cs-item cs-item-5" style="padding:20px 6px;">
+           <span>2019年不忘初心，砥砺前行</span>
+            <p>至今已为北京地区上百家企业提供过专业的服务，其中不乏顶级软件开发商、交通行业前十、电力行业顶级集成商等等。</p>
           </div>
         </div>
       </div>
@@ -271,9 +357,9 @@ export default {
   data () {
     return {
       bannerImgs: [
-        '/images/banner1.jpg',
-        '/images/banner2.jpg',
-        '/images/banner3.jpg'
+        '/images/banner001.jpg',
+        '/images/banner002.jpg',
+        '/images/banner003.jpg'
       ]
     }
   },
@@ -352,26 +438,24 @@ export default {
             background: url('/images/services_icon.png') no-repeat center;
           }
           .cs-list-item-desc{
-            width: 200px;
+            width: 160px;
             height: 110px;
             float: left;
             span{
               display: block;
-              width: 170px;
+              width: 126px;
               color:#fff;
               height: 30px;
-              font-size: 24px;
-              font-weight: lighter;
+              font-size: 20px;
+              font-weight: 560;
               float: left;
               margin: 28px 50px 0 0;
               border-bottom: 1px solid #fff;}
             p{
-              display: block;
-              height: 27px;
               color: #fff;
               line-height: 27px;
               font-weight: 400;
-              font-size: 18px;
+              font-size: 16px;
             }
           }
         }
@@ -387,35 +471,41 @@ export default {
       width: 100%;
       height: 500px;
       background: url('/images/servesbg.png') no-repeat center;
-      display: flex;
-      justify-content: space-around;
+      min-width: 1340px;
 
-      .cs-detail-item{
-        width: 290px;
+      .cs-item-wrap{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        .cs-detail-item{
+        width: 270px;
         height: 420px;
         padding: 50px 2px 0 8px;
         margin-top: 36px;
         background: url('/images/servesListbg.png') no-repeat center;
+        border-radius: 2px;
 
         span{
           display: block;
           width: 100%;
-          height: 85px;
+          height: 55px;
           padding: 20px 10px;
 
-          i{display: block;margin:16px 10px 0 10px;float: left;width: 20px;height: 20px;background: url('/images/servesListTb.png') no-repeat center;}
-          div{width: 220px;float: left;
-            p{font-size: 14px;line-height: 20px;}
+          i{display: block;margin:16px 10px 0 0px;float: left;width: 20px;height: 20px;background: url('/images/servesListTb.png') no-repeat center;}
+          div{width: 200px;float: left;
+            // p{font-size: 14px;line-height: 20px;}
             a{
               display: block;
-              line-height: 30px;
-              font-size: 16px;
-              color: #222;
+              line-height: 52px;
+              font-size: 15px;
+              color: rgb(78, 76, 76);
               text-decoration: none;
-              font-weight: 700;}
+              font-weight: 550;}
             a:hover{color: #f60;}
           }
         }
+      }
       }
     }
   }
@@ -423,7 +513,7 @@ export default {
     width: 100%;
     .cc-content{
       width: 1200px;
-      height: 440px;
+      height: 470px;
       margin: 0 auto;
       // background: url('/images/xieWBg.jpg');
       .cc-title{
@@ -444,6 +534,7 @@ export default {
         padding: 20px 0;
         width: 100%;
         display: flex;
+        margin: 20px 0 60px 0;
         justify-content: space-around;
         a{
           display: inline-block;
@@ -455,14 +546,15 @@ export default {
           // background-color: #E63337;
 
           img{width: 260px;height: 200px;}
-          p{color: #666;text-align: center;line-height: 50px;}
+          p{color: #666;text-align: center;line-height: 50px;font-weight: 550;}
         }
+        a:hover>p{color: #f60!important;}
       }
     }
   }
   .compa-why{
     width: 100%;
-    height: 520px;
+    height: 560px;
     margin: 0 auto;
     // background-color: lightblue;
     .cw-title{
@@ -485,6 +577,7 @@ export default {
         width: 100%;
         padding: 0;
         display: flex;
+        margin-top: 20px;
         li{
           list-style-type: none;
           width: 25%;
@@ -513,6 +606,21 @@ export default {
       margin: 0 auto;
       position: relative;
       // background-color: red;
+      .cs-title{
+        width: 126px;
+        height: 46px;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        h3{font-size: 22px;line-height: 30px;}
+        i{
+          margin: 4px 0;
+          width: 60px;
+          height: 10px;
+          background: url(/images/star.png) repeat-x;
+          display: block;
+        }
+      }
       .cs-item{
         width: 194px;
         height: 112px;
@@ -551,7 +659,7 @@ export default {
   .compa-friends{
     width: 1200px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 40px;
     .cw-title{
       text-align: center;
       background-color: #f60;
@@ -570,7 +678,7 @@ export default {
       ul{
         width: 1051px;
         height: 180px;
-        margin: 40px auto;
+        margin: 40px auto 60px auto;
         padding: 0;
         border-top: 1px solid #ccc;
         border-left: 1px solid #ccc;
@@ -605,7 +713,7 @@ export default {
         height: 140px;
         padding-left: 60px;
         span{
-          font-size: 36px;
+          font-size: 32px;
         }
         a{
           display: inline-block;
@@ -617,7 +725,7 @@ export default {
           line-height: 48px;
           text-align: center;
           color: #fff;
-          margin-left: 280px;
+          margin-left: 80px;
         }
         a:hover{background-color: #fff;color: #f60;}
       }
@@ -626,7 +734,7 @@ export default {
   .compa-step{
     width: 1200px;
     height: 360px;
-    margin: 0 auto;
+    margin: 40px auto 60px auto;
     padding: 20px 0 0 0;
     .cs-title{
       text-align: center;
@@ -636,7 +744,7 @@ export default {
     .cs-content{
       width: 100%;
       padding: 0 160px;
-      margin-top: 30px;
+      margin-top: 40px;
       display: flex;
       justify-content: space-around;
       .cs-item{

@@ -19,6 +19,13 @@ export default {
         { hid: 'description', name: 'description', content: 'My custom description' }
       ]
     }
+  },
+  mounted () {
+    this.$nextTick(() => {
+      // this.$nuxt.$loading.start()
+
+      // setTimeout(() => this.$nuxt.$loading.finish(), 5000)
+    })
   }
 }
 </script>
