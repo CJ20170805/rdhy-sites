@@ -1,9 +1,20 @@
 <template>
   <div>
-    <div class="head"> 
-      <div class="nav-contact">
-
-      </div>
+    <div class="nav-contact">
+        <div class="nc-content">
+          <div class="phone">
+            <span>400-1234-5678</span>
+            <span style="padding-left:72px;">1234567890</span>
+          </div>
+          <div class="weixin">
+            <img src="/images/erweima.jpg" alt="">
+          </div>
+          <div class="online">
+              <p>发送方三房打发</p>
+          </div>
+        </div>
+    </div>
+    <div class="head">
       <div class="nav">
         <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
         <el-menu
@@ -13,13 +24,18 @@
           @select="handleSelect"
           background-color="rgb(248,246,246)"
           text-color="#222"
-          active-text-color="#ffd04b">
+          active-text-color="rgb(34, 34, 34)">
           <el-menu-item index="1"><nuxt-link to="/">首页</nuxt-link></el-menu-item>
           <el-submenu index="2">
             <template slot="title">知识产权</template>
             <el-menu-item index="2-1">专利申请</el-menu-item>
             <el-menu-item index="2-2">商标注册</el-menu-item>
-            <el-menu-item index="2-3">软件著作权</el-menu-item>
+            <el-submenu index="2-3">
+              <template slot="title">软件著作权</template>
+              <el-menu-item index="2-3-1">申请</el-menu-item>
+              <el-menu-item index="2-3-2">转让</el-menu-item>
+              <el-menu-item index="2-3-3">变更</el-menu-item>
+            </el-submenu>
             <el-submenu index="2-4">
               <template slot="title">软件评测</template>
               <el-menu-item index="2-4-1">选项1</el-menu-item>
@@ -116,17 +132,7 @@ export default {
     ]
   },
   created () {
-    console.log(this.$route)
-    let routeName = this.$route.name;
-
-    switch (routeName) {
-      case 'AboutUS':
-        this.navName = 'nav-6'
-        break;
-      default:
-        this.navName = 'nav-1'
-        break;
-    }
+    // console.log(this.$route)
   },
   methods: {
     navCheck (name) {
@@ -135,9 +141,29 @@ export default {
     },
     handleSelect(key, keyPath) {
       console.log(key, keyPath);
+      this.activeIndex2 = key
+      console.log(this.activeIndex2);
     }
   },
   mounted () {
+    var act = this.activeIndex2 - 1;
+    $('.nav .nav-menu .el-menu-item').mouseenter(function () {
+       $(this).addClass('el-menu-item-hover').siblings().removeClass('el-menu-item-hover is-active');
+    });
+    $('.nav .nav-menu .el-menu-item').mouseleave(function () {
+       $(this).removeClass('el-menu-item-hover');
+       $('.nav .nav-menu .el-menu-item').eq(act).addClass('is-active')
+    });
+
+
+    $('.nav .nav-menu .el-submenu__title').mouseenter(function () {
+      $('.nav .nav-menu .el-menu-item').eq(act).removeClass('is-active');
+       $(this).addClass('el-menu-item-hover').siblings().removeClass('el-menu-item-hover is-active');
+    });
+    $('.nav .nav-menu .el-submenu__title').mouseleave(function () {
+       $(this).removeClass('el-menu-item-hover');
+       $('.nav .nav-menu .el-menu-item').eq(act).addClass('is-active')
+    });
     // $('.head-container .headNav ul li').mouseenter(function () {
     //   $(this).addClass('nav-active').siblings().removeClass('nav-active')
     //   $(this).find('a').css('color','#fff');
@@ -174,10 +200,69 @@ html {
   margin: 0;
 }
 
+@font-face {
+  font-family: wenDing;
+  src: url('../assets/font/wending.ttf');
+}
+
+.el-menu--horizontal .el-menu .el-menu-item:hover{background-color: rgb(235, 60, 60)!important;color:#fff!important;}
+.el-menu--horizontal .el-menu .el-submenu__title:hover{background-color: rgb(235, 60, 60)!important;color:#fff!important;}
+
+
+.nav-contact{
+  width: 100%;height: 100px;background-color: rgba(0,0,0,.5);position:fixed;top:0;left:0;z-index:999;
+  .nc-content{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background: url('/images/header2.png') no-repeat;
+    background-size: 100% 100px;
+    position: relative;
+
+    .phone{
+      width: 380px;
+      height: 30px;
+      // background-color: lightblue;
+      position: absolute;
+      left:234px;
+      top: 58px;
+      span{line-height: 30px;color: #fff;line-height: 30px;
+      font-size: 20px;
+      font-weight: bold;}
+    }
+    .weixin{
+      width: 64px;
+      height: 64px;
+      position: absolute;
+      right: 86px;
+      top: 4px;
+      padding: 4px;
+      background-color: #fff;
+      box-sizing: content-box;
+      img{
+        width: 64px;
+        height: 64px;
+      }
+    }
+    .online{
+      width: 120px;
+      height: 100px;
+      background: url('/images/header_contact.png') no-repeat center;
+      position: absolute;
+      right: 386px;
+      top:0;
+      p{
+        font-family: wenDing;
+      }
+    }
+  }
+}
+
 .head{
   width: 100%;
-  height: 90px;
+  height: 185px;
   background-color: rgb(248,246,246);
+  padding-top: 100px;
   .nav{
     width: 1200px;
     margin: 0 auto;
@@ -211,24 +296,32 @@ html {
         //     .el-menu-item:hover{
         // background-color: #f60!important;
         //     }
-      .el-menu-item:hover{
-        // background: url('/images/nav_bg.png') no-repeat center!important;
+      .el-menu-item-hover{
+        background: url('/images/nav_bg.png') no-repeat center!important;
+        color: #fff!important;
         // background-size: 96px 80px!important;
-        color: #f60!important;
-        background-color: rgb(248,246,246)!important;
+        // color: #f60!important;
+        // background-color: rgb(248,246,246)!important;
  
       }
       .el-submenu__title{
         height: 90px!important;
         line-height: 90px;
+
       }
-      .el-submenu__title:hover{
-        // background: url('/images/nav_bg.png') no-repeat center!important;
-        // background-size: 130px 80px!important;
-        // color: #fff!important;
-        color: #f60!important;
-        background-color: rgb(248,246,246)!important;
+      .el-submenu__title-hover{
+        background: url('/images/nav_bg.png') no-repeat center!important;
+        color: rgb(248,246,246)!important;
+        color:#fff!important;border:none!important;
       }
+      // .el-submenu__title:hover{
+      //   // background: url('/images/nav_bg.png') no-repeat center!important;
+      //   // background-size: 130px 80px!important;
+      //   // color: #fff!important;
+      //   color: #f60!important;
+      //   background-color: rgb(248,246,246)!important;
+      // }
+      .el-submenu .is-active{color:#fff!important;border:none!important;}
       .el-menu-item.is-active{
         color: #fff!important;
         background: url('/images/nav_bg.png') no-repeat center!important;

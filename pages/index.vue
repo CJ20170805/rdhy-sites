@@ -22,7 +22,7 @@
             <div class="cs-list-item">
               <i></i>
               <div class="cs-list-item-desc">
-                <span>通用资质服务</span>
+                <span>通用咨询服务</span>
                 <p>General qualification</p>
               </div>
             </div>
@@ -38,7 +38,7 @@
             <div class="cs-list-item">
               <i></i>
               <div class="cs-list-item-desc">
-                <span>信息技术服务</span>
+                <span>资质认证服务</span>
                 <p>Information skill</p>
               </div>
             </div>
@@ -58,25 +58,43 @@
             <span>
               <i></i>
               <div>
-                <a href="#">高新技术企业认证 </a>
+                <a href="#">年度财务审计报告 </a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">国家企业技术中心认定</a>
+                <a href="#">研发费用专项审计报告</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">企业荣誉证书资质</a>
+                <a href="#">高新技术企业认定</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">重合同守信用企业认定年检</a>
+                <a href="#">软件著作权申请</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">软件产品登记测试</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">软件产品评估及软件企业评估</a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">AAA企业信用评价</a>
               </div>
             </span>
           </div>
@@ -113,19 +131,25 @@
              <span>
               <i></i>
               <div>
-                <a href="#">ISO 13485认证 </a>
+                <a href="#">ISO14001环境管理认证 </a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">ISO10015认证</a>
+                <a href="#">OHSAS18000职业健康安全管理体系认证</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">ISO14001环境管理体系认证 </a>
+                <a href="#">ISO20000信息管理体系认证 </a>
+              </div>
+            </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">ISO27001信息安全体系认证 </a>
               </div>
             </span>
           </div>
@@ -133,31 +157,31 @@
             <span>
               <i></i>
               <div>
-                <a href="#">ISO20000信息管理体系认证</a>
+                <a href="#">信息系统集成及服务资质</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">信息技术服务管理（ITSM）</a>
+                <a href="#">涉密系统集成资质</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">认证 ITSS（运行维护）</a>
+                <a href="#">安防工程企业资质</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">四级 ITSS（运行维护）</a>
+                <a href="#">ITSS信息技术服务</a>
               </div>
             </span>
-                 <span>
+            <span>
               <i></i>
               <div>
-                <a href="#">二级 ITSS（运行维护）</a>
+                <a href="#">CMMI软件能力成熟度模型</a>
               </div>
             </span>
           </div>
@@ -204,19 +228,19 @@
           <div class="cc-service">
             <a href="#">
               <img src="/images/p-4.jpg" alt="">
-              <p>商标注册</p>
+              <p>软件著作权申请</p>
             </a>
             <a href="#">
               <img src="/images/p-5.jpg" alt="">
-              <p>专利申请</p>
+              <p>管理体系认证</p>
             </a>
             <a href="#">
               <img src="/images/p-6.jpg" alt="">
-              <p>CMMI认证</p>
+              <p>高新企业认定</p>
             </a>
             <a href="#">
               <img src="/images/p-7.jpg" alt="">
-              <p>信息安全认证</p>
+              <p>资质管家咨询</p>
             </a>
           </div>
         </div>
@@ -298,7 +322,7 @@
            </ul>
         </div>
       </div>
-      <div class="compa-strength">
+      <!-- <div class="compa-strength">
         <div class="cs-content">
           <div class="cs-title">
             <h3>实力见证</h3>
@@ -326,7 +350,7 @@
             <p>至今已为北京地区上百家企业提供过专业的服务，其中不乏顶级软件开发商、交通行业前十、电力行业顶级集成商等等。</p>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="compa-friends">
         <div class="cw-title">
           <h1>合作伙伴</h1>
@@ -415,7 +439,7 @@ export default {
       padding-top: 60px;
       width: 100%;
       height: 290px;
-      background-color: #f60;
+      background-color: rgb(235, 60, 60);
       h1{height: 40px;
         color: #fff;
         text-align: center;
@@ -502,7 +526,7 @@ export default {
               color: rgb(78, 76, 76);
               text-decoration: none;
               font-weight: 550;}
-            a:hover{color: #f60;}
+            a:hover{color: rgb(235, 60, 60);}
           }
         }
       }
@@ -548,7 +572,7 @@ export default {
           img{width: 260px;height: 200px;}
           p{color: #666;text-align: center;line-height: 50px;font-weight: 550;}
         }
-        a:hover>p{color: #f60!important;}
+        a:hover>p{color: rgb(235, 60, 60)!important;}
       }
     }
   }
@@ -559,7 +583,7 @@ export default {
     // background-color: lightblue;
     .cw-title{
       text-align: center;
-      background-color: #f60;
+      background-color: rgb(235, 60, 60);
       padding-top: 30px;
       height: 140px;
       i{width: 30px;
@@ -595,74 +619,74 @@ export default {
       }
     }
   }
-  .compa-strength{
-    height: 436px;
-    min-width: 1234px;
-    width: 100%;
-    background: url('/images/sljzbg.jpg') no-repeat center top;
-    .cs-content{
-      width: 1200px;
-      height: 436px;
-      margin: 0 auto;
-      position: relative;
-      // background-color: red;
-      .cs-title{
-        width: 126px;
-        height: 46px;
-        position: absolute;
-        left: 10px;
-        top: 20px;
-        h3{font-size: 22px;line-height: 30px;}
-        i{
-          margin: 4px 0;
-          width: 60px;
-          height: 10px;
-          background: url(/images/star.png) repeat-x;
-          display: block;
-        }
-      }
-      .cs-item{
-        width: 194px;
-        height: 112px;
-        // background-color:rgb(231, 176, 176);
-        box-sizing: border-box;
-        padding: 20px 18px;
-        position: absolute;
-        span{font-size: 15px;color: #222;}
-        p{font-size: 12px;color: #333;padding-top: 8px;}
-      }
-      .cs-item-1{
-        left: 100px;
-        top: 110px;
-      }
-      .cs-item-2{
-        width: 246px;
-        left: 262px;
-        top: 275px;
-      }
-      .cs-item-3{
-        left: 483px;
-        top: 104px;
-      }
-      .cs-item-4{
-        width: 223px;
-        left: 662px;
-        top: 273px;
-      }
-      .cs-item-5{
-        width: 232px;
-        left: 866px;
-        top: 105px;
-      }
-    }
-  }
+  // .compa-strength{
+  //   height: 436px;
+  //   min-width: 1234px;
+  //   width: 100%;
+  //   background: url('/images/sljzbg.jpg') no-repeat center top;
+  //   .cs-content{
+  //     width: 1200px;
+  //     height: 436px;
+  //     margin: 0 auto;
+  //     position: relative;
+  //     // background-color: red;
+  //     .cs-title{
+  //       width: 126px;
+  //       height: 46px;
+  //       position: absolute;
+  //       left: 10px;
+  //       top: 20px;
+  //       h3{font-size: 22px;line-height: 30px;}
+  //       i{
+  //         margin: 4px 0;
+  //         width: 60px;
+  //         height: 10px;
+  //         background: url(/images/star.png) repeat-x;
+  //         display: block;
+  //       }
+  //     }
+  //     .cs-item{
+  //       width: 194px;
+  //       height: 112px;
+  //       // background-color:rgb(231, 176, 176);
+  //       box-sizing: border-box;
+  //       padding: 20px 18px;
+  //       position: absolute;
+  //       span{font-size: 15px;color: #222;}
+  //       p{font-size: 12px;color: #333;padding-top: 8px;}
+  //     }
+  //     .cs-item-1{
+  //       left: 100px;
+  //       top: 110px;
+  //     }
+  //     .cs-item-2{
+  //       width: 246px;
+  //       left: 262px;
+  //       top: 275px;
+  //     }
+  //     .cs-item-3{
+  //       left: 483px;
+  //       top: 104px;
+  //     }
+  //     .cs-item-4{
+  //       width: 223px;
+  //       left: 662px;
+  //       top: 273px;
+  //     }
+  //     .cs-item-5{
+  //       width: 232px;
+  //       left: 866px;
+  //       top: 105px;
+  //     }
+  //   }
+  // }
   .compa-friends{
     width: 1200px;
     margin: 0 auto;
-    padding-top: 40px;
+    // padding-top: 40px;
     .cw-title{
       text-align: center;
-      background-color: #f60;
+      background-color: rgb(235, 60, 60);
       padding-top: 30px;
 
       height: 100px;
@@ -700,7 +724,7 @@ export default {
   .compa-contact{
     width: 100%;
     height: 140px;
-    background-color: #f60;
+    background-color: rgb(235, 60, 60);
     margin: 20px auto;
     .cc-content{
       width: 1200px;
@@ -727,7 +751,7 @@ export default {
           color: #fff;
           margin-left: 80px;
         }
-        a:hover{background-color: #fff;color: #f60;}
+        a:hover{background-color: #fff;color: rgb(235, 60, 60);}
       }
     }
   }
@@ -738,7 +762,7 @@ export default {
     padding: 20px 0 0 0;
     .cs-title{
       text-align: center;
-      b{font-size: 25px;color: #f60;}
+      b{font-size: 25px;color: rgb(235, 60, 60);}
       p{font-size: 14px;line-height: 40px;color: rgb(194, 192, 192);}
     }
     .cs-content{
