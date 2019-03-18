@@ -10,7 +10,9 @@
             <img src="/images/erweima.jpg" alt="">
           </div>
           <div class="online">
-              <p>发送方三房打发</p>
+          </div>
+          <div class="slogan">
+            <p>恢复萨达是的大幅度!</p>
           </div>
         </div>
     </div>
@@ -43,7 +45,7 @@
               <el-menu-item index="2-4-3">选项3</el-menu-item>
             </el-submenu>
           </el-submenu>
-            <el-menu-item index="3">软件评测</el-menu-item>
+            <!-- <el-menu-item index="3">软件评测</el-menu-item> -->
               <el-menu-item index="4">高新企业认定</el-menu-item>
                 <!-- <el-menu-item index="5">体系认定</el-menu-item> -->
 
@@ -245,7 +247,7 @@ html {
       }
     }
     .online{
-      width: 120px;
+      width: 220px;
       height: 100px;
       background: url('/images/header_contact.png') no-repeat center;
       position: absolute;
@@ -253,6 +255,21 @@ html {
       top:0;
       p{
         font-family: wenDing;
+        color: #fff;
+        font-size: 30px;
+      }
+    }
+    .slogan{
+      width: 260px;
+      height: 100px;
+      position: absolute;
+      left:80px;
+      top:14px;
+      p{
+        color: #fff;
+        font-size: 26px;
+        border-bottom: 1px solid #fff;
+        font-style: italic;
       }
     }
   }
@@ -292,6 +309,8 @@ html {
         line-height: 90px;
         border: none;
         text-align: center;
+        font-size: 16px;
+        a{font-size: 16px;}
       }
         //     .el-menu-item:hover{
         // background-color: #f60!important;
@@ -307,7 +326,7 @@ html {
       .el-submenu__title{
         height: 90px!important;
         line-height: 90px;
-
+        font-size: 16px;
       }
       .el-submenu__title-hover{
         background: url('/images/nav_bg.png') no-repeat center!important;
