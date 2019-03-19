@@ -12,7 +12,7 @@
           <div class="online">
           </div>
           <div class="slogan">
-            <p>恢复萨达是的大幅度!</p>
+            <p>更专业的资质咨询服务商 !</p>
           </div>
         </div>
     </div>
@@ -38,12 +38,12 @@
               <el-menu-item index="2-3-2">转让</el-menu-item>
               <el-menu-item index="2-3-3">变更</el-menu-item>
             </el-submenu>
-            <el-submenu index="2-4">
+            <!-- <el-submenu index="2-4">
               <template slot="title">软件评测</template>
               <el-menu-item index="2-4-1">选项1</el-menu-item>
               <el-menu-item index="2-4-2">选项2</el-menu-item>
               <el-menu-item index="2-4-3">选项3</el-menu-item>
-            </el-submenu>
+            </el-submenu> -->
           </el-submenu>
             <!-- <el-menu-item index="3">软件评测</el-menu-item> -->
               <el-menu-item index="4">高新企业认定</el-menu-item>
@@ -260,7 +260,7 @@ html {
       }
     }
     .slogan{
-      width: 260px;
+      width: 340px;
       height: 100px;
       position: absolute;
       left:80px;
@@ -270,6 +270,7 @@ html {
         font-size: 26px;
         border-bottom: 1px solid #fff;
         font-style: italic;
+        letter-spacing: 2px;
       }
     }
   }
@@ -316,7 +317,7 @@ html {
         // background-color: #f60!important;
         //     }
       .el-menu-item-hover{
-        background: url('/images/nav_bg.png') no-repeat center!important;
+        background: url('/images/nav_bg3.jpg') no-repeat center!important;
         color: #fff!important;
         // background-size: 96px 80px!important;
         // color: #f60!important;
@@ -329,7 +330,7 @@ html {
         font-size: 16px;
       }
       .el-submenu__title-hover{
-        background: url('/images/nav_bg.png') no-repeat center!important;
+        background: url('/images/nav_bg3.jpg') no-repeat center!important;
         color: rgb(248,246,246)!important;
         color:#fff!important;border:none!important;
       }
@@ -343,7 +344,7 @@ html {
       .el-submenu .is-active{color:#fff!important;border:none!important;}
       .el-menu-item.is-active{
         color: #fff!important;
-        background: url('/images/nav_bg.png') no-repeat center!important;
+        background: url('/images/nav_bg3.jpg') no-repeat center!important;
         background-size: 110px 90px!important;
       }
       .el-menu-item.is-active>a{

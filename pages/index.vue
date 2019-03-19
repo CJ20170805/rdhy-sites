@@ -580,7 +580,7 @@ export default {
       .cc-title {
         width: 100%;
         height: 134px;
-        background: url("/images/cgalbg.jpg") no-repeat center;
+        background: url("/images/cgalbg2.jpg") no-repeat center;
         padding-top: 40px;
 
         h1 {
@@ -771,7 +771,8 @@ export default {
     // padding-top: 40px;
     .cw-title {
       text-align: center;
-      background-color: rgb(235, 60, 60);
+      // background-color: rgb(235, 60, 60);
+      background: url("/images/cgalbg2.jpg") no-repeat center;
       padding-top: 30px;
 
       height: 100px;
