@@ -168,29 +168,47 @@
           </div>
           <div class="cs-detail-item">
             <span>
+              <i style="margin-top:0px;"></i>
               <div>
-                认证方向（中国网络安全审查技术与认证中心CCRC）：
+                <a href="#" style="line-height:20px;">认证方向（中国网络安全审查技术与认证中心CCRC）：</a>
               </div>
             </span>
+            
+            <div class="items" style="height:140px;">
+              <div class="item-left" style="height:120px;">
+                <p>信息系统安全集成</p>
+                <p>信息安全风险评估</p>
+                <p>信息安全应急处理</p>
+                <p>信息系统灾难备份与恢复</p>
+              </div>
+              <div class="item-right" style="height:120px;">
+                <p>软件安全开发服务资质</p>
+                <p>网络安全审计</p>
+                <p>工业控制系统安全</p>
+              </div>
+            </div>
+      
             <span>
-              <i></i>
+              <i style="margin-top:0px;"></i>
               <div>
-                <a href="#" style="line-height:24px;font-size:14px;">信息系统安全集成、信息安全风险评估、信息系统安全运维、 信息安全应急处理、软件安全开发服务资质、信息系统灾难备份与恢复、网络安全审计、工业控制系统安全 </a>
+               <a href="#" style="line-height:20px;"> 认证方向（中国信息安全测评中心CNITSEC）：</a>
               </div>
             </span>
-            <span>
-              <div style="margin:10px 0 10px 0;width:90%;">
-                认证方向（中国信息安全测评中心CNITSEC）：
+
+            <div class="items">
+              <div class="item-left">
+                <p>安全工程 </p>
+                <p>风险评估</p>
+                <p>安全开发</p>
+                <p> 灾难备份与恢复</p>
               </div>
-            </span>
-            <span>
-              <i></i>
-              <div>
-                <a href="#" style="line-height:24px;">安全工程 、风险评估、安全开发、灾难备份与恢复、
-                信息系统审计、大数据安全类、云计算安全类
-                </a>
+              <div class="item-right">
+                <p>信息系统审计</p>
+                <p>大数据安全类</p>
+                <p>云计算安全类</p>
               </div>
-            </span>
+            </div>
+
           </div>
         </div>
       </div>
@@ -379,6 +397,9 @@
         </ul>
       </div>
     </div>
+    <div class="zixun" style="margin-bottom:-6px;overflow:hidden">
+      <iframe height="940" allowTransparency="true" style="width:100%;border:none;overflow:hidden;" frameborder="0" src="http://s9as9kr5kml0qgs4.mikecrm.com/wl37sst"></iframe>
+    </div>
   </div>
 </template>
 
@@ -535,6 +556,23 @@ export default {
           background: url("/images/servesListbg.png") no-repeat center;
           border-radius: 2px;
 
+          .items{
+            width: 100%;
+            height: 140px;
+            div{
+              width: 50%;height: 100px;
+              float: left;
+              padding: 6px 8px 4px 8px;
+              margin-top: 14px;
+    
+              p{
+                font-size: 14px;
+                line-height:24px;
+              }
+            }
+            .item-left{border-right: 1px solid rgb(155, 155, 155);}
+          }
+
           span {
             display: block;
             width: 100%;
@@ -552,6 +590,9 @@ export default {
             div {
               width: 200px;
               float: left;
+              font-size: 14px;
+              font-weight: 550;
+              color:#4a4848;
               // p{font-size: 14px;line-height: 20px;}
               a {
                 display: block;
@@ -704,67 +745,6 @@ export default {
       }
     }
   }
-  // .compa-strength{
-  //   height: 436px;
-  //   min-width: 1234px;
-  //   width: 100%;
-  //   background: url('/images/sljzbg.jpg') no-repeat center top;
-  //   .cs-content{
-  //     width: 1200px;
-  //     height: 436px;
-  //     margin: 0 auto;
-  //     position: relative;
-  //     // background-color: red;
-  //     .cs-title{
-  //       width: 126px;
-  //       height: 46px;
-  //       position: absolute;
-  //       left: 10px;
-  //       top: 20px;
-  //       h3{font-size: 22px;line-height: 30px;}
-  //       i{
-  //         margin: 4px 0;
-  //         width: 60px;
-  //         height: 10px;
-  //         background: url(/images/star.png) repeat-x;
-  //         display: block;
-  //       }
-  //     }
-  //     .cs-item{
-  //       width: 194px;
-  //       height: 112px;
-  //       // background-color:rgb(231, 176, 176);
-  //       box-sizing: border-box;
-  //       padding: 20px 18px;
-  //       position: absolute;
-  //       span{font-size: 15px;color: #222;}
-  //       p{font-size: 12px;color: #333;padding-top: 8px;}
-  //     }
-  //     .cs-item-1{
-  //       left: 100px;
-  //       top: 110px;
-  //     }
-  //     .cs-item-2{
-  //       width: 246px;
-  //       left: 262px;
-  //       top: 275px;
-  //     }
-  //     .cs-item-3{
-  //       left: 483px;
-  //       top: 104px;
-  //     }
-  //     .cs-item-4{
-  //       width: 223px;
-  //       left: 662px;
-  //       top: 273px;
-  //     }
-  //     .cs-item-5{
-  //       width: 232px;
-  //       left: 866px;
-  //       top: 105px;
-  //     }
-  //   }
-  // }
   .compa-friends {
     width: 1200px;
     margin: 0 auto;
@@ -901,5 +881,73 @@ export default {
       }
     }
   }
+  .zixun{
+    width: 100%;
+    overflow: hidden!important;
+    iframe{
+      overflow: hidden;
+    }
+  }
+  // .compa-strength{
+  //   height: 436px;
+  //   min-width: 1234px;
+  //   width: 100%;
+  //   background: url('/images/sljzbg.jpg') no-repeat center top;
+  //   .cs-content{
+  //     width: 1200px;
+  //     height: 436px;
+  //     margin: 0 auto;
+  //     position: relative;
+  //     // background-color: red;
+  //     .cs-title{
+  //       width: 126px;
+  //       height: 46px;
+  //       position: absolute;
+  //       left: 10px;
+  //       top: 20px;
+  //       h3{font-size: 22px;line-height: 30px;}
+  //       i{
+  //         margin: 4px 0;
+  //         width: 60px;
+  //         height: 10px;
+  //         background: url(/images/star.png) repeat-x;
+  //         display: block;
+  //       }
+  //     }
+  //     .cs-item{
+  //       width: 194px;
+  //       height: 112px;
+  //       // background-color:rgb(231, 176, 176);
+  //       box-sizing: border-box;
+  //       padding: 20px 18px;
+  //       position: absolute;
+  //       span{font-size: 15px;color: #222;}
+  //       p{font-size: 12px;color: #333;padding-top: 8px;}
+  //     }
+  //     .cs-item-1{
+  //       left: 100px;
+  //       top: 110px;
+  //     }
+  //     .cs-item-2{
+  //       width: 246px;
+  //       left: 262px;
+  //       top: 275px;
+  //     }
+  //     .cs-item-3{
+  //       left: 483px;
+  //       top: 104px;
+  //     }
+  //     .cs-item-4{
+  //       width: 223px;
+  //       left: 662px;
+  //       top: 273px;
+  //     }
+  //     .cs-item-5{
+  //       width: 232px;
+  //       left: 866px;
+  //       top: 105px;
+  //     }
+  //   }
+  // }
 }
 </style>

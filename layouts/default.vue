@@ -356,7 +356,7 @@ html {
 /*head end*/
 .foot{
   width: 100%;
-  background-color: #333;
+  background-color: rgb(36, 47, 59);
   .foot-content{
     width: 1200px;
     height: 250px;
