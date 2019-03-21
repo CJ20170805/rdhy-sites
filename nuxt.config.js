@@ -1,15 +1,19 @@
 const pkg = require('./package')
 
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/cj20170805/'
-  }
-} : {};
+// const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+//   router: {
+//     base: '/cj20170805/'
+//   }
+// } : {};
 
 module.exports = {
-  ...routerBase,
+  // ...routerBase
   mode: 'universal',
+
+  router: {
+    base: '/nuxxt/'
+  },
   // mode: 'spa',
 
   // router: {
@@ -78,7 +82,8 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-
+      // config.output.publicPath = '../_nuxttt/'
+      console.log('CONFIG：：：',config);
     }
   }
 }

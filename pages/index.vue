@@ -2,8 +2,16 @@
   <div class="container">
     <div class="banner">
       <el-carousel trigger="click" height="550px">
-        <el-carousel-item v-for="item in bannerImgs" :key="item">
-          <img :src="item" alt>
+        <!-- ~assets~/assets/images/banner001.jpg
+         <img :src="item" alt> -->
+        <el-carousel-item>  
+         <img src="~/assets~/assets/images/banner001.jpg" alt="">
+        </el-carousel-item>
+         <el-carousel-item>  
+         <img src="~/assets~/assets/images/banner002.jpg" alt="">
+        </el-carousel-item>
+         <el-carousel-item>  
+         <img src="~/assets~/assets/images/banner003.jpg" alt="">
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -170,7 +178,7 @@
             <span>
               <i style="margin-top:0px;"></i>
               <div>
-                <a href="#" style="line-height:20px;">认证方向（中国网络安全审查技术与认证中心CCRC）：</a>
+                <a href="#" style="line-height:20px;font-size:14.5px;">认证方向（中国网络安全审查技术与认证中心CCRC）：</a>
               </div>
             </span>
             
@@ -191,7 +199,7 @@
             <span>
               <i style="margin-top:0px;"></i>
               <div>
-               <a href="#" style="line-height:20px;"> 认证方向（中国信息安全测评中心CNITSEC）：</a>
+               <a href="#" style="line-height:20px;font-size:14.5px;"> 认证方向（中国信息安全测评中心CNITSEC）：</a>
               </div>
             </span>
 
@@ -222,19 +230,19 @@
         </div>
         <div class="cc-service">
           <a href="#">
-            <img src="/images/p-4.jpg" alt>
+            <img src="~/assets~/assets/images/p-4.jpg" alt>
             <p>软件著作权申请</p>
           </a>
           <a href="#">
-            <img src="/images/p-5.jpg" alt>
+            <img src="~/assets~/assets/images/p-5.jpg" alt>
             <p>管理体系认证</p>
           </a>
           <a href="#">
-            <img src="/images/p-6.jpg" alt>
+            <img src="~/assets~/assets/images/p-6.jpg" alt>
             <p>高新企业认定</p>
           </a>
           <a href="#">
-            <img src="/images/p-7.jpg" alt>
+            <img src="~/assets~/assets/images/p-7.jpg" alt>
             <p>资质管家咨询</p>
           </a>
         </div>
@@ -255,28 +263,28 @@
       </div>
       <div class="cs-content">
         <div class="cs-item">
-          <img src="/images/step01.png" alt>
+          <img src="~/assets/images/step01.png" alt>
           <p>线上咨询</p>
         </div>
         <div class="cs-arrow-item">
-          <img src="/images/step_arrow.png" alt>
+          <img src="~/assets/images/step_arrow.png" alt>
         </div>
         <div class="cs-item">
-          <img src="/images/step02.png" alt>
+          <img src="~/assets/images/step02.png" alt>
           <p>准备材料</p>
         </div>
         <div class="cs-arrow-item">
-          <img src="/images/step_arrow.png" alt>
+          <img src="~/assets/images/step_arrow.png" alt>
         </div>
         <div class="cs-item">
-          <img src="/images/step03.png" alt>
+          <img src="~/assets/images/step03.png" alt>
           <p>提交申请</p>
         </div>
         <div class="cs-arrow-item">
-          <img src="/images/step_arrow.png" alt>
+          <img src="~/assets/images/step_arrow.png" alt>
         </div>
         <div class="cs-item">
-          <img src="/images/step04.png" alt>
+          <img src="~/assets/images/step04.png" alt>
           <p>授权领证</p>
         </div>
       </div>
@@ -290,7 +298,7 @@
       <div class="cw-desc">
         <ul>
           <li>
-            <img src="/images/Ticon1.png" alt>
+            <img src="~/assets/images/Ticon1.png" alt>
             <h3>专业一对一服务</h3>
             <i></i>
             <h6>更专业</h6>
@@ -299,7 +307,7 @@
             </p>
           </li>
           <li>
-            <img src="/images/Ticon2.png" alt>
+            <img src="~/assets/images/Ticon2.png" alt>
             <h3>严控风险 安全保障</h3>
             <i></i>
             <h6>更多保障</h6>
@@ -308,7 +316,7 @@
             </p>
           </li>
           <li>
-            <img src="/images/Ticon3.png" alt>
+            <img src="~/assets/images/Ticon3.png" alt>
             <h3>全程化透明操作</h3>
             <i></i>
             <h6>更放心</h6>
@@ -317,7 +325,7 @@
             </p>
           </li>
           <li>
-            <img src="/images/Ticon4.png" alt>
+            <img src="~/assets/images/Ticon4.png" alt>
             <h3>一站式企业服务</h3>
             <i></i>
             <h6>更无忧</h6>
@@ -365,40 +373,40 @@
       <div class="cf-list">
         <ul>
           <li>
-            <img src="/images/clients_img04.jpg" alt>
+            <img src="~/assets/images/clients_img04.jpg" alt>
           </li>
           <li>
-            <img src="/images/clients_img18.jpg" alt>
+            <img src="~/assets/images/clients_img18.jpg" alt>
           </li>
           <li>
-            <img src="/images/clients_img15.jpg" alt>
+            <img src="~/assets/images/clients_img15.jpg" alt>
           </li>
           <li>
-            <img src="/images/friends7.jpg" alt>
+            <img src="~/assets/images/friends7.jpg" alt>
           </li>
           <li>
-            <img src="/images/friends3.jpg" alt>
+            <img src="~/assets/images/friends3.jpg" alt>
           </li>
           <li>
-            <img src="/images/clients_img01.jpg" alt>
+            <img src="~/assets/images/clients_img01.jpg" alt>
           </li>
           <li>
-            <img src="/images/clients_img12.jpg" alt>
+            <img src="~/assets/images/clients_img12.jpg" alt>
           </li>
           <li>
-            <img src="/images/clients_img09.jpg" alt>
+            <img src="~/assets/images/clients_img09.jpg" alt>
           </li>
           <li>
-            <img src="/images/clients_img16.jpg" alt>
+            <img src="~/assets/images/clients_img16.jpg" alt>
           </li>
           <li>
-            <img src="/images/clients_img08.jpg" alt>
+            <img src="~/assets/images/clients_img08.jpg" alt>
           </li>
         </ul>
       </div>
     </div>
     <div class="zixun" style="margin-bottom:-6px;overflow:hidden">
-      <iframe height="940" allowTransparency="true" style="width:100%;border:none;overflow:hidden;" frameborder="0" src="http://s9as9kr5kml0qgs4.mikecrm.com/wl37sst"></iframe>
+      <iframe height="940" allowTransparency="true" style="width:100%;border:none;overflow:hidden;" frameborder="0" src="https://s9as9kr5kml0qgs4.mikecrm.com/wl37sst"></iframe>
     </div>
   </div>
 </template>
@@ -410,9 +418,9 @@ export default {
   data() {
     return {
       bannerImgs: [
-        "/images/banner001.jpg",
-        "/images/banner002.jpg",
-        "/images/banner003.jpg"
+        // "~assets~/assets/images/banner001.jpg",
+        // "~assets~/assets/images/banner002.jpg",
+        // "~assets~/assets/images/banner003.jpg"
       ]
     };
   },
@@ -444,7 +452,7 @@ export default {
   }
   .compa-introduce {
     width: 100%;
-    background: url("/images/xieWBg.jpg");
+    background: url("~/assets/images/xieWBg.jpg");
     .ci-content {
       width: 1200px;
       height: 300px;
@@ -502,7 +510,7 @@ export default {
             width: 94px;
             height: 94px;
             margin-top: 8px;
-            background: url("/images/services_icon.png") no-repeat center;
+            background: url("~/assets/images/services_icon.png") no-repeat center;
           }
           .cs-list-item-desc {
             width: 160px;
@@ -540,7 +548,7 @@ export default {
     .cs-detail {
       width: 100%;
       height: 500px;
-      background: url("/images/servesbg.png") no-repeat center;
+      background: url("~/assets/images/servesbg.png") no-repeat center;
       min-width: 1340px;
 
       .cs-item-wrap {
@@ -553,7 +561,7 @@ export default {
           height: 420px;
           padding: 30px 2px 0 8px;
           margin-top: 36px;
-          background: url("/images/servesListbg.png") no-repeat center;
+          background: url("~/assets/images/servesListbg.png") no-repeat center;
           border-radius: 2px;
 
           .items{
@@ -586,7 +594,7 @@ export default {
               float: left;
               width: 20px;
               height: 20px;
-              background: url("/images/servesListTb.png") no-repeat center;
+              background: url("~assets/images/servesListTb.png") no-repeat center;
             }
             div {
               width: 200px;
@@ -618,11 +626,11 @@ export default {
       width: 1200px;
       height: 470px;
       margin: 0 auto;
-      // background: url('/images/xieWBg.jpg');
+      // background: url('~/assets/images/xieWBg.jpg');
       .cc-title {
         width: 100%;
         height: 134px;
-        background: url("/images/cgalbg2.jpg") no-repeat center;
+        background: url("~assets/images/cgalbg2.jpg") no-repeat center;
         padding-top: 40px;
 
         h1 {
@@ -753,7 +761,7 @@ export default {
     .cw-title {
       text-align: center;
       // background-color: rgb(235, 60, 60);
-      background: url("/images/cgalbg2.jpg") no-repeat center;
+      background: url("~assets/images/cgalbg2.jpg") no-repeat center;
       padding-top: 30px;
 
       height: 100px;
@@ -893,7 +901,7 @@ export default {
   //   height: 436px;
   //   min-width: 1234px;
   //   width: 100%;
-  //   background: url('/images/sljzbg.jpg') no-repeat center top;
+  //   background: url('~/assets/images/sljzbg.jpg') no-repeat center top;
   //   .cs-content{
   //     width: 1200px;
   //     height: 436px;
@@ -911,7 +919,7 @@ export default {
   //         margin: 4px 0;
   //         width: 60px;
   //         height: 10px;
-  //         background: url(/images/star.png) repeat-x;
+  //         background: url(~/assets/images/star.png) repeat-x;
   //         display: block;
   //       }
   //     }

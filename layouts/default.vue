@@ -18,7 +18,7 @@
     </div>
     <div class="head">
       <div class="nav">
-        <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
+        <a href="#" class="headLogo"><img src="~/assets/images/logo.png" alt=""></a>
         <el-menu
           :default-active="activeIndex2"
           class="nav-menu"
@@ -84,7 +84,7 @@
       <div class="foot-content">
         <div class="fc-top">
           <div class="fc-top-1">
-            <a href="#" class="headLogo"><img src="/images/logo.png" alt=""></a>
+            <a href="#" class="headLogo"><img src="~/assets/images/logo.png" alt=""></a>
             <!-- <a href="#" class="headLogo">荣德海越</a> -->
           </div>
           <div class="fc-top-2">
@@ -102,11 +102,11 @@
           </div>
           <div class="fc-top-3">
             <div class="fc-ewm">
-              <img src="/images/erweima.jpg" alt="">
+              <img src="~/assets/images/erweima.jpg" alt="">
               <p>新浪微博</p>
             </div>
             <div class="fc-ewm">
-              <img src="/images/erweima.jpg" alt="">
+              <img src="~/assets/images/erweima.jpg" alt="">
               <p>微信公众号</p>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default {
   },
   created () {
     console.log(this.$route.name)
-    this.activeIndex2 = 1
+    this.activeIndex2 = '1'
   },
   methods: {
     navCheck (name) {
@@ -166,11 +166,12 @@ export default {
 
     $('.nav .nav-menu .el-submenu__title').mouseenter(function () {
       $(this).addClass('el-menu-item-hover').siblings().removeClass('el-menu-item-hover');
-      $('.nav .nav-menu .el-menu-item').removeClass('is-active');
+      $('.nav .nav-menu .el-menu-item').removeClass('is-active')
 
     });
     $('.nav .nav-menu .el-submenu__title').mouseleave(function () {
-      $(this).removeClass('el-menu-item-hover')
+      $(this).removeClass('el-menu-item-hover');
+       $('.nav .nav-menu .el-menu-item').eq(0).addClass('is-active');
     });
 
     // var act = this.activeIndex2 - 1;
@@ -232,7 +233,7 @@ html {
 
 @font-face {
   font-family: wenDing;
-  src: url('../assets/font/wending.ttf');
+  src: url('~assets/font/wending.ttf');
 }
 
 .el-menu--horizontal .el-menu .el-menu-item:hover{background-color: rgb(235, 60, 60)!important;color:#fff!important;}
@@ -245,7 +246,7 @@ html {
     width: 1200px;
     height: 100px;
     margin: 0 auto;
-    background: url('/images/header2.png') no-repeat;
+    background: url('~assets/images/header2.png') no-repeat;
     background-size: 100% 100px;
     position: relative;
 
@@ -277,7 +278,7 @@ html {
     .online{
       width: 220px;
       height: 100px;
-      background: url('/images/header_contact.png') no-repeat center;
+      background: url('~assets/images/header_contact.png') no-repeat center;
       position: absolute;
       right: 386px;
       top:0;
@@ -345,7 +346,7 @@ html {
         // background-color: #f60!important;
         //     }
       .el-menu-item-hover{
-        background: url('/images/nav_bg3.jpg') no-repeat center!important;
+        background: url('~assets/images/nav_bg3.jpg') no-repeat center!important;
         color: #fff!important;
         // background-size: 96px 80px!important;
         // color: #f60!important;
@@ -358,12 +359,12 @@ html {
         font-size: 16px;
       }
       .el-submenu__title-hover{
-        background: url('/images/nav_bg3.jpg') no-repeat center!important;
+        background: url('~assets/images/nav_bg3.jpg') no-repeat center!important;
         color: rgb(248,246,246)!important;
         color:#fff!important;border:none!important;
       }
       // .el-submenu__title:hover{
-      //   // background: url('/images/nav_bg.png') no-repeat center!important;
+      //   // background: url('~/assets~/assets/images/nav_bg.png') no-repeat center!important;
       //   // background-size: 130px 80px!important;
       //   // color: #fff!important;
       //   color: #f60!important;
@@ -372,7 +373,7 @@ html {
       .el-submenu .is-active{color:#fff!important;border:none!important;}
       .el-menu-item.is-active{
         color: #fff!important;
-        background: url('/images/nav_bg3.jpg') no-repeat center!important;
+        background: url('~assets/images/nav_bg3.jpg') no-repeat center!important;
         background-size: 110px 90px!important;
       }
       .el-menu-item.is-active>a{
