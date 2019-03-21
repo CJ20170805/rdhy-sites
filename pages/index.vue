@@ -5,13 +5,13 @@
         <!-- ~assets~/assets/images/banner001.jpg
          <img :src="item" alt> -->
         <el-carousel-item>  
-         <img src="~/assets~/assets/images/banner001.jpg" alt="">
+         <img src="~/assets/images/banner001.jpg" alt="">
         </el-carousel-item>
          <el-carousel-item>  
-         <img src="~/assets~/assets/images/banner002.jpg" alt="">
+         <img src="~/assets/images/banner002.jpg" alt="">
         </el-carousel-item>
          <el-carousel-item>  
-         <img src="~/assets~/assets/images/banner003.jpg" alt="">
+         <img src="~/assets/images/banner003.jpg" alt="">
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -230,19 +230,19 @@
         </div>
         <div class="cc-service">
           <a href="#">
-            <img src="~/assets~/assets/images/p-4.jpg" alt>
+            <img src="~/assets/images/p-4.jpg" alt>
             <p>软件著作权申请</p>
           </a>
           <a href="#">
-            <img src="~/assets~/assets/images/p-5.jpg" alt>
+            <img src="~/assets/images/p-5.jpg" alt>
             <p>管理体系认证</p>
           </a>
           <a href="#">
-            <img src="~/assets~/assets/images/p-6.jpg" alt>
+            <img src="~/assets/images/p-6.jpg" alt>
             <p>高新企业认定</p>
           </a>
           <a href="#">
-            <img src="~/assets~/assets/images/p-7.jpg" alt>
+            <img src="~/assets/images/p-7.jpg" alt>
             <p>资质管家咨询</p>
           </a>
         </div>
@@ -415,7 +415,7 @@
 import Logo from "~/components/Logo.vue";
 
 export default {
-  data() {
+  data () {
     return {
       bannerImgs: [
         // "~assets~/assets/images/banner001.jpg",
@@ -452,7 +452,7 @@ export default {
   }
   .compa-introduce {
     width: 100%;
-    background: url("~/assets/images/xieWBg.jpg");
+    background: url("~assets/images/xieWBg.jpg");
     .ci-content {
       width: 1200px;
       height: 300px;
@@ -510,7 +510,7 @@ export default {
             width: 94px;
             height: 94px;
             margin-top: 8px;
-            background: url("~/assets/images/services_icon.png") no-repeat center;
+            background: url("~assets/images/services_icon.png") no-repeat center;
           }
           .cs-list-item-desc {
             width: 160px;
@@ -548,7 +548,7 @@ export default {
     .cs-detail {
       width: 100%;
       height: 500px;
-      background: url("~/assets/images/servesbg.png") no-repeat center;
+      background: url("~assets/images/servesbg.png") no-repeat center;
       min-width: 1340px;
 
       .cs-item-wrap {
@@ -561,7 +561,7 @@ export default {
           height: 420px;
           padding: 30px 2px 0 8px;
           margin-top: 36px;
-          background: url("~/assets/images/servesListbg.png") no-repeat center;
+          background: url("~assets/images/servesListbg.png") no-repeat center;
           border-radius: 2px;
 
           .items{
