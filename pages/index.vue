@@ -568,6 +568,7 @@ export default {
               p{
                 font-size: 14px;
                 line-height:24px;
+                color: #5f5f5f;
               }
             }
             .item-left{border-right: 1px solid rgb(155, 155, 155);}

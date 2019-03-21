@@ -2,7 +2,6 @@
   <div class="about-us">
     <div class="about-content">
       <h1>About US</h1>
-      <h2>{{ a.data }}</h2>
     </div>
   </div>
 </template>
@@ -20,9 +19,9 @@ export default {
     // axios.get('api/api')
     //  .then(data => {console.log('data',data.data)})
     //  .catch(err => {console.log('err',err)})
-      let d = await api.getData()
-      console.log(d)
-      return {a : d}
+      // let d = await api.getData()
+      // console.log(d)
+      // return {a : d}
       // return {'aa': d}
       // .then(res => {console.log(res); this.getValue = res.data})
       // .catch(err => console.log(err))
