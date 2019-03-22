@@ -601,8 +601,8 @@ html {
           display: inline-block;
           img {
             width: 210px;
-            height: 80px;
-            filter: invert(100%);
+            height: 85px;
+            // filter: invert(100%);
           }
         }
       }

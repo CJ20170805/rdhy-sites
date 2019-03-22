@@ -12,8 +12,8 @@ module.exports = {
   mode: 'universal',
 
   router: {
-    base: '/nuxxt/',
-    // base: '/'
+    // base: '/nuxxt/',
+    base: '/'
   },
   // mode: 'spa',
 
