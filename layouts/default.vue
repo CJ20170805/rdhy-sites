@@ -490,7 +490,7 @@ html {
 
 .head {
   width: 100%;
-  height: 185px;
+  height: 190px;
   background-color: rgb(248, 246, 246);
   padding-top: 100px;
   .nav {

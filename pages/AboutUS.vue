@@ -1,7 +1,13 @@
 <template>
   <div class="about-us">
+    <div class="contact-banner">
+      <img src="~/assets/images/contact_us.jpg" alt="">
+    </div>
     <div class="about-content">
-      <h1>About US</h1>
+      <div class="about-tit">
+        <span>联系我们</span>
+        <p>CONTACT US</p>
+      </div>
     </div>
   </div>
 </template>
@@ -52,13 +58,42 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
+
+  @common_red :rgb(235, 60, 60);
+
   .about-us{
-    width: 100%
-  }
-  .about-content{
-    width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    .contact-banner{
+      height: 300px;
+      width: 100%;
+      img{
+        width: 100%;
+        height: 300px;
+      }
+    }
+    .about-content{
+      width: 1200px;
+      height: 800px;
+      margin: 0 auto;
+      .about-tit{
+        height: 80px;
+        width: 180px;
+        margin-top: 34px;
+        border-bottom: 3px solid @common_red;
+        span{
+          font-size: 28px;
+          font-family: 微软雅黑;
+          color: rgb(16, 16, 16);
+          line-height: 46px;
+        }
+        p{
+          color: rgb(181, 181, 181);
+          font-size: 18px;
+          line-height: 20px;
+        }
+      }
+    }
   }
 </style>
 

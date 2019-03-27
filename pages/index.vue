@@ -58,7 +58,7 @@
           <div class="cs-list-item">
             <i></i>
             <div class="cs-list-item-desc">
-              <span>信息安全服务</span>
+              <span>军工资质认证</span>
               <p>Information safety</p>
             </div>
           </div>
@@ -70,13 +70,19 @@
             <span>
               <i></i>
               <div>
-                <a href="#">年度财务审计报告</a>
+                <a href="#">软件著作权申请</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">研发费用专项审计报告</a>
+                <a href="#">AAA企业信用评价</a>
+              </div>
+            </span>
+            <span>
+              <i></i>
+              <div>
+                <a href="#">年度财务审计报告</a>
               </div>
             </span>
             <span>
@@ -88,13 +94,13 @@
             <span>
               <i></i>
               <div>
-                <a href="#">软件著作权申请</a>
+                <a href="#">软件产品登记测试</a>
               </div>
             </span>
-            <span>
+               <span>
               <i></i>
               <div>
-                <a href="#">软件产品登记测试</a>
+                <a href="#">研发费用专项审计报告</a>
               </div>
             </span>
             <span>
@@ -103,30 +109,18 @@
                 <a href="#">软件产品评估及软件企业评估</a>
               </div>
             </span>
-            <span>
-              <i></i>
-              <div>
-                <a href="#">AAA企业信用评价</a>
-              </div>
-            </span>
           </div>
           <div class="cs-detail-item">
-            <span>
-              <i></i>
-              <div>
-                <a href="#">ISO9001质量管理体系认证</a>
-              </div>
-            </span>
             <span>
               <i></i>
               <div>
                 <a href="#">ISO14001环境管理认证</a>
               </div>
             </span>
-            <span>
+             <span>
               <i></i>
               <div>
-                <a href="#">OHSAS18000职业健康安全管理体系认证</a>
+                <a href="#">ISO9001质量管理体系认证</a>
               </div>
             </span>
             <span>
@@ -141,14 +135,20 @@
                 <a href="#">ISO27001信息安全体系认证</a>
               </div>
             </span>
-          </div>
-          <div class="cs-detail-item">
             <span>
               <i></i>
               <div>
-                <a href="#">信息系统集成及服务资质</a>
+                <a href="#">OHSAS18000职业健康安全管理体系认证</a>
               </div>
             </span>
+             <span>
+              <i></i>
+              <div>
+                <a href="#">ISO22301业务连续性管理管理体系认证</a>
+              </div>
+            </span>
+          </div>
+          <div class="cs-detail-item">
             <span>
               <i></i>
               <div>
@@ -170,18 +170,35 @@
             <span>
               <i></i>
               <div>
+                <a href="#">信息系统集成及服务资质</a>
+              </div>
+            </span>
+            <span>
+              <i></i>
+              <div>
                 <a href="#">CMMI软件能力成熟度模型</a>
+              </div>
+            </span>
+               <span>
+              <i></i>
+              <div>
+                <a href="#">信息安全服务资质（认证中心）</a>
+              </div>
+            </span>
+               <span>
+              <i></i>
+              <div>
+                <a href="#">信息安全服务资质（测评中心）</a>
               </div>
             </span>
           </div>
           <div class="cs-detail-item">
-            <span>
+            <!-- <span>
               <i style="margin-top:0px;"></i>
               <div>
                 <a href="#" style="line-height:20px;font-size:14.5px;">认证方向（中国网络安全审查技术与认证中心CCRC）：</a>
               </div>
             </span>
-            
             <div class="items" style="height:140px;">
               <div class="item-left" style="height:120px;">
                 <p>信息系统安全集成</p>
@@ -202,7 +219,6 @@
                <a href="#" style="line-height:20px;font-size:14.5px;"> 认证方向（中国信息安全测评中心CNITSEC）：</a>
               </div>
             </span>
-
             <div class="items">
               <div class="item-left">
                 <p>安全工程 </p>
@@ -215,7 +231,31 @@
                 <p>大数据安全类</p>
                 <p>云计算安全类</p>
               </div>
-            </div>
+            </div> -->
+            <span>
+              <i></i>
+              <div>
+                <a href="#">国军标认证（GJB9000）</a>
+              </div>
+            </span>
+            <span>
+              <i></i>
+              <div>
+                <a href="#">军工企业保密资质认证</a>
+              </div>
+            </span>
+            <span>
+              <i></i>
+              <div>
+                <a href="#">装备承制单位资格认证</a>
+              </div>
+            </span>
+            <span>
+              <i></i>
+              <div>
+                <a href="#">武器装备科研生产许可证</a>
+              </div>
+            </span>
 
           </div>
         </div>
@@ -557,9 +597,9 @@ export default {
         display: flex;
         justify-content: space-around;
         .cs-detail-item {
-          width: 270px;
+          width: 300px;
           height: 420px;
-          padding: 30px 2px 0 8px;
+          padding: 30px 2px 0 16px;
           margin-top: 36px;
           background: url("~assets/images/servesListbg.png") no-repeat center;
           border-radius: 2px;
@@ -597,7 +637,7 @@ export default {
               background: url("~assets/images/servesListTb.png") no-repeat center;
             }
             div {
-              width: 200px;
+              width: 220px;
               float: left;
               font-size: 14px;
               font-weight: 550;
