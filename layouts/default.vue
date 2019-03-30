@@ -263,11 +263,12 @@ export default {
         .removeClass("el-menu-item-hover");
       $(".nav .nav-menu .el-menu-item").removeClass("is-active");
     });
+
     $(".nav .nav-menu .el-submenu__title").mouseleave(function() {
       $(this).removeClass("el-menu-item-hover");
-      $(".nav .nav-menu .el-menu-item")
-        .eq(0)
-        .addClass("is-active");
+      // $(".nav .nav-menu .el-menu-item")
+      //   .eq(0)
+      //   .addClass("is-active");
     });
 
     $(document).ready(function(){
@@ -546,6 +547,7 @@ html {
         height: 90px !important;
         line-height: 90px;
         font-size: 16px;
+        border: none!important;
       }
       .el-submenu__title-hover {
         background: url("~assets/images/nav_bg3.jpg") no-repeat center !important;
