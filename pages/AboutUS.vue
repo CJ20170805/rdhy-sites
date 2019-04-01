@@ -81,16 +81,15 @@ export default {
     }
   },
   mounted () {
+    this.createMap();
     this.$nextTick(() => {
       // this.$nuxt.$loading.start()
       // setTimeout(() => this.$nuxt.$loading.finish(), 5000)
     });
-    this.createMap();
-    
   },
   methods: {
     createMap () {
-          //创建和初始化地图函数：
+        //创建和初始化地图函数：
         function initMap(){
             createMap();//创建地图
             setMapEvent();//设置地图事件

@@ -38,8 +38,16 @@
         </div>
         <div class="option">
           <div class="item">
-            <span>有效期</span>
-            
+            <i>有效期</i>
+            <div class="o-i">
+              <span>1-10人</span>
+             <span>1-10人</span>
+              <span>1-10人</span>
+               <span>1-10人</span>
+                <span>1-10人</span>
+                 <span>1-10人</span>
+                  <span>1-10人</span>
+            </div>
           </div>
         </div>
       </div>
@@ -101,6 +109,7 @@ export default {
        top: 0;
        box-sizing: content-box;
        padding:6px 2px 6px 20px;
+       h6{font-size: 12px;}
        h6:first-child{
          color: #999;
        }
@@ -166,6 +175,30 @@ export default {
           .c4{
             background: url('~assets/images/B_4.png') no-repeat center;
           }
+       }
+     }
+     .option{
+       .item{
+         height: 40px;
+         overflow: auto;
+         i{
+           color:#999;
+           font-style: normal;
+           font-size: 14px;
+           float: left;
+         }
+         .o-i{
+           float: left;
+           width: 400px;
+           span{
+            display: inline-block;
+            height: 35px;
+            line-height: 35px;
+            border: 1px solid #e0e0e0;
+            padding: 0 10px;
+            font-size: 14px;
+          }
+         }
        }
      }
    }
