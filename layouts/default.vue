@@ -50,7 +50,9 @@
             </el-submenu>-->
           </el-submenu>
           <!-- <el-menu-item index="3">软件评测</el-menu-item> -->
-          <el-menu-item index="4">高新企业认定</el-menu-item>
+          <el-menu-item index="4">
+            <nuxt-link to="/detail/temp">高新企业认定</nuxt-link>
+          </el-menu-item>
           <!-- <el-menu-item index="5">体系认定</el-menu-item> -->
           <el-submenu index="5">
             <template slot="title">体系认定</template>
@@ -79,7 +81,7 @@
 
           <!-- <el-menu-item index="6">资质认定</el-menu-item> -->
           <el-menu-item index="7">
-            <nuxt-link to="AboutUS">关于我们</nuxt-link>
+            <nuxt-link to="/AboutUS">联系我们</nuxt-link>
           </el-menu-item>
         </el-menu>
       </div>
@@ -106,7 +108,7 @@
                 <a href="#">软件评测</a>
               </li>
               <li>
-                <a href="#">高新企业认定</a>
+                <nuxt-link to="detail/temp">高新企业认定</nuxt-link>
               </li>
               <li>
                 <a href="#">体系认定</a>
@@ -115,11 +117,11 @@
                 <a href="#">资质认定</a>
               </li>
               <li>
-                <a href="#">关于我们</a>
+                <a href="#">联系我们</a>
               </li>
             </ul>
-            <p>地址：北京市海淀区万寿路27号院 电话：86-130-xxxx-0000 传真：86-021-xxxxxxxxxxxxxxxx</p>
-            <p>邮箱：xxxxxxxxx@qq.com 网址：www.xxxxxx.com​</p>
+            <p>地址：北京市海淀区万寿路27号院  电话：010-68207631  传真：86-021-xxxxxxxxxxxxxxxx</p>
+            <p>邮箱：office@anyway.org.cn 网址：www.xxxxxx.com​</p>
           </div>
           <div class="fc-top-3">
             <div class="fc-ewm">
@@ -216,7 +218,8 @@ export default {
     script: [
       {
         src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
-      }
+      },
+      {src: 'http://api.map.baidu.com/api?key=&v=1.1&services=true'}
     ]
   },
   created() {

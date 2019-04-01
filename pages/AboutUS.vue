@@ -12,13 +12,13 @@
         <div class="contact-info">
           <div class="info-list">
             <div class="info-item">
-              <i class="phone"></i><span>电话： 400-1222-2222</span>
+              <i class="phone"></i><span>电话： 010-68207631</span>
             </div>
             <div class="info-item">
-              <i class="email"></i><span>邮箱： 400-1222-2222</span>
+              <i class="email"></i><span>邮箱： office@anyway.org.cn</span>
             </div>
             <div class="info-item">
-              <i class="address"></i><span>地址：北京市海淀区万寿路27号院</span>
+              <i class="address"></i><span>地址：北京市海淀区万寿路27号院（万寿路地铁站东南口出步行至工信部大院即到）</span>
             </div>
 
             <div class="dashed"></div>
@@ -28,10 +28,10 @@
             </div>
 
             <div class="info-item">
-              <i class="bus"></i><span>路线1：可乘坐公交000、000、000到XX站下车</span>
+              <i class="bus"></i><span>乘车路线：地铁1号线 万寿路 下车( C2东南口出 )</span>
             </div>
             <div class="info-item">
-              <i class="bus"></i><span>路线2：可乘坐公交000、000、000到XX站下车</span>
+              <i class="bus"></i><span>公交路线：万寿路东站 （120、68、451、77、335、308 ） </span>
             </div>
           </div>
         </div>
@@ -77,9 +77,6 @@ export default {
       title: 'About',
       meta: [
         { hid: 'description', name: 'description', content: 'My custom description' }
-      ],
-      script: [
-        {src: 'http://api.map.baidu.com/api?key=&v=1.1&services=true'}
       ]
     }
   },
@@ -231,7 +228,7 @@ export default {
       .about-main{
         width: 100%;
         height: 600px;
-        background-color: aquamarine;
+        // background-color: aquamarine;
         margin-top: 30px;
         .contact-info{
           width: 500px;
@@ -254,10 +251,12 @@ export default {
                 height: 30px;
                 vertical-align: middle;
                 margin-right: 30px;
+                vertical-align: top;
                 }
               span{
                 display: inline-block;
                 line-height: 30px;
+                width: 350px;
               }
               .phone{
                 background: url('~assets/images/con01.png') no-repeat center;
@@ -276,8 +275,8 @@ export default {
               width: 100%;
               height: 0;
               border-bottom: 1px dashed #fff;
-              margin-top: 50px;
-              margin-bottom: 30px;
+              margin-top: 20px;
+              margin-bottom: 20px;
             }
           }
         }

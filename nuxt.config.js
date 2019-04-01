@@ -84,7 +84,7 @@ module.exports = {
     */
     extend(config, ctx) {
       // config.output.publicPath = '../_nuxttt/'
-      console.log('CONFIG：：：',config);
+      // console.log('CONFIG：：：',config);
     }
   }
 }
