@@ -40,14 +40,55 @@
           <div class="item">
             <i>有效期</i>
             <div class="o-i">
+              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">1-10人</span>
+              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">1-10人</span>
+              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">1-10人</span>
               <span>1-10人</span>
-             <span>1-10人</span>
               <span>1-10人</span>
-               <span>1-10人</span>
-                <span>1-10人</span>
-                 <span>1-10人</span>
-                  <span>1-10人</span>
+              <span>1-10人</span>
+              <span>1-10人</span>
             </div>
+          </div>
+          <div class="item">
+            <i>通用行业</i>
+            <div class="o-i">
+              <span :class="[check02 === 1? 'checked' : '']" @click="clickTab('02',1)">全行业</span>
+            </div>
+          </div>
+          <div class="item">
+            <i>服务地区</i>
+            <div class="o-i">
+              <span :class="[check03 === 1? 'checked' : '']" @click="clickTab('03',1)">全国</span>
+            </div>
+          </div>
+          <div class="item">
+            <button>立即咨询</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-desc">
+      <div class="recommend">
+
+      </div>
+      <div class="tab">
+        <div class="tab-menu">
+          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">资金须知</span>
+          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">用心服务</span>
+          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">温馨提示</span>
+          <div class="phone">
+            <p> <i></i>全国资讯热线：<span>400-888-56788</span></p>
+          </div>
+        </div>
+        <div class="tab-content">
+          <div class="page" v-if="tabCurrent == 1">
+            1
+          </div>
+          <div class="page" v-if="tabCurrent == 2">
+            1111
+          </div>
+          <div class="page" v-if="tabCurrent == 3">
+            11111111
           </div>
         </div>
       </div>
@@ -56,7 +97,36 @@
 </template>
 <script>
 export default {
-  
+  data () {
+    return {
+      check01: 1,
+      check02: 1,
+      check03: 1,
+      tabCurrent: 1
+    }
+  },
+  methods: {
+    clickTab (type,index) {
+      switch (type) {
+        case '01':
+          this.check01 = index;
+          break;
+        case '02':
+          this.check02 = index;
+          break;
+        case '03':
+          this.check03 = index;
+          break;
+        default:
+          break;
+      }
+      console.log(type,index,`check${type}`);
+    },
+    changeTab (index) {
+      console.log(index);
+      this.tabCurrent = index;
+    }
+  }
 }
 </script>
 <style lang="less" scoped>
@@ -100,6 +170,7 @@ export default {
    .text{
      width: 630px;
      height: 570px;
+     margin-left: 30px;
      .count{
        width: 60px;
        height: 30px;
@@ -178,30 +249,121 @@ export default {
        }
      }
      .option{
+       width: 100%;
        .item{
-         height: 40px;
-         overflow: auto;
+         width: 100%;
+         display: flex;
+         margin-top: 10px;
+         button{
+          width: 190px;
+          line-height: 44px;
+          height: 44px;
+          border-radius: 4px;
+          margin-left: 88px;
+          cursor: pointer;
+          // padding-left: 50px;
+          margin-right: 5px;
+          text-align: center;
+          font-size: 16px;
+          background: #d20514;
+          color: #fff;
+          border: 1px solid #d20514;
+         }
          i{
            color:#999;
            font-style: normal;
            font-size: 14px;
-           float: left;
+           margin-right: 28px;
+           padding-top:8px;
+           width: 60px;
          }
          .o-i{
-           float: left;
            width: 400px;
            span{
-            display: inline-block;
-            height: 35px;
-            line-height: 35px;
-            border: 1px solid #e0e0e0;
-            padding: 0 10px;
-            font-size: 14px;
-          }
+              display: inline-block;
+              height: 35px;
+              line-height: 35px;
+              border: 1px solid #e0e0e0;
+              padding: 0 10px;
+              font-size: 14px;
+              margin-bottom: 8px;
+              cursor: pointer;
+            }
+           .checked{
+             border: 2px solid #d20514;
+             color: #d20514;
+             background: url('~assets/images/danxuan_bg.png') no-repeat center;
+             background-position-x: right;
+             background-position-y: 16px;
+           } 
          }
        }
      }
    }
+  }
+  .main-desc{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .recommend{
+      width: 220px;
+      height: 300px;
+      background-color: #999;
+    }
+    .tab{
+      width: 970px;
+      height: 300px;
+      background-color: #e0e0e0;
+      .tab-menu{
+        height: 48px;
+        width: 100%;
+        line-height: 48px;
+        border-bottom: 1px solid #FD9D64;
+        background: #fef5f2;
+        .phone{
+          float: right;
+          p{
+            font-size: 15px;
+            font-weight: bold;
+            i{
+              display: inline-block;
+              width: 22px;
+              height: 22px;
+              background: url('~assets/images/phone.png') no-repeat center;
+              background-size: cover;
+              vertical-align: -4px;
+              margin-right: 4px;
+            }
+            span{
+              font-size: 17px;
+              color: #d20514;
+            }
+          }
+        }
+        span{
+          cursor: pointer;
+          font-size: 15px;
+          padding: 0 14px;
+          line-height: 42px;
+          display: inline-block;
+        }
+        .tab-act{
+          color: #ff4400 !important;
+          cursor: pointer;
+          border-bottom: 3px solid #ff4400;
+          background: #fff;
+        }
+      }
+      .tab-content{
+        position: relative;
+        .page{
+          width: 100%;
+          min-height: 300px;
+          position: absolute;
+          box-shadow: 0 0 10px rgba(251, 94,36,.3);
+        }
+      }
+    }
   }
 }
 </style>
