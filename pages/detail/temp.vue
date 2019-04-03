@@ -2,16 +2,16 @@
   <div id="wrap">
     <div class="detail">
       <div class="img">
-        <img class="main-img" src="~/assets/images/de01.png" alt="">
+        <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img src="~/assets/images/de01.png" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/de01.png" alt="">
           </li>
           <li>
-            <img src="~/assets/images/de01.png" alt="">
+            <img @click="checkImg($event)" src="~/assets/images/ban1.jpg" alt="">
           </li>
           <li>
-            <img src="~/assets/images/de01.png" alt="">
+            <img @click="checkImg($event)" src="~/assets/images/ban2.jpg" alt="">
           </li>
         </ul>
       </div>
@@ -69,20 +69,77 @@
     </div>
     <div class="main-desc">
       <div class="recommend">
+        <div class="tit">
+          您可能需要的服务
+        </div>
+        <el-menu
+          default-active="2"
+          @open="handleOpen"
+          unique-opened
+          :default-openeds="['1']"
+          @close="handleClose">
+          
+          <el-submenu index="1" popper-class="submenu-act">
+            <template slot="title">
+              <i class="el-icon-bell"></i>
+              <span>知识产权</span>
+            </template>
+            <el-menu-item index="1-1">专利申请</el-menu-item>
+            <el-menu-item index="1-2">商标注册</el-menu-item>
+          
+            <el-submenu index="5-4">
+              <template slot="title">软件著作权</template>
+              <el-menu-item index="5-4-1">选项1</el-menu-item>
+            </el-submenu>
+          </el-submenu>
 
+          <el-submenu index="2">
+            <template slot="title">
+              <i class="el-icon-news"></i>
+              <span>资质认定</span>
+            </template>
+            <el-menu-item index="2-1">专利申请</el-menu-item>
+            <el-menu-item index="2-2">商标注册</el-menu-item>
+          
+            <el-submenu index="2-4">
+              <template slot="title">软件著作权</template>
+              <el-menu-item index="2-4-1">选项1</el-menu-item>
+            </el-submenu>
+          </el-submenu>
+
+          <el-submenu index="3">
+            <template slot="title">
+              <i class="el-icon-edit-outline"></i>
+              <span>体系认定</span>
+            </template>
+            <el-menu-item index="3-1">专利申请</el-menu-item>
+            <el-menu-item index="3-2">商标注册</el-menu-item>
+          
+            <el-submenu index="3-4">
+              <template slot="title">软件著作权</template>
+              <el-menu-item index="3-4-1">选项1</el-menu-item>
+            </el-submenu>
+          </el-submenu>
+
+          <el-menu-item index="4">
+            <i class="el-icon-mobile-phone"></i>
+            <span slot="title">高新企业认定</span>
+          </el-menu-item>
+
+        </el-menu>
       </div>
       <div class="tab">
         <div class="tab-menu">
-          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">资金须知</span>
-          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">用心服务</span>
+          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">服务介绍</span>
+          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">办理流程</span>
           <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">温馨提示</span>
           <div class="phone">
-            <p> <i></i>全国资讯热线：<span>400-888-56788</span></p>
+            <p> <i></i>全国资讯热线：<span>010-68207631</span></p>
           </div>
         </div>
         <div class="tab-content">
           <div class="page" v-if="tabCurrent == 1">
-            1
+            <img src="~/assets/images/desc_001.png" style="width:100%" alt="">
           </div>
           <div class="page" v-if="tabCurrent == 2">
             1111
@@ -102,10 +159,20 @@ export default {
       check01: 1,
       check02: 1,
       check03: 1,
-      tabCurrent: 1
+      tabCurrent: 1,
+      mainImg: null
     }
   },
+  mounted () {
+    //console.log(this.$refs.firstImg.src)
+    this.mainImg = this.$refs.firstImg.src;
+  },
   methods: {
+    checkImg (e) {
+      let url = e.srcElement.currentSrc;
+      console.log(url);
+      this.mainImg = url;
+    },
     clickTab (type,index) {
       switch (type) {
         case '01':
@@ -125,6 +192,12 @@ export default {
     changeTab (index) {
       console.log(index);
       this.tabCurrent = index;
+    },
+    handleOpen(key, keyPath) {
+      console.log(key, keyPath);
+    },
+    handleClose(key, keyPath) {
+      console.log(key, keyPath);
     }
   }
 }
@@ -144,7 +217,7 @@ export default {
     justify-content: space-between;
     // background-color: lightblue;
     box-sizing: border-box;
-    padding-top: 40px;
+    padding-top: 30px;
    .img{
      width: 560px;
      height: 570px;
@@ -161,8 +234,11 @@ export default {
          border: 1px solid @common_red;
          list-style-type: none;
          display: inline-block;
+         height: 72px;
+         padding: 0;
          img{
            height: 70px;
+           width: 106px;
          }
        }
      }
@@ -199,7 +275,7 @@ export default {
        position: relative;
        width: 100%;
        height: 126px;
-       background-color: #f3f3f3;
+       background-color: #fbfbfb;
        box-sizing: border-box;
        padding: 10px;
        p{
@@ -265,9 +341,9 @@ export default {
           margin-right: 5px;
           text-align: center;
           font-size: 16px;
-          background: #d20514;
+          background: @common_red;
           color: #fff;
-          border: 1px solid #d20514;
+          border: 1px solid @common_red;
          }
          i{
            color:#999;
@@ -303,22 +379,50 @@ export default {
   }
   .main-desc{
     width: 100%;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     .recommend{
       width: 220px;
-      height: 300px;
-      background-color: #999;
+      // min-height: 500px;
+      box-shadow: 0 0 10px rgba(251, 94,36,.3);
+      // background-color: #999;
+      .el-submenu__title{
+        // i{color:red;}
+        // span{color:Red;}
+      }
+      .el-submenu__title:hover{
+        i{color:@common_red;}
+        span{color:@common_red;}
+      }
+      .el-menu{
+        border: solid 1px #e6e6e6;
+      }
+      .el-menu-item.is-active{
+        color: #ff4400;
+      }
+      .tit{
+        height: 48px;
+        width: 100%;
+        line-height: 48px;
+        border-bottom: 1px solid rgb(253, 93, 93);
+        background: #fef5f2;
+        padding-left: 24px;
+        font-size: 15px;
+        color: #3f3f3f;
+      }
+      
     }
     .tab{
-      width: 970px;
-      height: 300px;
-      background-color: #e0e0e0;
+      width: 960px;
+      // min-height: 500px;
+      //background-color: #e0e0e0;
       .tab-menu{
         height: 48px;
         width: 100%;
         line-height: 48px;
-        border-bottom: 1px solid #FD9D64;
+        border-bottom: 1px solid rgb(253, 93, 93);
         background: #fef5f2;
         .phone{
           float: right;
@@ -348,7 +452,7 @@ export default {
           display: inline-block;
         }
         .tab-act{
-          color: #ff4400 !important;
+          color: @common_red !important;
           cursor: pointer;
           border-bottom: 3px solid #ff4400;
           background: #fff;
@@ -357,10 +461,10 @@ export default {
       .tab-content{
         position: relative;
         .page{
-          width: 100%;
-          min-height: 300px;
-          position: absolute;
           box-shadow: 0 0 10px rgba(251, 94,36,.3);
+          width: 100%;
+          min-height: 230px;
+          // position: absolute;
         }
       }
     }
