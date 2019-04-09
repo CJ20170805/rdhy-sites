@@ -5,13 +5,7 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/de01.png" alt="">
-          </li>
-          <li>
-            <img @click="checkImg($event)" src="~/assets/images/ban1.jpg" alt="">
-          </li>
-          <li>
-            <img @click="checkImg($event)" src="~/assets/images/ban2.jpg" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/20190409154954.png" alt="">
           </li>
         </ul>
       </div>
@@ -38,31 +32,40 @@
         </div>
         <div class="option">
           <div class="item">
-            <i>有效期</i>
+            <i>价格</i>
             <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">1-10人</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">1-10人</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">1-10人</span>
-              <span>1-10人</span>
-              <span>1-10人</span>
-              <span>1-10人</span>
-              <span>1-10人</span>
+              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">￥600</span>
+              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">￥800</span>
+              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">￥1000</span>
+              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">￥1500</span>
+              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">￥2000</span>
+              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">￥2500</span>
+              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">￥3500</span>
+              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">￥4500</span>
+              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">￥5500</span>
+              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">￥10000</span>
+              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">￥20000</span>     
             </div>
           </div>
           <div class="item">
-            <i>通用行业</i>
+            <i>工作日</i>
             <div class="o-i">
-              <span :class="[check02 === 1? 'checked' : '']" @click="clickTab('02',1)">全行业</span>
+              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">31+</span>
+              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">26-30</span>
+              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">21-25</span>
+              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">16-20</span>
+              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">11-15</span>
+              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">6-10</span>
+              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">5</span>
+              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">4</span>
+              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">3</span>
+              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">2</span>
+              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">1</span>
             </div>
           </div>
           <div class="item">
-            <i>服务地区</i>
-            <div class="o-i">
-              <span :class="[check03 === 1? 'checked' : '']" @click="clickTab('03',1)">全国</span>
-            </div>
-          </div>
-          <div class="item">
-            <button>立即咨询</button>
+            <a href="#">在线咨询</a>
+            <!-- <a href="#">QQ咨询</a> -->
           </div>
         </div>
       </div>
@@ -219,7 +222,7 @@ export default {
     box-sizing: border-box;
     padding-top: 30px;
    .img{
-     width: 560px;
+     width: 460px;
      height: 570px;
      .main-img{
        width: 100%;
@@ -244,7 +247,7 @@ export default {
      }
    }
    .text{
-     width: 630px;
+     width: 680px;
      height: 570px;
      margin-left: 30px;
      .count{
@@ -330,8 +333,9 @@ export default {
          width: 100%;
          display: flex;
          margin-top: 10px;
-         button{
+         a{
           width: 190px;
+          text-decoration: none;
           line-height: 44px;
           height: 44px;
           border-radius: 4px;
@@ -354,7 +358,7 @@ export default {
            width: 60px;
          }
          .o-i{
-           width: 400px;
+           width: 520px;
            span{
               display: inline-block;
               height: 35px;
