@@ -466,7 +466,38 @@ export default {
   },
   components: {
     Logo
+  },
+  beforeCreate () {
+    console.log('beforeCreate!');
+  },
+  created () {
+    console.log('Created!');
+  },
+  beforeMount () {
+    console.log('BeforeMount!');
+  },
+  mounted () {
+    console.log('Mounted!');
+  },
+  beforeUpdate () {
+    console.log('BeforeUpdate');
+  },
+  updated () {
+    console.log('undated!');
+  },
+  activated () {
+    console.log('Actived!');
+  },
+  deactivated () {
+    console.log('Deactived!');
+  },
+  beforeDestroy () {
+    console.log('BeforeDestroy!');
+  },
+  destroyed () {
+    console.log('Destroyed!');
   }
+  
 };
 </script>
 

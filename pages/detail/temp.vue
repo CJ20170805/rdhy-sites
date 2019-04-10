@@ -169,6 +169,7 @@ export default {
   mounted () {
     //console.log(this.$refs.firstImg.src)
     this.mainImg = this.$refs.firstImg.src;
+    console.log(this.$root.check01);
   },
   methods: {
     checkImg (e) {
