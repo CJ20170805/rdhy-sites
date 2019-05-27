@@ -74,17 +74,17 @@ export default {
   // }
   head () {
     return {
-      title: 'About',
+      title: '关于我们',
       meta: [
-        { hid: 'description', name: 'description', content: 'My custom description' }
+        { hid: 'aboutPage', name: 'about', content: '关于荣德海越' }
       ]
     }
   },
   mounted () {
     this.createMap();
     this.$nextTick(() => {
-      // this.$nuxt.$loading.start()
-      // setTimeout(() => this.$nuxt.$loading.finish(), 5000)
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 5000)
     });
   },
   methods: {

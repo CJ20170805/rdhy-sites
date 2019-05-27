@@ -36,12 +36,15 @@
             <template slot="title">知识产权</template>
             <el-menu-item index="2-1">专利申请</el-menu-item>
             <el-menu-item index="2-2">商标注册</el-menu-item>
-            <el-submenu index="2-3">
+            <el-menu-item index="2-3" >
+               <nuxt-link style="display:block;color:#222;text-decoration:none;" to="/detail/softwareCopyright">软件著作权</nuxt-link>
+            </el-menu-item>
+            <!-- <el-submenu index="2-3">
               <template slot="title">软件著作权</template>
               <el-menu-item index="2-3-1">申请</el-menu-item>
               <el-menu-item index="2-3-2">转让</el-menu-item>
               <el-menu-item index="2-3-3">变更</el-menu-item>
-            </el-submenu>
+            </el-submenu> -->
             <!-- <el-submenu index="2-4">
               <template slot="title">软件评测</template>
               <el-menu-item index="2-4-1">选项1</el-menu-item>
@@ -51,7 +54,7 @@
           </el-submenu>
           <!-- <el-menu-item index="3">软件评测</el-menu-item> -->
           <el-menu-item index="4">
-            <nuxt-link to="/detail/temp">高新企业认定</nuxt-link>
+            <nuxt-link to="/detail/nationCompany">高新企业认定</nuxt-link>
           </el-menu-item>
           <!-- <el-menu-item index="5">体系认定</el-menu-item> -->
           <el-submenu index="5">
@@ -108,7 +111,7 @@
                 <a href="#">软件评测</a>
               </li>
               <li>
-                <nuxt-link to="detail/temp">高新企业认定</nuxt-link>
+                <nuxt-link to="detail/softwareCopyright">高新企业认定</nuxt-link>
               </li>
               <li>
                 <a href="#">体系认定</a>
@@ -272,6 +275,13 @@ export default {
       // $(".nav .nav-menu .el-menu-item")
       //   .eq(0)
       //   .addClass("is-active");
+    });
+
+    $('.nav .nav-menu .el-menu--horizontal .el-menu .el-menu-item').mouseenter(function(){
+      $(this).find('a').css('color','#fff');
+    });
+        $('.nav .nav-menu .el-menu--horizontal .el-menu .el-menu-item').mouseleave(function(){
+      $(this).find('a').css('color','#222');
     });
 
     $(document).ready(function(){
@@ -522,6 +532,10 @@ html {
       height: 90px;
       width: 100%;
       border: none;
+        a{
+          display: block;
+          text-decoration: none;
+        }
       .el-menu--horizontal .el-menu .el-submenu__title {
         background-color: #f60 !important;
       }
@@ -534,6 +548,8 @@ html {
         font-size: 16px;
         a {
           font-size: 16px;
+          display: block;
+          text-decoration: none;
         }
       }
       //     .el-menu-item:hover{

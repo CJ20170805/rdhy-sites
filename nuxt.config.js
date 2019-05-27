@@ -12,8 +12,8 @@ module.exports = {
   mode: 'universal',
 
   router: {
-    base: '/nuxxt/',
-    // base: '/'
+    //base: '/nuxxt/',
+    base: '/'
   },
   // mode: 'spa',
 
@@ -25,7 +25,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: '首页',
+    title: '荣德海越官方网站',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -35,7 +35,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      {src: 'http://api.map.baidu.com/api?key=&v=1.1&services=true'}
+      // {src: 'http://api.map.baidu.com/api?key=&v=1.1&services=true'}
     ]
   },
 
