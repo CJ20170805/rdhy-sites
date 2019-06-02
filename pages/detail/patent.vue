@@ -5,16 +5,13 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/anfang.jpg" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/patent_top2.jpg" alt="">
           </li>
         </ul>
       </div>
       <div class="text">
-        <h2>安防工程企业设计、施工、维护能力评价</h2>
-        <h5>安防工程企业设计、施工、维护能力（以下简称能力）评价是指中国安全防范产品行业协会从
-          本行业实际出发，制定评价标准和实施办法，确定其能力等级，并颁发证书的活动，是企业从事项目工
-          程的通行证。企业能力按企业规模、工程业绩、管理水平、诚信表现，设为一级、二级、三级共三个等
-          级。三级为最低级别。。</h5>
+        <h2>专利、商标申请</h2>
+        <h5>一项发明创造必须由申请人向政府主管部门提出专利申请，经中华人民共和国国家知识产权局依照法定程序审查批准后，才能取得专利权。</h5>
         <div class="desc">
            <p>
              <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
@@ -136,10 +133,10 @@
       </div>
       <div class="tab">
         <div class="tab-menu">
-          <!-- <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认定机构</span> -->
-          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">评定流程</span>
-          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">政策优惠</span>
-          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span>
+          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">申请流程</span>
+          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">审批程序</span>
+          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">商标保护</span>
+           <!--  <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span> -->
           <div class="phone">
             <p> <i></i>全国资讯热线：<span>010-68207631</span></p>
           </div>
@@ -147,52 +144,45 @@
         <div class="tab-content">
           <div class="page">
             <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
+            <p class="text">
+              <span class="tit-2">专利分类</span><br>
+            发明创造目前包括三种类型，分别是：发明、实用新型和外观设计。在申请阶段，分别称之为发明专利申请、实用新型专利申请和外观设计专利申请。获得授权之后，分别称之为发明专利、实用新型专利和外观设计专利，此时，申请人就是相应专利的专利权人。
+            </p>
             <!-- <p class="tit" id="introduce">认定机构</p>
             <p class="text">
              北京软件和信息服务行业协会承担软件企业评估的材料受理、材料审批、证书发放等工作。
 
             </p> -->
 
-            <p class="tit" id="flow">评定流程</p>
-            <img src="~/assets/images/pingding.png" style="margin-bottom:20px;" alt="">
+            <p class="tit" id="introduce">申请流程</p>
+            <img src="~/assets/images/patent.png" style="margin-bottom:20px;" alt="">
+
+            <p class="tit" id="flow">审批程序</p>
             <p class="text">
-              按照企业申报能力等级，分中心评审员在线审查企业申报资料，确认符合《评价标准》的报告评审结论，确认不符合《评价标准》的，与企业沟通，告知全部不符合事项，属严重不符合的，则开具《不符合项报告》。
-企业应在告知日（不含）起3个工作日内，予以有效纠正，上传证据资料（含填写完整的《不符合项报告》）。纠正有效的，即为符合《评价标准》。沟通纠正的机会只有一次。
+           
+            根据财政部、国家税务总局《关于贯彻落实<中共中央国务院关于加强技术创新，发展高科技，实现产业化决定>有关税收问题的通知》规定，单位和个人从事技术转让、技术开发业务和与之相关的技术咨询、技术服务业务取得的收入，免征营业税。<br>
 
             </p>
-
-            <p class="tit" id="material">评定流程</p>
-         
+            
+            <p class="tit" id="material">商标保护</p>
             <p class="text">
-   <span class="tit-2">评定资料</span><br>
            
-            系统填写资料：《安防工程企业设计施工维护能力评价申请表》、《安防工程企业基本情况登记表》、《安防工程企业技术人员名单》、《安防工程企业工程业绩汇总表》。<br>
-上传附件资料：营业执照副本、法定代表人身份证件、组织机构代码证、社保缴纳证明、《诚信公约》、无犯罪证明、办公场所证明、质量管理体系证明、安全生产管理证明、售后管理证明、近两年竣工安防工程资料。
-
-
-            </p>
-                <p class="text">
-   <span class="tit-2">资质年审</span><br>
-           
-            安防工程企业设计施工维护能力资质有效期为三年，能力证书的有效性依年审合格或通过复评予以保持。年审每年一次，复评每三年一次。企业能力复评程序与评价程序相同。通过复评的，继续保持其所获企业能力等级，换发新的企业能力证书。
-
+            可根据商标的驰名程度，获得不同程度的跨类保护<br>
+          可得到商标注册阶段和注册后发生商标侵权阶段的司法保护<br>
+          增加品牌含金量，升值企业无形资产，扩大企业知名度，增强企业市场竞争力<br>
+            <br>
 
             <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
             </p>
-
-
-            <p class="tit" id="question">政策依据</p>
+            <!-- <p class="tit" id="question">政策依据</p>
             <p class="text">
            
-           《安防工程企业设计施工维护能力评价管理办法》<br>
-《安防工程企业设计施工维护能力证书管理办法》<br>
-《安防工程企业设计施工维护能力评价标准》<br>
-《安防工程企业申报能力评价要求》<br>
-
+           《国家税务总局关于发布〈企业所得税优惠政策事项办理办法〉的公告》（国税〔2015〕76号）<br>
+            《关于进一步鼓励软件产业和集成电路产业发展企业所得税政策的通知》（财税〔2012〕27号）<br>
 
 
             <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
-            </p>
+            </p> -->
             
           </div>
         </div>
@@ -213,9 +203,9 @@ export default {
   },
   head () {
     return {
-      title: '安防工程企业设计、施工、维护能力评价',
+      title: '专利、商标申请',
       meta: [
-        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: '安防工程企业设计、施工、维护能力评价' }
+        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: '专利、商标申请' }
       ]
     }
   },

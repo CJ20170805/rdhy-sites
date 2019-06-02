@@ -5,16 +5,15 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/anfang.jpg" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/xinxiJicheng.jpg" alt="">
           </li>
         </ul>
       </div>
       <div class="text">
-        <h2>安防工程企业设计、施工、维护能力评价</h2>
-        <h5>安防工程企业设计、施工、维护能力（以下简称能力）评价是指中国安全防范产品行业协会从
-          本行业实际出发，制定评价标准和实施办法，确定其能力等级，并颁发证书的活动，是企业从事项目工
-          程的通行证。企业能力按企业规模、工程业绩、管理水平、诚信表现，设为一级、二级、三级共三个等
-          级。三级为最低级别。。</h5>
+        <h2>信息系统集成及服务</h2>
+        <h5>信息系统集成及服务指通过结构化的综合布线系统和计算机网络技术，将各个分离的设备、功能和信息等集成到相互关联的、统一和协调的系统之中。
+系统集成资质是经过中国电子信息行业联合会授权的第三方认证机构进行的一种认证，以通过评定企业从事计算机信息系统集成的综合能力、财务状况、信誉、业绩、管理能力、技术实力、人才实力等要素，颁发的一项资质。
+</h5>
         <div class="desc">
            <p>
              <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
@@ -136,10 +135,10 @@
       </div>
       <div class="tab">
         <div class="tab-menu">
-          <!-- <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认定机构</span> -->
-          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">评定流程</span>
-          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">政策优惠</span>
-          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span>
+          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认证流程</span>
+          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">审查程序</span>
+          <!-- <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">政策优惠</span>
+          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span> -->
           <div class="phone">
             <p> <i></i>全国资讯热线：<span>010-68207631</span></p>
           </div>
@@ -147,52 +146,39 @@
         <div class="tab-content">
           <div class="page">
             <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
-            <!-- <p class="tit" id="introduce">认定机构</p>
-            <p class="text">
-             北京软件和信息服务行业协会承担软件企业评估的材料受理、材料审批、证书发放等工作。
-
-            </p> -->
-
-            <p class="tit" id="flow">评定流程</p>
-            <img src="~/assets/images/pingding.png" style="margin-bottom:20px;" alt="">
-            <p class="text">
-              按照企业申报能力等级，分中心评审员在线审查企业申报资料，确认符合《评价标准》的报告评审结论，确认不符合《评价标准》的，与企业沟通，告知全部不符合事项，属严重不符合的，则开具《不符合项报告》。
-企业应在告知日（不含）起3个工作日内，予以有效纠正，上传证据资料（含填写完整的《不符合项报告》）。纠正有效的，即为符合《评价标准》。沟通纠正的机会只有一次。
-
+            <!-- <p class="tit" id="introduce">认定机构</p> -->
+            <p class="text" id="introduce">
+              <span class="tit-2">级别分类</span><br>
+             系统集成资质共分为四个级别，其中四级为最低级别，一级为最高级别。<br>
+一、二级企业每年评定两次<br>
+三、四级企业每年评定四次<br>
+评定时间以信息系统集成及服务资质官网发布的通知为准。<br>
             </p>
 
-            <p class="tit" id="material">评定流程</p>
-         
             <p class="text">
-   <span class="tit-2">评定资料</span><br>
-           
-            系统填写资料：《安防工程企业设计施工维护能力评价申请表》、《安防工程企业基本情况登记表》、《安防工程企业技术人员名单》、《安防工程企业工程业绩汇总表》。<br>
-上传附件资料：营业执照副本、法定代表人身份证件、组织机构代码证、社保缴纳证明、《诚信公约》、无犯罪证明、办公场所证明、质量管理体系证明、安全生产管理证明、售后管理证明、近两年竣工安防工程资料。
-
-
+              <span class="tit-2">有效期限</span><br>
+             资质证书有效期为四年，获证后每年进行一次年审。证书有效期满前三个月进行换证申请，换证办理流程同新申请流程一致。
             </p>
-                <p class="text">
-   <span class="tit-2">资质年审</span><br>
-           
-            安防工程企业设计施工维护能力资质有效期为三年，能力证书的有效性依年审合格或通过复评予以保持。年审每年一次，复评每三年一次。企业能力复评程序与评价程序相同。通过复评的，继续保持其所获企业能力等级，换发新的企业能力证书。
 
+            <p class="tit" id="flow">认证流程</p>
+            <img src="~/assets/images/xinxiJicheng.png" style="margin-bottom:20px;" alt="">
+
+            <p class="tit" id="material">审查程序</p>
+
+            <p class="text">
+
+           <span class="tit-2">年度监督检查程序及时间</span><br>
+           每年4-6月份开展年度监督检查工作<br>
+
+            <span class="tit-2">网上填报</span><br>
+           登陆“资质管理和服务平台”在网上填报《计算机信息系统集成企业资质年度数据信息表》，在通知要求的截止时间提交《年度数据信息表》。<br>
+
+           <span class="tit-2">监督抽查比例</span><br>
+           在规定时间内，地方主管部门根据抽查计划，组织抽查。抽查采用要求获证企业报送相关材料或对获证企业进行现场核查两种方式对于获证企业按照不低于10％的比例开展抽查工作，并于规定时间前在网上提交《拟抽查企业计划表》。<br>
 
             <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
             </p>
-
-
-            <p class="tit" id="question">政策依据</p>
-            <p class="text">
-           
-           《安防工程企业设计施工维护能力评价管理办法》<br>
-《安防工程企业设计施工维护能力证书管理办法》<br>
-《安防工程企业设计施工维护能力评价标准》<br>
-《安防工程企业申报能力评价要求》<br>
-
-
-
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
-            </p>
+  
             
           </div>
         </div>
@@ -213,9 +199,9 @@ export default {
   },
   head () {
     return {
-      title: '安防工程企业设计、施工、维护能力评价',
+      title: '国家高新技术企业认定',
       meta: [
-        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: '安防工程企业设计、施工、维护能力评价' }
+        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: '国家高新技术企业认定' }
       ]
     }
   },

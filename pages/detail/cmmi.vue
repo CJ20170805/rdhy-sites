@@ -5,16 +5,13 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/anfang.jpg" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/cmmi.jpg" alt="">
           </li>
         </ul>
       </div>
       <div class="text">
-        <h2>安防工程企业设计、施工、维护能力评价</h2>
-        <h5>安防工程企业设计、施工、维护能力（以下简称能力）评价是指中国安全防范产品行业协会从
-          本行业实际出发，制定评价标准和实施办法，确定其能力等级，并颁发证书的活动，是企业从事项目工
-          程的通行证。企业能力按企业规模、工程业绩、管理水平、诚信表现，设为一级、二级、三级共三个等
-          级。三级为最低级别。。</h5>
+        <h2>CMMI体系认证</h2>
+        <h5>CMMI意为集成的能力成熟度模型，于2002年发布，由美国国防部与卡内基—梅隆大学等共同开发研制。1998年美国卡内基-梅隆大学软件工程研究所(SEI)启动了CMMI计划，目的在于用一个统一的框架协调和集成SEI已经存在的各种模型，CMMI模型已经成为业界主要的过程管理模型，通过CMMI5级评估标志着本公司的质量管理和过程改进已跻身于全球软件业的顶尖水平</h5>
         <div class="desc">
            <p>
              <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
@@ -136,10 +133,10 @@
       </div>
       <div class="tab">
         <div class="tab-menu">
-          <!-- <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认定机构</span> -->
-          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">评定流程</span>
-          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">政策优惠</span>
-          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span>
+          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认证流程</span>
+          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">评估流程</span>
+          <!-- <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">政策优惠</span>
+          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span> -->
           <div class="phone">
             <p> <i></i>全国资讯热线：<span>010-68207631</span></p>
           </div>
@@ -147,52 +144,37 @@
         <div class="tab-content">
           <div class="page">
             <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
+            <p class="text">
+              <span class="tit-2">分类</span><br>
+            CMMI模型有两种表示方式，连续表示模型和分级表示模型。模型依次划分为初始级、可重复级、已定义级、已管理级、优化级。
+            </p>
             <!-- <p class="tit" id="introduce">认定机构</p>
             <p class="text">
              北京软件和信息服务行业协会承担软件企业评估的材料受理、材料审批、证书发放等工作。
 
             </p> -->
 
-            <p class="tit" id="flow">评定流程</p>
-            <img src="~/assets/images/pingding.png" style="margin-bottom:20px;" alt="">
+            <p class="tit" id="introduce">认证流程</p>
+            <img src="~/assets/images/cmmi.png" style="margin-bottom:20px;" alt="">
+
+            <p class="tit" id="flow">评估流程</p>
             <p class="text">
-              按照企业申报能力等级，分中心评审员在线审查企业申报资料，确认符合《评价标准》的报告评审结论，确认不符合《评价标准》的，与企业沟通，告知全部不符合事项，属严重不符合的，则开具《不符合项报告》。
-企业应在告知日（不含）起3个工作日内，予以有效纠正，上传证据资料（含填写完整的《不符合项报告》）。纠正有效的，即为符合《评价标准》。沟通纠正的机会只有一次。
-
-            </p>
-
-            <p class="tit" id="material">评定流程</p>
-         
-            <p class="text">
-   <span class="tit-2">评定资料</span><br>
            
-            系统填写资料：《安防工程企业设计施工维护能力评价申请表》、《安防工程企业基本情况登记表》、《安防工程企业技术人员名单》、《安防工程企业工程业绩汇总表》。<br>
-上传附件资料：营业执照副本、法定代表人身份证件、组织机构代码证、社保缴纳证明、《诚信公约》、无犯罪证明、办公场所证明、质量管理体系证明、安全生产管理证明、售后管理证明、近两年竣工安防工程资料。
-
-
-            </p>
-                <p class="text">
-   <span class="tit-2">资质年审</span><br>
-           
-            安防工程企业设计施工维护能力资质有效期为三年，能力证书的有效性依年审合格或通过复评予以保持。年审每年一次，复评每三年一次。企业能力复评程序与评价程序相同。通过复评的，继续保持其所获企业能力等级，换发新的企业能力证书。
+            CMMI的评估方法采用的是SCAMPI(Standard CMMI Appraisal Method for Process Improvement)评估方法，主要检查企业实际项目和日常运作中产生的数据、文档、邮件、会议纪要、项目报告、自动化工具等各方面的记录，并对员工进行抽样访谈，了解企业员工实际开展项目的方式。<br>
+CMMI评估由SEI授权主任评估师(Lead Appraiser)组织ATM(Appraisal Team Members)成立评估小组执行。评估全程受SEI监控，最终在SEI官方网站上通报评估结果。<br>
 
 
             <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
             </p>
-
-
-            <p class="tit" id="question">政策依据</p>
+            <!-- <p class="tit" id="question">政策依据</p>
             <p class="text">
            
-           《安防工程企业设计施工维护能力评价管理办法》<br>
-《安防工程企业设计施工维护能力证书管理办法》<br>
-《安防工程企业设计施工维护能力评价标准》<br>
-《安防工程企业申报能力评价要求》<br>
-
+           《国家税务总局关于发布〈企业所得税优惠政策事项办理办法〉的公告》（国税〔2015〕76号）<br>
+            《关于进一步鼓励软件产业和集成电路产业发展企业所得税政策的通知》（财税〔2012〕27号）<br>
 
 
             <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
-            </p>
+            </p> -->
             
           </div>
         </div>
@@ -213,9 +195,9 @@ export default {
   },
   head () {
     return {
-      title: '安防工程企业设计、施工、维护能力评价',
+      title: 'CMMI体系认证',
       meta: [
-        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: '安防工程企业设计、施工、维护能力评价' }
+        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: 'CMMI体系认证' }
       ]
     }
   },

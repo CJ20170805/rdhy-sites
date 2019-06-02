@@ -5,16 +5,17 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/anfang.jpg" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/18001_a.png" alt="">
+          </li>
+           <li>
+            <img @click="checkImg($event)" src="~/assets/images/18001_b.png" alt="">
           </li>
         </ul>
       </div>
       <div class="text">
-        <h2>安防工程企业设计、施工、维护能力评价</h2>
-        <h5>安防工程企业设计、施工、维护能力（以下简称能力）评价是指中国安全防范产品行业协会从
-          本行业实际出发，制定评价标准和实施办法，确定其能力等级，并颁发证书的活动，是企业从事项目工
-          程的通行证。企业能力按企业规模、工程业绩、管理水平、诚信表现，设为一级、二级、三级共三个等
-          级。三级为最低级别。。</h5>
+        <h2>IT20000 信息技术服务管理体系</h2>
+        <h5>获取IT服务管理领域的国际认可的专业认证，提升业内知名度，增强企业品牌和信誉，活动市场竞争优势。有利于全面提升客户总体的服务体验与满意度。
+</h5>
         <div class="desc">
            <p>
              <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
@@ -136,63 +137,57 @@
       </div>
       <div class="tab">
         <div class="tab-menu">
-          <!-- <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认定机构</span> -->
-          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">评定流程</span>
-          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">政策优惠</span>
-          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span>
+          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认证简介</span>
+          <!-- <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">发证机构</span>
+          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">认证周期</span>
+          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">认证流程</span> -->
           <div class="phone">
             <p> <i></i>全国资讯热线：<span>010-68207631</span></p>
           </div>
         </div>
         <div class="tab-content">
           <div class="page">
-            <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
-            <!-- <p class="tit" id="introduce">认定机构</p>
+            <p class="tit" id="question">认证简介</p>
             <p class="text">
-             北京软件和信息服务行业协会承担软件企业评估的材料受理、材料审批、证书发放等工作。
+           
+          职业健康和安全政策影响着一个组织的所有业务。职业健康安全管理体系（OHSMS）是20世纪80年代后期在国际上兴起的现代安全生产管理模式，它与ISO9001和ISO14001等标准规定的管理体系一并被称为后工业划时代的管理方法。<br>
+随着中国经济的高速增长，组织的职业健康和安全问题越来越受到人们的普遍关注，为提高我国生产安全水平，
+保障广大劳动者的根本利益，2001年国家质检总局对《职业健康安全管理体系——规范》（OHASA18001：1999）
+标准进行了等同转化，并发布了国家标准《职业健康安全管理体系 规范》（GB/T28001-2001）。2011年又依
+据OHASA18001：2007版标准进行了修订，发布了国家标准《职业健康安全管理体系 要求》（GB/T28001-
+2011），该标准覆盖了OHSAS18001所有的技术内容，适用于任何建立职业健康安全管理体系并寻求外部机构
+对其职业健康安全管理体系认证的组织。<br>
+    GB/T28001（OHSAS18001）标准为各类组织提供了结构化的运行机制，并建立在行之有效的管理原则——“策划—实施—检查—改进”的基础上。标准要求组织识别危险、评估与其活动和服务相关的职业健康与安全风险，确定必要的控制措施，并且确定明确的目标和指标，从而改善其职业健康安全绩效。
+
+<br>
+ <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            </p>
+            <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
+            <!-- <p class="tit" id="introduce">发证机构</p> -->
+            <!-- <p class="text" >
+              <span class="tit-2" id="introduce">发证机构：</span><br>
+             国家认证认可委员会颁发证书的认证机构有资格进行体系认证。<br>
+             <span class="tit-2" id="material">认证周期：</span><br>
+             体系认证周期加急最快1个半月，证书三年有效，每年需要进行年检。年检费用是初次认证的1/3。<br>
+             <span class="tit-2" id="flow">认证流程：</span><br>
+              <img src="~/assets/images/9001_lc.png" style="margin-bottom:20px;width:80%" alt="">
+            </p> -->
+
+            <!-- <p class="text">
+             体系认证周期加急最快1个半月，证书三年有效，每年需要进行年检。年检费用是初次认证的1/3。
 
             </p> -->
 
-            <p class="tit" id="flow">评定流程</p>
-            <img src="~/assets/images/pingding.png" style="margin-bottom:20px;" alt="">
+            <!-- <p class="tit" id="flow">申办流程</p>
+            <img src="~/assets/images/soft-lc.png" style="margin-bottom:20px;" alt="">
+
+            <p class="tit" id="material">政策优惠</p>
             <p class="text">
-              按照企业申报能力等级，分中心评审员在线审查企业申报资料，确认符合《评价标准》的报告评审结论，确认不符合《评价标准》的，与企业沟通，告知全部不符合事项，属严重不符合的，则开具《不符合项报告》。
-企业应在告知日（不含）起3个工作日内，予以有效纠正，上传证据资料（含填写完整的《不符合项报告》）。纠正有效的，即为符合《评价标准》。沟通纠正的机会只有一次。
-
-            </p>
-
-            <p class="tit" id="material">评定流程</p>
-         
-            <p class="text">
-   <span class="tit-2">评定资料</span><br>
            
-            系统填写资料：《安防工程企业设计施工维护能力评价申请表》、《安防工程企业基本情况登记表》、《安防工程企业技术人员名单》、《安防工程企业工程业绩汇总表》。<br>
-上传附件资料：营业执照副本、法定代表人身份证件、组织机构代码证、社保缴纳证明、《诚信公约》、无犯罪证明、办公场所证明、质量管理体系证明、安全生产管理证明、售后管理证明、近两年竣工安防工程资料。
-
-
-            </p>
-                <p class="text">
-   <span class="tit-2">资质年审</span><br>
-           
-            安防工程企业设计施工维护能力资质有效期为三年，能力证书的有效性依年审合格或通过复评予以保持。年审每年一次，复评每三年一次。企业能力复评程序与评价程序相同。通过复评的，继续保持其所获企业能力等级，换发新的企业能力证书。
-
+            享受财税〔2012〕27号文件规定的税收优惠政策的软件、集成电路企业，每年汇算清缴时应按照《国家税务总局关于发布〈企业所得税优惠政策事项办理办法〉的公告》规定向税务机关备案，同时提交《享受企业所得税优惠政策的软件和集成电路企业备案资料明细表》规定的备案资料。
 
             <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
-            </p>
-
-
-            <p class="tit" id="question">政策依据</p>
-            <p class="text">
-           
-           《安防工程企业设计施工维护能力评价管理办法》<br>
-《安防工程企业设计施工维护能力证书管理办法》<br>
-《安防工程企业设计施工维护能力评价标准》<br>
-《安防工程企业申报能力评价要求》<br>
-
-
-
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
-            </p>
+            </p> -->
             
           </div>
         </div>
@@ -213,21 +208,21 @@ export default {
   },
   head () {
     return {
-      title: '安防工程企业设计、施工、维护能力评价',
+      title: 'ISO9001质量管理体系认证',
       meta: [
-        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: '安防工程企业设计、施工、维护能力评价' }
+        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: 'ISO9001质量管理体系认证' }
       ]
     }
   },
   mounted () {
     //console.log(this.$refs.firstImg.src)
     this.mainImg = this.$refs.firstImg.src;
-    console.log(this.$root.check01);
+    //console.log(this.$root.check01);
   },
   methods: {
     checkImg (e) {
       let url = e.srcElement.currentSrc;
-      console.log(url);
+      //console.log(url);
       this.mainImg = url;
     },
     clickTab (type,index) {
@@ -300,7 +295,7 @@ export default {
      width: 480px;
      height: 570px;
      .main-img{
-       width: 100%;
+       width: 80%;
        height: 380px;
      }
      ul{
