@@ -11,8 +11,14 @@
       </div>
       <div class="text">
         <h2>国家高新技术企业认定</h2>
-        <h5>高新技术企业认定工作是从上世纪90年代初开始的。为了建立我国的高新技术产业，促进高新技术企业快速发展。</h5>
-        <div class="desc">
+        <h5>
+          高新技术企业认定工作是从上世纪90年代初开始的。为了建立我国的高新技术产业，促进高新技术企业快速发展。
+          高新技术企业认定工作是从上世纪90年代初开始的。为了建立我国的高新技术产业，促进高新技术企业快速发展。
+          高新技术企业认定工作是从上世纪90年代初开始的。为了建立我国的高新技术产业，促进高新技术企业快速发展。
+           高新技术企业认定工作是从上世纪90年代初开始的。为了建立我国的高新技术产业，促进高新技术企业快速发展。
+          高新技术企业认定工作是从上世纪90年代初开始的。为了建立我国的高新技术产业，促进高新技术企业快速发展。
+        </h5>
+        <div class="desc" v-if="false">
            <p>
              <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
              <span class="price">面议</span>
@@ -30,39 +36,7 @@
              <h6>500+</h6>
            </div>
         </div>
-        <div class="option">
-          <div class="item">
-            <i>价格</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">￥600</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">￥800</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">￥1000</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">￥1500</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">￥2000</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">￥2500</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">￥3500</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">￥4500</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">￥5500</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">￥10000</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">￥20000</span>     
-            </div>
-          </div>
-          <div class="item">
-            <i>工作日</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">31+</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">26-30</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">21-25</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">16-20</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">11-15</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">6-10</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">5</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">4</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">3</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">2</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">1</span>
-            </div>
-          </div>
+        <div class="option" >
           <div class="item">
             <a href="#">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
@@ -245,7 +219,7 @@ export default {
     justify-content: space-between;
     // background-color: lightblue;
     box-sizing: border-box;
-    padding-top: 30px;
+    padding-top: 36px;
    .img{
      width: 480px;
      height: 570px;
@@ -277,6 +251,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
+     padding-top: 20px;
      .count{
        width: 60px;
        height: 30px;
@@ -296,10 +271,13 @@ export default {
      }
      h5{
       font-size: 15px;
-      padding: 12px 0;
+      padding: 22px 0;
+      margin: 24px 0 6px 0;
       font-weight: normal;
       color: #d20514;
-      margin: 10px 0;
+      line-height: 24px;
+      border-top: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
      }
      .desc{
        position: relative;
@@ -356,7 +334,7 @@ export default {
      }
      .option{
        width: 100%;
-       margin-top: 20px;
+       margin-top: 36px;
        .item{
          width: 100%;
          display: flex;
@@ -367,7 +345,7 @@ export default {
           line-height: 44px;
           height: 44px;
           border-radius: 4px;
-          margin-left: 88px;
+          //margin-left: 88px;
           cursor: pointer;
           // padding-left: 50px;
           margin-right: 5px;
