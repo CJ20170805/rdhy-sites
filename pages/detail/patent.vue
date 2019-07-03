@@ -12,9 +12,7 @@
       <div class="text">
         <h2>专利、商标申请</h2>
         <h5>
-          一项发明创造必须由申请人向政府主管部门提出专利申请，经中华人民共和国国家知识产权局依照法定程序审查批准后，才能取得专利权。
-          一项发明创造必须由申请人向政府主管部门提出专利申请，经中华人民共和国国家知识产权局依照法定程序审查批准后，才能取得专利权。
-          一项发明创造必须由申请人向政府主管部门提出专利申请，经中华人民共和国国家知识产权局依照法定程序审查批准后，才能取得专利权。
+          专利法所称的发明分为产品发明（如机器、仪器、设备和用具等）和方法发明（制造方法）两大类。对于某些技术领域的发明，如疾病的诊断和治疗方法、原子核变换方法取得的物质等都不授予专利权。计算机软件的发明，则要视其是否属于单纯的计算机软件或能够与硬件相结合的专用软件，并加以区别对待，后者是可以申请专利保护的。随着审查标准的变化，当前，单纯的计算机软件也可以单独申请专利了，不再必须与硬件结合了。至于涉及微生物的发明也是可以申请发明专利的。但要按期提交微生物保藏证明。
         </h5>
         <div class="option">
           <div class="item">
@@ -222,6 +220,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
+     padding-top: 20px;
      .count{
        width: 60px;
        height: 30px;
@@ -241,10 +240,13 @@ export default {
      }
      h5{
       font-size: 15px;
-      padding: 12px 0;
       font-weight: normal;
       color: #d20514;
-      margin: 10px 0;
+      padding: 22px 0;
+      margin: 24px 0 36px 0;
+      line-height: 26px;
+      border-top: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
      }
      .desc{
        position: relative;

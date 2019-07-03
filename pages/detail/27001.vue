@@ -14,59 +14,10 @@
       </div>
       <div class="text">
         <h2>ISO27001 信息安全管理体系认证</h2>
-        <h5>保护企业的知识产权、商标、竞争优势，维护企业的声誉、品牌和客户信任，减少可能潜在的风险隐患，减少信息系统故障、人员流失带来的经济损失。
-</h5>
-        <div class="desc">
-           <p>
-             <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
-             <span class="price">面议</span>
-             <span class="price-desc">价格视企业所在地域、人数而定，具体请详询认证顾问</span>
-           </p>
-           <p>
-             <span>承&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诺</span>
-              <i class="c1"></i><span>权威机构可查</span>
-              <i class="c2"></i><span>权威机构可查</span>
-              <i class="c3"></i><span>权威机构可查</span>
-              <i class="c4"></i><span>权威机构可查</span>
-           </p>
-           <div class="count">
-             <h6>累计出证</h6>
-             <h6>500+</h6>
-           </div>
-        </div>
+        <h5>
+          信息安全管理要求ISO/IEC27001的前身为英国的BS7799标准，该标准由英国标准协会（BSI）于1995年2月提出，并于1995年5月修订而成的。1999年BSI重新修改了该标准。BS7799分为两个部分： BS7799-1，信息安全管理实施规则 BS7799-2，信息安全管理体系规范。 第一部分对信息安全管理给出建议，供负责在其组织启动、实施或维护安全的人员使用；第二部分说明了建立、实施和文件化信息安全管理体系（ISMS）的要求，规定了根据独立组织的需要应实施安全控制的要求。
+       </h5>
         <div class="option">
-          <div class="item">
-            <i>价格</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">￥600</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">￥800</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">￥1000</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">￥1500</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">￥2000</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">￥2500</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">￥3500</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">￥4500</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">￥5500</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">￥10000</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">￥20000</span>     
-            </div>
-          </div>
-          <div class="item">
-            <i>工作日</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">31+</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">26-30</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">21-25</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">16-20</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">11-15</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">6-10</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">5</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">4</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">3</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">2</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">1</span>
-            </div>
-          </div>
           <div class="item">
             <a href="#">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
@@ -96,8 +47,11 @@
             <p class="tit" id="question">认证简介</p>
             <p class="text">
            
-          保护企业的知识产权、商标、竞争优势，维护企业的声誉、品牌和客户信任，减少可能潜在的风险隐患，减少信息系统故障、人员流失带来的经济损失。
+          信息安全管理要求ISO/IEC27001的前身为英国的BS7799标准，该标准由英国标准协会（BSI）于1995年2月提出，并于1995年5月修订而成的。1999年BSI重新修改了该标准。BS7799分为两个部分： BS7799-1，信息安全管理实施规则 BS7799-2，信息安全管理体系规范。 第一部分对信息安全管理给出建议，供负责在其组织启动、实施或维护安全的人员使用；第二部分说明了建立、实施和文件化信息安全管理体系（ISMS）的要求，规定了根据独立组织的需要应实施安全控制的要求。<br>
 
+          <br>
+          随着在世界范围内，信息化水平的不断发展，信息安全逐渐成为人们关注的焦点，世界范围内的各个机构、组织、个人都在探寻如何保障信息安全的问题。英国、美国、挪威、瑞典、芬兰、澳大利亚等国均制定了有关信息安全的本国标准，国际标准化组织(ISO)也发布了ISO17799、ISO13335、ISO15408等与信息安全相关的国际标准及技术报告。目前，在信息安全管理方面，英国标准ISO27001:2005已经成为世界上应用最广泛与典型的信息安全管理标准，它是在BSI/DISC的BDD/2信息安全管理委员会指导下制定完成，最新版本为ISO27001:2013。
+<br>
 <br>
  <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
             </p>
@@ -265,6 +219,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
+     margin-top: 20px;
      .count{
        width: 60px;
        height: 30px;
@@ -284,10 +239,13 @@ export default {
      }
      h5{
       font-size: 15px;
-      padding: 12px 0;
       font-weight: normal;
       color: #d20514;
-      margin: 10px 0;
+      padding: 22px 0;
+      margin: 24px 0 36px 0;
+      line-height: 24px;
+      border-top: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
      }
      .desc{
        position: relative;
@@ -355,7 +313,7 @@ export default {
           line-height: 44px;
           height: 44px;
           border-radius: 4px;
-          margin-left: 88px;
+          //margin-left: 88px;
           cursor: pointer;
           // padding-left: 50px;
           margin-right: 5px;

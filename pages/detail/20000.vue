@@ -14,59 +14,13 @@
       </div>
       <div class="text">
         <h2>IT20000 信息技术服务管理体系</h2>
-        <h5>获取IT服务管理领域的国际认可的专业认证，提升业内知名度，增强企业品牌和信誉，活动市场竞争优势。有利于全面提升客户总体的服务体验与满意度。
+        <h5>
+          随着IT技术的发展，越来越多的组织基于IT技术构筑自己的价值链，需要IT来支持和支撑组织的运行，IT构架已经成为影响组织生存的关键要素，特别是对于银行、证券、保险、电信等高度依赖信息技术的组织。而且随着逐年IT的投入，建设了大量的软硬件系统，对客户要求的提高，对故障发生的恐惧，对投入成本逐年增加的不安，都促使现在的组织要采取措施规范IT服务的管理。<br>
+          <br>
+          在产品生产过程中，需要遵循一定的质量控制标准（如ISO9000系列标准），可以确保产品的质量保持较高的水准（如较高的产品合格率），同时也可以降低产品制造成本。而对于服务提供（运营）过程来说，遵循相关的服务管理标准（如ISO20000）可以实现服务运营的输入（Inputs）和生产流程（Process）的标准化。只有将过程标准化了，才能保证最终的服务质量和成本符合预定的标准，才能实现过程控制，从而达到质量控制的目标。<br>
 </h5>
-        <div class="desc">
-           <p>
-             <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
-             <span class="price">面议</span>
-             <span class="price-desc">价格视企业所在地域、人数而定，具体请详询认证顾问</span>
-           </p>
-           <p>
-             <span>承&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诺</span>
-              <i class="c1"></i><span>权威机构可查</span>
-              <i class="c2"></i><span>权威机构可查</span>
-              <i class="c3"></i><span>权威机构可查</span>
-              <i class="c4"></i><span>权威机构可查</span>
-           </p>
-           <div class="count">
-             <h6>累计出证</h6>
-             <h6>500+</h6>
-           </div>
-        </div>
+
         <div class="option">
-          <div class="item">
-            <i>价格</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">￥600</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">￥800</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">￥1000</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">￥1500</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">￥2000</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">￥2500</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">￥3500</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">￥4500</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">￥5500</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">￥10000</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">￥20000</span>     
-            </div>
-          </div>
-          <div class="item">
-            <i>工作日</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">31+</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">26-30</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">21-25</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">16-20</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">11-15</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">6-10</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">5</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">4</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">3</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">2</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">1</span>
-            </div>
-          </div>
           <div class="item">
             <a href="#">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
@@ -96,14 +50,8 @@
             <p class="tit" id="question">认证简介</p>
             <p class="text">
            
-          职业健康和安全政策影响着一个组织的所有业务。职业健康安全管理体系（OHSMS）是20世纪80年代后期在国际上兴起的现代安全生产管理模式，它与ISO9001和ISO14001等标准规定的管理体系一并被称为后工业划时代的管理方法。<br>
-随着中国经济的高速增长，组织的职业健康和安全问题越来越受到人们的普遍关注，为提高我国生产安全水平，
-保障广大劳动者的根本利益，2001年国家质检总局对《职业健康安全管理体系——规范》（OHASA18001：1999）
-标准进行了等同转化，并发布了国家标准《职业健康安全管理体系 规范》（GB/T28001-2001）。2011年又依
-据OHASA18001：2007版标准进行了修订，发布了国家标准《职业健康安全管理体系 要求》（GB/T28001-
-2011），该标准覆盖了OHSAS18001所有的技术内容，适用于任何建立职业健康安全管理体系并寻求外部机构
-对其职业健康安全管理体系认证的组织。<br>
-    GB/T28001（OHSAS18001）标准为各类组织提供了结构化的运行机制，并建立在行之有效的管理原则——“策划—实施—检查—改进”的基础上。标准要求组织识别危险、评估与其活动和服务相关的职业健康与安全风险，确定必要的控制措施，并且确定明确的目标和指标，从而改善其职业健康安全绩效。
+          ISO 20000是面向机构的IT服务管理标准，目的是提供建立、实施、运作、监控、评审、维护和改进IT服务管理体系(ITSM)的模型。建立IT服务管理体系(ITSM)已成为各种组织，特别是金融机构、电信、高科技产业等管理运营风险不可缺少的重要机制。ISO 20000让IT管理者有一个参考框架用来管理IT服务，完善的IT管理水平也能通过认证的方式表现出来。<br>
+         ISO20000标准着重于通过“IT服务标准化”来管理IT问题，即将IT问题归类，识别问题的内在联系，然后依据服务水准协议进行计划、推行和监控，并强调与客户的沟通。该标准同时关注体系的能力，体系变更时所要求的管理水平、财务预算、软件控制和分配。<br>
 
 <br>
  <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
@@ -272,6 +220,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
+     margin-top: 20px;
      .count{
        width: 60px;
        height: 30px;
@@ -291,10 +240,13 @@ export default {
      }
      h5{
       font-size: 15px;
-      padding: 12px 0;
       font-weight: normal;
       color: #d20514;
-      margin: 10px 0;
+      padding: 22px 0;
+      margin: 24px 0 36px 0;
+      line-height: 24px;
+      border-top: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
      }
      .desc{
        position: relative;
@@ -362,7 +314,7 @@ export default {
           line-height: 44px;
           height: 44px;
           border-radius: 4px;
-          margin-left: 88px;
+          //margin-left: 88px;
           cursor: pointer;
           // padding-left: 50px;
           margin-right: 5px;

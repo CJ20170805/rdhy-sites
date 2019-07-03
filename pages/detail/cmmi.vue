@@ -12,57 +12,7 @@
       <div class="text">
         <h2>CMMI体系认证</h2>
         <h5>CMMI意为集成的能力成熟度模型，于2002年发布，由美国国防部与卡内基—梅隆大学等共同开发研制。1998年美国卡内基-梅隆大学软件工程研究所(SEI)启动了CMMI计划，目的在于用一个统一的框架协调和集成SEI已经存在的各种模型，CMMI模型已经成为业界主要的过程管理模型，通过CMMI5级评估标志着本公司的质量管理和过程改进已跻身于全球软件业的顶尖水平</h5>
-        <div class="desc">
-           <p>
-             <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
-             <span class="price">面议</span>
-             <span class="price-desc">价格视企业所在地域、人数而定，具体请详询认证顾问</span>
-           </p>
-           <p>
-             <span>承&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诺</span>
-              <i class="c1"></i><span>权威机构可查</span>
-              <i class="c2"></i><span>权威机构可查</span>
-              <i class="c3"></i><span>权威机构可查</span>
-              <i class="c4"></i><span>权威机构可查</span>
-           </p>
-           <div class="count">
-             <h6>累计出证</h6>
-             <h6>500+</h6>
-           </div>
-        </div>
         <div class="option">
-          <div class="item">
-            <i>价格</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">￥600</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">￥800</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">￥1000</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">￥1500</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">￥2000</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">￥2500</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">￥3500</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">￥4500</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">￥5500</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">￥10000</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">￥20000</span>     
-            </div>
-          </div>
-          <div class="item">
-            <i>工作日</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">31+</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">26-30</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">21-25</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">16-20</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">11-15</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">6-10</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">5</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">4</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">3</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">2</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">1</span>
-            </div>
-          </div>
           <div class="item">
             <a href="#">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
@@ -259,6 +209,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
+     padding-top: 20px;
      .count{
        width: 60px;
        height: 30px;
@@ -278,10 +229,13 @@ export default {
      }
      h5{
       font-size: 15px;
-      padding: 12px 0;
       font-weight: normal;
       color: #d20514;
-      margin: 10px 0;
+      padding: 22px 0;
+      margin: 24px 0 36px 0;
+      line-height: 24px;
+      border-top: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
      }
      .desc{
        position: relative;
@@ -349,7 +303,7 @@ export default {
           line-height: 44px;
           height: 44px;
           border-radius: 4px;
-          margin-left: 88px;
+          //margin-left: 88px;
           cursor: pointer;
           // padding-left: 50px;
           margin-right: 5px;

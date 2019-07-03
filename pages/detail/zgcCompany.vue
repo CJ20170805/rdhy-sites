@@ -11,58 +11,11 @@
       </div>
       <div class="text">
         <h2>中关村高新技术企业认定</h2>
-        <h5>注册在中关村科技园区以及中关村管委会和有关区县政府共建的高新技术产业基地内，符合条件的企业可申请获得中关村高新技术企业证书，纳入中关村高新技术企业统计范围。</h5>
-        <div class="desc">
-           <p>
-             <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
-             <span class="price">面议</span>
-             <span class="price-desc">价格视企业所在地域、人数而定，具体请详询认证顾问</span>
-           </p>
-           <p>
-             <span>承&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诺</span>
-              <i class="c1"></i><span>权威机构可查</span>
-              <i class="c2"></i><span>权威机构可查</span>
-              <i class="c3"></i><span>权威机构可查</span>
-              <i class="c4"></i><span>权威机构可查</span>
-           </p>
-           <div class="count">
-             <h6>累计出证</h6>
-             <h6>500+</h6>
-           </div>
-        </div>
+        <h5>
+          注册在中关村科技园区以及中关村管委会和有关区县政府共建的高新技术产业基地内，符合条件的企业可申请获得中关村高新技术企业证书，纳入中关村高新技术企业统计范围。<br><br>
+          根据《高新技术企业认定管理办法》规定，高新技术企业是指在《国家重点支持的高新技术领域》内，持续进行研究开发与技术成果转化，形成企业核心自主知识产权，并以此为基础开展经营活动，在中国境内（不包括港、澳、台地区）注册一年以上的居民企业<br>
+        </h5>
         <div class="option">
-          <div class="item">
-            <i>价格</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">￥600</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">￥800</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">￥1000</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">￥1500</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">￥2000</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">￥2500</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">￥3500</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">￥4500</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">￥5500</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">￥10000</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">￥20000</span>     
-            </div>
-          </div>
-          <div class="item">
-            <i>工作日</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">31+</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">26-30</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">21-25</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">16-20</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">11-15</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">6-10</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">5</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">4</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">3</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">2</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">1</span>
-            </div>
-          </div>
           <div class="item">
             <a href="#">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
@@ -257,6 +210,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
+     padding-top:20px;
      .count{
        width: 60px;
        height: 30px;
@@ -276,10 +230,13 @@ export default {
      }
      h5{
       font-size: 15px;
-      padding: 12px 0;
       font-weight: normal;
       color: #d20514;
-      margin: 10px 0;
+      padding: 22px 0;
+      margin: 24px 0 6px 0;
+      line-height: 24px;
+      border-top: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
      }
      .desc{
        position: relative;
@@ -347,7 +304,7 @@ export default {
           line-height: 44px;
           height: 44px;
           border-radius: 4px;
-          margin-left: 88px;
+          //margin-left: 88px;
           cursor: pointer;
           // padding-left: 50px;
           margin-right: 5px;

@@ -14,59 +14,10 @@
       </div>
       <div class="text">
         <h2>ISO14001：2004 环境管理体系认证</h2>
-        <h5>取得通向国际市场的绿色通行证，提高了组织在国际市场中的竞争力。有助于企业节能降耗、降低成本、预防污染保证符合法律、法规要求，降低环境事故风险，避免环境刑事责任。
-</h5>
-        <div class="desc">
-           <p>
-             <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
-             <span class="price">面议</span>
-             <span class="price-desc">价格视企业所在地域、人数而定，具体请详询认证顾问</span>
-           </p>
-           <p>
-             <span>承&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诺</span>
-              <i class="c1"></i><span>权威机构可查</span>
-              <i class="c2"></i><span>权威机构可查</span>
-              <i class="c3"></i><span>权威机构可查</span>
-              <i class="c4"></i><span>权威机构可查</span>
-           </p>
-           <div class="count">
-             <h6>累计出证</h6>
-             <h6>500+</h6>
-           </div>
-        </div>
+        <h5>
+            ISO 14001标准的特性使之适用于任何类型与规模的组织，并适用于各种地理、文化和社会环境，是一个真正的通用标准，在全球范围内被广泛应用。该标准提供了一个框架，引导组织按照PDCA（策划、实施、检查、改进）的模式建立环境管理的自我约束机制，从最高领导到每个职工都以主动、自觉的精神处理好自身发展与环境保护的关系，响应变化的环境条件，不断改善环境绩效，进行有效的污染预防，最终实现组织的良性发展。 
+       </h5>
         <div class="option">
-          <div class="item">
-            <i>价格</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">￥600</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">￥800</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">￥1000</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">￥1500</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">￥2000</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">￥2500</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">￥3500</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">￥4500</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">￥5500</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">￥10000</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">￥20000</span>     
-            </div>
-          </div>
-          <div class="item">
-            <i>工作日</i>
-            <div class="o-i">
-              <span :class="[check01 === 1? 'checked' : '']" @click="clickTab('01',1)">31+</span>
-              <span :class="[check01 === 2? 'checked' : '']" @click="clickTab('01',2)">26-30</span>
-              <span :class="[check01 === 3? 'checked' : '']" @click="clickTab('01',3)">21-25</span>
-              <span :class="[check01 === 4? 'checked' : '']" @click="clickTab('01',4)">16-20</span>
-              <span :class="[check01 === 5? 'checked' : '']" @click="clickTab('01',5)">11-15</span>
-              <span :class="[check01 === 6? 'checked' : '']" @click="clickTab('01',6)">6-10</span>
-              <span :class="[check01 === 7? 'checked' : '']" @click="clickTab('01',7)">5</span>
-              <span :class="[check01 === 8? 'checked' : '']" @click="clickTab('01',8)">4</span>
-              <span :class="[check01 === 9? 'checked' : '']" @click="clickTab('01',9)">3</span>
-              <span :class="[check01 === 10? 'checked' : '']" @click="clickTab('01',10)">2</span>
-              <span :class="[check01 === 11? 'checked' : '']" @click="clickTab('01',11)">1</span>
-            </div>
-          </div>
           <div class="item">
             <a href="#">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
@@ -265,6 +216,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
+     padding-top: 20px;
      .count{
        width: 60px;
        height: 30px;
@@ -284,10 +236,13 @@ export default {
      }
      h5{
       font-size: 15px;
-      padding: 12px 0;
       font-weight: normal;
       color: #d20514;
-      margin: 10px 0;
+      padding: 22px 0;
+      margin: 24px 0 36px 0;
+      line-height: 24px;
+      border-top: 1px dashed #ececec;
+      border-bottom: 1px dashed #ececec;
      }
      .desc{
        position: relative;
@@ -355,7 +310,7 @@ export default {
           line-height: 44px;
           height: 44px;
           border-radius: 4px;
-          margin-left: 88px;
+          //margin-left: 88px;
           cursor: pointer;
           // padding-left: 50px;
           margin-right: 5px;

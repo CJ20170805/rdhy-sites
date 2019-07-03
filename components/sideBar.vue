@@ -32,7 +32,7 @@
            <el-menu-item index="6-1">
               <nuxt-link class="child-nav" to="/detail/infoSystem">信息系统集成服务资质</nuxt-link>
             </el-menu-item>
-            <el-menu-item index="6-2">信息安全服务资质</el-menu-item>
+            <!-- <el-menu-item index="6-2">信息安全服务资质</el-menu-item> -->
             <el-menu-item index="6-3">
                <nuxt-link class="child-nav" to="/detail/anFang">安防工程资质</nuxt-link>
             </el-menu-item>
