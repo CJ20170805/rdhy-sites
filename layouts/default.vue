@@ -115,6 +115,9 @@
            <el-menu-item index="6-8">
                <nuxt-link class="child-nav" to="/detail/AAA">AAA信用评级</nuxt-link>
             </el-menu-item>
+            <el-menu-item index="6-9">
+               <nuxt-link class="child-nav" to="/detail/itss">ITSS认证</nuxt-link>
+            </el-menu-item>
               <!-- <el-menu-item index="6-7">
                <nuxt-link class="child-nav" to="/detail/beijingSoft">北京市软件产品登记</nuxt-link>
             </el-menu-item> -->
