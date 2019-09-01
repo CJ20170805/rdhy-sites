@@ -81,6 +81,9 @@
               <el-menu-item index="5-4-5">
                 <nuxt-link class="child-nav" to="/detail/27001">ISO27001</nuxt-link>
               </el-menu-item>
+              <el-menu-item index="5-4-6">
+                <nuxt-link class="child-nav" to="/detail/22301">ISO22301</nuxt-link>
+              </el-menu-item>
             </el-submenu>
             <!-- <el-submenu index="5-5">
               <template slot="title">其他体系</template>
