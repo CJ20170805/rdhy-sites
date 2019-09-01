@@ -34,7 +34,7 @@
           <!-- <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">政策优惠</span>
           <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span> -->
           <div class="phone">
-            <p> <i></i>全国资讯热线：<span>010-68207631</span></p>
+            <p> <i></i>全国咨询热线：<span>010-68207631</span></p>
           </div>
         </div>
         <div class="tab-content">

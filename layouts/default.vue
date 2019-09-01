@@ -58,11 +58,14 @@
           <el-menu-item index="4">
             <nuxt-link to="/detail/nationCompany">高新企业认定</nuxt-link>
           </el-menu-item>
+          <!-- <el-menu-item index="8">
+            <nuxt-link to="/detail/classified">涉密系统集成资质</nuxt-link>
+          </el-menu-item> -->
           <!-- <el-menu-item index="5">体系认定</el-menu-item> -->
           <el-submenu index="5">
             <template slot="title">体系认定</template>
             <el-submenu index="5-4">
-              <template slot="title">质量体系</template>
+              <template slot="title">管理体系</template>
               <el-menu-item index="5-4-1">
                  <nuxt-link class="child-nav" to="/detail/90001">ISO9001</nuxt-link>
               </el-menu-item>
@@ -97,7 +100,7 @@
                <nuxt-link class="child-nav" to="/detail/anFang">安防工程资质</nuxt-link>
             </el-menu-item>
             <el-menu-item index="6-4">
-               <nuxt-link class="child-nav" to="/detail/softCompany">软件企业评估</nuxt-link>
+               <nuxt-link class="child-nav" to="/detail/softCompany">北京市双软评估</nuxt-link>
             </el-menu-item>
             <el-menu-item index="6-5">
                <nuxt-link class="child-nav" to="/detail/zgcCompany">中关村高新技术企业认定</nuxt-link>
@@ -105,9 +108,13 @@
               <el-menu-item index="6-6">
                <nuxt-link class="child-nav" to="/detail/cmmi">CMMI体系认证</nuxt-link>
             </el-menu-item>
-                <el-menu-item index="6-7">
-               <nuxt-link class="child-nav" to="/detail/beijingSoft">北京市软件产品登记</nuxt-link>
             </el-menu-item>
+              <el-menu-item index="6-6">
+               <nuxt-link class="child-nav" to="/detail/classified">涉密系统集成资质</nuxt-link>
+            </el-menu-item>
+              <!-- <el-menu-item index="6-7">
+               <nuxt-link class="child-nav" to="/detail/beijingSoft">北京市软件产品登记</nuxt-link>
+            </el-menu-item> -->
           </el-submenu>
 
           <!-- <el-menu-item index="6">资质认定</el-menu-item> -->

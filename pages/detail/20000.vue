@@ -5,10 +5,10 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/18001_a.png" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/2000_a.jpg" alt="">
           </li>
            <li>
-            <img @click="checkImg($event)" src="~/assets/images/18001_b.png" alt="">
+            <img @click="checkImg($event)" src="~/assets/images/2000_b.jpg" alt="">
           </li>
         </ul>
       </div>
@@ -42,7 +42,7 @@
           <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">认证周期</span>
           <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">认证流程</span> -->
           <div class="phone">
-            <p> <i></i>全国资讯热线：<span>010-68207631</span></p>
+            <p> <i></i>全国咨询热线：<span>010-68207631</span></p>
           </div>
         </div>
         <div class="tab-content">

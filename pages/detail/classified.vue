@@ -5,18 +5,16 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/27001_a.png" alt="">
-          </li>
-           <li>
-            <img @click="checkImg($event)" src="~/assets/images/27001_b.png" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/classified_a.png" alt="">
           </li>
         </ul>
       </div>
       <div class="text">
-        <h2>ISO27001 信息安全管理体系认证</h2>
+        <h2>涉密系统集成资质</h2>
         <h5>
-          信息安全管理要求ISO/IEC27001的前身为英国的BS7799标准，该标准由英国标准协会（BSI）于1995年2月提出，并于1995年5月修订而成的。1999年BSI重新修改了该标准。BS7799分为两个部分： BS7799-1，信息安全管理实施规则 BS7799-2，信息安全管理体系规范。 第一部分对信息安全管理给出建议，供负责在其组织启动、实施或维护安全的人员使用；第二部分说明了建立、实施和文件化信息安全管理体系（ISMS）的要求，规定了根据独立组织的需要应实施安全控制的要求。
-       </h5>
+         国家保密局涉密信息系统安全保密测评中心和是由国家保密局决定，报中央领导同志批准并经 中央机构编制委员会办公室批复成立的，并已通过中国实验室国家认可委员会的实验室认可 (No.L2511)和检查机构认可(No.I0059)。<br>
+        </h5>
+        <p style="font-size: 18px;font-weight: bold;">服务热线： <span style="color: #28bbea;font-size: 30px;"> 13488866647</span></p>
         <div class="option">
           <div class="item">
             <a href="#">在线咨询</a>
@@ -34,53 +32,66 @@
       </div>
       <div class="tab">
         <div class="tab-menu">
-          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认证简介</span>
-          <!-- <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">发证机构</span>
-          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">认证周期</span>
-          <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">认证流程</span> -->
+          <span @click="changeTab('1')" :class="tabCurrent == '1'? 'tab-act': ''">认定介绍</span>
+          <span @click="changeTab('2')" :class="tabCurrent == '2'? 'tab-act': ''">认定作用</span>
+          <span @click="changeTab('3')" :class="tabCurrent == '3'? 'tab-act': ''">认定条件</span>
+          <!-- <span @click="changeTab('4')" :class="tabCurrent == '4'? 'tab-act': ''">政策依据</span> -->
           <div class="phone">
             <p> <i></i>全国咨询热线：<span>010-68207631</span></p>
           </div>
         </div>
         <div class="tab-content">
           <div class="page">
-            <p class="tit" id="question">认证简介</p>
-            <p class="text">
-           
-          信息安全管理要求ISO/IEC27001的前身为英国的BS7799标准，该标准由英国标准协会（BSI）于1995年2月提出，并于1995年5月修订而成的。1999年BSI重新修改了该标准。BS7799分为两个部分： BS7799-1，信息安全管理实施规则 BS7799-2，信息安全管理体系规范。 第一部分对信息安全管理给出建议，供负责在其组织启动、实施或维护安全的人员使用；第二部分说明了建立、实施和文件化信息安全管理体系（ISMS）的要求，规定了根据独立组织的需要应实施安全控制的要求。<br>
-
-          <br>
-          随着在世界范围内，信息化水平的不断发展，信息安全逐渐成为人们关注的焦点，世界范围内的各个机构、组织、个人都在探寻如何保障信息安全的问题。英国、美国、挪威、瑞典、芬兰、澳大利亚等国均制定了有关信息安全的本国标准，国际标准化组织(ISO)也发布了ISO17799、ISO13335、ISO15408等与信息安全相关的国际标准及技术报告。目前，在信息安全管理方面，英国标准ISO27001:2005已经成为世界上应用最广泛与典型的信息安全管理标准，它是在BSI/DISC的BDD/2信息安全管理委员会指导下制定完成，最新版本为ISO27001:2013。
-<br>
-<br>
- <span class="red-font">在线咨询</span> 或与我们联系：<span class="red-font">010-68207631</span>
-            </p>
             <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
-            <!-- <p class="tit" id="introduce">发证机构</p> -->
-            <!-- <p class="text" >
-              <span class="tit-2" id="introduce">发证机构：</span><br>
-             国家认证认可委员会颁发证书的认证机构有资格进行体系认证。<br>
-             <span class="tit-2" id="material">认证周期：</span><br>
-             体系认证周期加急最快1个半月，证书三年有效，每年需要进行年检。年检费用是初次认证的1/3。<br>
-             <span class="tit-2" id="flow">认证流程：</span><br>
-              <img src="~/assets/images/9001_lc.png" style="margin-bottom:20px;width:80%" alt="">
-            </p> -->
+            <p class="tit" id="introduce">【涉密资质是什么】</p>
+            <p class="text">
+             国家保密局涉密信息系统安全保密测评中心和是由国家保密局决定，报中央领导同志批准并经 中央机构编制委员会办公室批复成立的，并已通过中国实验室国家认可委员会的实验室认可 (No.L2511)和检查机构认可(No.I0059)。<br>
 
-            <!-- <p class="text">
-             体系认证周期加急最快1个半月，证书三年有效，每年需要进行年检。年检费用是初次认证的1/3。
+国家保密局涉密认证包括涉密信息系统产品认证和涉及国家秘密的计算机信息系统集成认证：<br>
+ 
+1、涉密信息系统产品检测证书（涉密信息系统产品认证）<br>
+为保证在技术上具有先进性、权威性和科学性，国家保密局成立了专家委员会，为两个中心提供技术咨询和指导。两个中心依据国家保密标准和规范，对用于涉密信息系统的安全保密产品进行检测，通过检测的产品经国家保密局审核批准后，颁发《涉密信息系统产品检测证书》并列入国家保密局批准的在涉密信息系统中使用的产品目录。国家保密局涉密信息系统安全保密测评中心的业务范围还包括依据有关国家保密标准对涉密信息系统进行安全保密测评。<br>
+ 
+2、涉密资质企业认证（涉密计算机信息系统集成认证）<br>
+①涉密系统集成资质分为甲级、乙级和单项三种资质。<br>
+②甲级资质单位可在全国范围内从事涉密系统集成业务。<br>
+③乙级资质单位仅限在所批准的省、自治区、直辖市所辖行政区域内从事涉密系统集成业务。<br>
+④单项资质单位可在全国范围内开展业务，但仅限承接所批准的涉密系统集成单项业务，如：软件开发综合布线、系统服务、系统咨询、屏蔽室建设、风险评估、工程监理、数据恢复等。
 
-            </p> -->
 
-            <!-- <p class="tit" id="flow">申办流程</p>
+            </p>
+
+            <p class="tit" id="flow">【做涉密资质认证的好处】</p>
             <img src="~/assets/images/soft-lc.png" style="margin-bottom:20px;" alt="">
 
-            <p class="tit" id="material">政策优惠</p>
+            <p class="tit" id="material">认证作用</p>
             <p class="text">
            
-            享受财税〔2012〕27号文件规定的税收优惠政策的软件、集成电路企业，每年汇算清缴时应按照《国家税务总局关于发布〈企业所得税优惠政策事项办理办法〉的公告》规定向税务机关备案，同时提交《享受企业所得税优惠政策的软件和集成电路企业备案资料明细表》规定的备案资料。
+           1、计算机信息系统集成资质的管理比以往的资质更加规范和市场化，系统集成企业自身实力更易于在市场上展示，提高在社会的知名度，增加顾客的信任感，从而减少系统集成企业为了向社会和建设单位展示和证实自身能力而进行宣传、广告、现场参观、示范等环节，降低一些不必要的沟通成本；<br>
+2、有利于提高系统集成企业参与市场竞争的能力；<br>
+3、有利于系统集成企业按照等级标准，加强自身建设，不断提高企业的经营、技术和管理能力；<br>
+ 
+4、有利于系统集成企业享受国务院18号文的优惠政策。<br>
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
-            </p> -->
+
+            <!-- <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span> -->
+            </p>
+            <p class="tit" id="question">【做涉密资质认证的条件】</p>
+            <p class="text">
+           
+           申请条件/资格：<br>
+1、在中华人民共和国境内注册成立（港澳台地区除外）；<br>
+2、由中国公民投资、中国法人投资或国家投资的企事业单位；<br>
+3、具有法人资格三年（含）以上，无违法记录；<br>
+4、工作人员仅限于中华人民共和国境内的中国公民；<br>
+5、具有胜任涉密系统集成工作的专业技术人员和管理人员；<br>
+6、具备符合国家保密局规定的安全保密措施和硬件环境。<br>
+符合以上基本条件的企事业单位方可提出申请。<br>
+
+
+
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
+            </p>
             
           </div>
         </div>
@@ -105,21 +116,21 @@ export default {
   },
   head () {
     return {
-      title: 'SO27001 信息安全管理体系认证',
+      title: '国家高新技术企业认定',
       meta: [
-        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: 'SO27001 信息安全管理体系认证' }
+        { hid: 'nationCompanyPage', name: 'nationCompanyPage', content: '国家高新技术企业认定' }
       ]
     }
   },
   mounted () {
     //console.log(this.$refs.firstImg.src)
     this.mainImg = this.$refs.firstImg.src;
-    //console.log(this.$root.check01);
+    console.log(this.$root.check01);
   },
   methods: {
     checkImg (e) {
       let url = e.srcElement.currentSrc;
-      //console.log(url);
+      console.log(url);
       this.mainImg = url;
     },
     clickTab (type,index) {
@@ -192,7 +203,7 @@ export default {
      width: 480px;
      height: 570px;
      .main-img{
-       width: 80%;
+       width: 100%;
        height: 380px;
      }
      ul{
@@ -219,7 +230,7 @@ export default {
      height: 570px;
      margin-left: 30px;
      padding-right: 25px;
-     margin-top: 20px;
+     padding-top: 20px;
      .count{
        width: 60px;
        height: 30px;
