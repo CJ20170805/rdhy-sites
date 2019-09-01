@@ -114,7 +114,7 @@
 
 
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             
           </div>

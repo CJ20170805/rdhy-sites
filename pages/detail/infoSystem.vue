@@ -72,7 +72,7 @@
            <span class="tit-2">监督抽查比例</span><br>
            在规定时间内，地方主管部门根据抽查计划，组织抽查。抽查采用要求获证企业报送相关材料或对获证企业进行现场核查两种方式对于获证企业按照不低于10％的比例开展抽查工作，并于规定时间前在网上提交《拟抽查企业计划表》。<br>
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span> 或与我们联系：<span class="red-font">010-68207631</span>
             </p>
   
             

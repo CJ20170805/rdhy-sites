@@ -60,7 +60,7 @@
 CMMI评估由SEI授权主任评估师(Lead Appraiser)组织ATM(Appraisal Team Members)成立评估小组执行。评估全程受SEI监控，最终在SEI官方网站上通报评估结果。<br>
 
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             <!-- <p class="tit" id="question">政策依据</p>
             <p class="text">

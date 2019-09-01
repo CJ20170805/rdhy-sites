@@ -54,7 +54,7 @@
          ISO20000标准着重于通过“IT服务标准化”来管理IT问题，即将IT问题归类，识别问题的内在联系，然后依据服务水准协议进行计划、推行和监控，并强调与客户的沟通。该标准同时关注体系的能力，体系变更时所要求的管理水平、财务预算、软件控制和分配。<br>
 
 <br>
- <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+ <span class="red-font">在线咨询</span> 或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
             <!-- <p class="tit" id="introduce">发证机构</p> -->

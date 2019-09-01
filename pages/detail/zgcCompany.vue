@@ -68,7 +68,7 @@
             享受知识产权申请补贴优惠政策；<br>
             可享受知识产权质押贷款和贷款贴息优惠政策；<br>
             可享受中关村国家高新园区试点优惠政策等。<br>
-             <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+             <span class="red-font">在线咨询</span> 或与我们联系：<span class="red-font">010-68207631</span>
             </p>
 
            

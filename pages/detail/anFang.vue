@@ -73,7 +73,7 @@
             安防工程企业设计施工维护能力资质有效期为三年，能力证书的有效性依年审合格或通过复评予以保持。年审每年一次，复评每三年一次。企业能力复评程序与评价程序相同。通过复评的，继续保持其所获企业能力等级，换发新的企业能力证书。
 
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
 
 
@@ -87,7 +87,7 @@
 
 
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span> 或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             
           </div>

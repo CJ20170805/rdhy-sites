@@ -61,7 +61,7 @@
     GB/T28001（OHSAS18001）标准为各类组织提供了结构化的运行机制，并建立在行之有效的管理原则——“策划—实施—检查—改进”的基础上。标准要求组织识别危险、评估与其活动和服务相关的职业健康与安全风险，确定必要的控制措施，并且确定明确的目标和指标，从而改善其职业健康安全绩效。
 
 <br>
- <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+ <span class="red-font">在线咨询</span>  或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
             <!-- <p class="tit" id="introduce">发证机构</p> -->

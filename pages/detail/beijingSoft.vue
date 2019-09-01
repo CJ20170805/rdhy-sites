@@ -58,7 +58,7 @@
            
             国产软件产品经登记生效后，根据《关于软件产品增值税政策的通知》规定，对增值税一般纳税人销售其自行开发生产的软件产品，按17％的法定税率征收增值税后，对其增值税实际税负超过3％的部分实行即征即退政策。
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             <p class="tit" id="question">政策依据</p>
             <p class="text">
@@ -68,7 +68,7 @@
 
 
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             
           </div>

@@ -16,7 +16,7 @@
            <p>
              <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
              <span class="price">面议</span>
-             <span class="price-desc">价格视企业所在地域、人数而定，具体请详询认证顾问</span>
+             <!-- <span class="price-desc">价格视企业所在地域、人数而定，具体请详询认证顾问</span> -->
            </p>
            <p>
              <span>承&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诺</span>
@@ -111,7 +111,7 @@
             [注] 已办理软件著作权登记的,其著作权发生继承、受让、承受时，当事人应当出具软件著作权登记证书（复印件）,无须提交鉴别材料。
             <br><span class="tit-2">若以上内容不能满足你的需求</span><br>
             你可以选择
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span> 或与我们联系：<span class="red-font">010-68207631</span>
             </p>
 
             <p class="tit" id="question" ref="question">办理流程&常见问题</p>

@@ -57,7 +57,7 @@
            
             享受财税〔2012〕27号文件规定的税收优惠政策的软件、集成电路企业，每年汇算清缴时应按照《国家税务总局关于发布〈企业所得税优惠政策事项办理办法〉的公告》规定向税务机关备案，同时提交《享受企业所得税优惠政策的软件和集成电路企业备案资料明细表》规定的备案资料。
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             <p class="tit" id="question">政策依据</p>
             <p class="text">
@@ -66,7 +66,7 @@
             《关于进一步鼓励软件产业和集成电路产业发展企业所得税政策的通知》（财税〔2012〕27号）<br>
 
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             
           </div>

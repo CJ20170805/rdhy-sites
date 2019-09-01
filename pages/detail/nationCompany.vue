@@ -111,7 +111,7 @@
 进出口货物可提前报关并由海关监管现场直接验放，缩短货物进出口通关时间。<br>
 
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span>或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             
           </div>

@@ -70,7 +70,7 @@
           增加品牌含金量，升值企业无形资产，扩大企业知名度，增强企业市场竞争力<br>
             <br>
 
-            <span class="red-font">在线咨询</span>  （按钮）或与我们联系：<span class="red-font">010-68207631</span>
+            <span class="red-font">在线咨询</span> 或与我们联系：<span class="red-font">010-68207631</span>
             </p>
             <!-- <p class="tit" id="question">政策依据</p>
             <p class="text">
