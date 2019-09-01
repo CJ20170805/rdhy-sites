@@ -127,7 +127,7 @@
             <el-menu-item index="6-11">
                <nuxt-link class="child-nav" to="/detail/warIndustry">军工四证</nuxt-link>
             </el-menu-item>
-            <el-menu-item index="6-11">
+            <el-menu-item index="6-12">
                <nuxt-link class="child-nav" to="/detail/softProduct">软件产品登记测试</nuxt-link>
             </el-menu-item>
               <!-- <el-menu-item index="6-7">

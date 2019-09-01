@@ -29,7 +29,7 @@
               <i class="el-icon-news"></i>
               <span>资质认定</span>
             </template>
-           <el-menu-item index="6-1">
+                 <el-menu-item index="6-1">
               <nuxt-link class="child-nav" to="/detail/infoSystem">信息系统集成服务资质</nuxt-link>
             </el-menu-item>
             <!-- <el-menu-item index="6-2">信息安全服务资质</el-menu-item> -->
@@ -37,14 +37,32 @@
                <nuxt-link class="child-nav" to="/detail/anFang">安防工程资质</nuxt-link>
             </el-menu-item>
             <el-menu-item index="6-4">
-               <nuxt-link class="child-nav" to="/detail/softCompany">软件企业评估</nuxt-link>
+               <nuxt-link class="child-nav" to="/detail/softCompany">北京市双软评估</nuxt-link>
             </el-menu-item>
             <el-menu-item index="6-5">
-               <nuxt-link class="child-nav" to="/detail/zgcCompany">中关村高新技术企业认定</nuxt-link>
+               <nuxt-link class="child-nav" to="/detail/nationCompany">国家高新技术企业认定</nuxt-link>
             </el-menu-item>
-          
-                <el-menu-item index="6-7">
-               <nuxt-link class="child-nav" to="/detail/beijingSoft">北京市软件产品登记</nuxt-link>
+              <el-menu-item index="6-6">
+               <nuxt-link class="child-nav" to="/detail/cmmi">CMMI体系认证</nuxt-link>
+            </el-menu-item>
+            </el-menu-item>
+            <el-menu-item index="6-7">
+               <nuxt-link class="child-nav" to="/detail/classified">涉密系统集成资质</nuxt-link>
+            </el-menu-item>
+           <el-menu-item index="6-8">
+               <nuxt-link class="child-nav" to="/detail/AAA">AAA信用评级</nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="6-9">
+               <nuxt-link class="child-nav" to="/detail/itss">ITSS认证</nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="6-10">
+               <nuxt-link class="child-nav" to="/detail/infoSafe">信息安全服务资质</nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="6-11">
+               <nuxt-link class="child-nav" to="/detail/warIndustry">军工四证</nuxt-link>
+            </el-menu-item>
+            <el-menu-item index="6-12">
+               <nuxt-link class="child-nav" to="/detail/softProduct">软件产品登记测试</nuxt-link>
             </el-menu-item>
           
           </el-submenu>
@@ -55,7 +73,8 @@
               <span>体系认定</span>
             </template>
             <el-menu-item index="5-4-1">
-              <nuxt-link class="child-nav" to="/detail/90001">ISO9001</nuxt-link>
+
+                 <nuxt-link class="child-nav" to="/detail/90001">ISO9001</nuxt-link>
               </el-menu-item>
               <el-menu-item index="5-4-2">
                  <nuxt-link class="child-nav" to="/detail/14001">ISO14001</nuxt-link>
@@ -69,17 +88,17 @@
               <el-menu-item index="5-4-5">
                 <nuxt-link class="child-nav" to="/detail/27001">ISO27001</nuxt-link>
               </el-menu-item>
-               <el-menu-item index="5-4-6">
-               <nuxt-link class="child-nav" to="/detail/cmmi">CMMI体系认证</nuxt-link>
-            </el-menu-item>
+              <el-menu-item index="5-4-6">
+                <nuxt-link class="child-nav" to="/detail/22301">ISO22301</nuxt-link>
+              </el-menu-item>
           
           </el-submenu>
-
+<!-- 
           <el-menu-item index="4">
             <i class="el-icon-mobile-phone"></i>
-            <!-- <span slot="title">高新企业认定</span> -->
+           
              <nuxt-link class="child-nav" to="/detail/nationCompany">高新企业认定</nuxt-link>
-          </el-menu-item>
+          </el-menu-item> -->
 
         </el-menu>
 </template>
