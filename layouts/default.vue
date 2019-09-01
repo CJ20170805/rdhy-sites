@@ -109,8 +109,11 @@
                <nuxt-link class="child-nav" to="/detail/cmmi">CMMI体系认证</nuxt-link>
             </el-menu-item>
             </el-menu-item>
-              <el-menu-item index="6-6">
+            <el-menu-item index="6-7">
                <nuxt-link class="child-nav" to="/detail/classified">涉密系统集成资质</nuxt-link>
+            </el-menu-item>
+           <el-menu-item index="6-8">
+               <nuxt-link class="child-nav" to="/detail/AAA">AAA信用评级</nuxt-link>
             </el-menu-item>
               <!-- <el-menu-item index="6-7">
                <nuxt-link class="child-nav" to="/detail/beijingSoft">北京市软件产品登记</nuxt-link>
