@@ -35,7 +35,7 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
     script: [
-      // {src: 'http://api.map.baidu.com/api?key=&v=1.1&services=true'}
+      {src: 'http://api.map.baidu.com/api?key=&v=1.1&services=true'}
     ]
   },
 

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="banner">
-      <el-carousel trigger="click" height="550px">
+      <el-carousel trigger="click" height="480px">
         <!-- ~assets~/assets/images/banner001.jpg
          <img :src="item" alt> -->
         <el-carousel-item>  
@@ -21,7 +21,7 @@
         <span></span>
         <p>
           本公司专业从事资质咨询服务
-          <br>自成立以来，至今已为北京地区上百家企业
+          <br>自成立以来，至今已为全国上百家企业
           提供过专业的服务
           <br>其中不乏集成行业顶级软件开发商、交通行业前十大集成商、电力行业顶级集成商等等，累积了大量的专业化经验。
         </p>
@@ -70,13 +70,13 @@
             <span>
               <i></i>
               <div>
-                <a href="#">软件著作权申请</a>
+                <a href="/detail/softwareCopyright">软件著作权申请</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">AAA企业信用评价</a>
+                <a href="/detail/AAA">AAA企业信用评级</a>
               </div>
             </span>
             <span>
@@ -88,13 +88,13 @@
             <span>
               <i></i>
               <div>
-                <a href="#">高新技术企业认定</a>
+                <a href="/detail/nationCompany">高新技术企业认定</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">软件产品登记测试</a>
+                <a href="/detail/softProduct">软件产品登记测试</a>
               </div>
             </span>
                <span>
@@ -106,7 +106,7 @@
             <span>
               <i></i>
               <div>
-                <a href="#">软件产品评估及软件企业评估</a>
+                <a href="/detail/softCompany">软件产品评估及软件企业评估</a>
               </div>
             </span>
           </div>
@@ -114,25 +114,25 @@
             <span>
               <i></i>
               <div>
-                <a href="#">ISO14001环境管理认证</a>
+                <a href="/detail/14001">ISO14001环境管理认证</a>
               </div>
             </span>
              <span>
               <i></i>
               <div>
-                <a href="#">ISO9001质量管理体系认证</a>
+                <a href="/detail/90001">ISO9001质量管理体系认证</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">ISO20000信息管理体系认证</a>
+                <a href="/detail/20000">ISO20000信息管理体系认证</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">ISO27001信息安全体系认证</a>
+                <a href="/detail/27001">ISO27001信息安全体系认证</a>
               </div>
             </span>
             <span>
@@ -144,7 +144,7 @@
              <span>
               <i></i>
               <div>
-                <a href="#">ISO22301业务连续性管理管理体系认证</a>
+                <a href="/detail/22301">ISO22301业务连续性管理管理体系认证</a>
               </div>
             </span>
           </div>
@@ -152,43 +152,43 @@
             <span>
               <i></i>
               <div>
-                <a href="#">涉密系统集成资质</a>
+                <a href="/detail/classified">涉密系统集成资质</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">安防工程企业资质</a>
+                <a href="/detail/anFang">安防工程企业资质</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">ITSS信息技术服务</a>
+                <a href="/detail/itss">ITSS信息技术服务</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">信息系统集成及服务资质</a>
+                <a href="/detail/infoSystem">信息系统集成及服务资质</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">CMMI软件能力成熟度模型</a>
+                <a href="/detail/cmmi">CMMI软件能力成熟度模型</a>
               </div>
             </span>
                <span>
               <i></i>
               <div>
-                <a href="#">信息安全服务资质（认证中心）</a>
+                <a href="/detail/infoSafe">信息安全服务资质（认证中心）</a>
               </div>
             </span>
                <span>
               <i></i>
               <div>
-                <a href="#">信息安全服务资质（测评中心）</a>
+                <a href="/detail/infoSafe">信息安全服务资质（测评中心）</a>
               </div>
             </span>
           </div>
@@ -235,25 +235,25 @@
             <span>
               <i></i>
               <div>
-                <a href="#">国军标认证（GJB9000）</a>
+                <a href="/detail/warIndustry">国军标认证（GJB9000）</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">军工企业保密资质认证</a>
+                <a href="/detail/warIndustry">军工企业保密资质认证</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">装备承制单位资格认证</a>
+                <a href="/detail/warIndustry">装备承制单位资格认证</a>
               </div>
             </span>
             <span>
               <i></i>
               <div>
-                <a href="#">武器装备科研生产许可证</a>
+                <a href="/detail/warIndustry">武器装备科研生产许可证</a>
               </div>
             </span>
 
@@ -446,7 +446,7 @@
       </div>
     </div>
     <div class="zixun" style="margin-bottom:-6px;overflow:hidden">
-      <iframe height="940" allowTransparency="true" style="width:100%;border:none;overflow:hidden;" frameborder="0" src="https://s9as9kr5kml0qgs4.mikecrm.com/wl37sst"></iframe>
+      <iframe height="940" allowTransparency="true" style="width:100%;border:none;overflow:hidden;" frameborder="0" src="http://rongdehaiyue.mikecrm.com/Y0QIR4Z"></iframe>
     </div>
   </div>
 </template>
@@ -508,15 +508,14 @@ export default {
 
   .banner {
     width: 100%;
-    height: 550px;
+    height: 480px;
     .el-carousel {
       width: 100%;
     }
     .el-carousel__item {
       width: 100%;
-      height: 550px;
       img {
-        height: 550px;
+        height: 480px;
         width: 100%;
       }
     }

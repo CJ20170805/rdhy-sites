@@ -1,11 +1,11 @@
 <template>
   <div id="wrap">
     <div class="detail">
-      <div class="img">
+      <div class="img" style="padding-right: 56px;">
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/softProduct.jpg" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/dengjiceshi.png" alt="">
           </li>
         </ul>
       </div>
