@@ -501,36 +501,36 @@ export default {
   components: {
     Logo
   },
-  beforeCreate () {
-    console.log('beforeCreate!');
-  },
-  created () {
-    console.log('Created!');
-  },
-  beforeMount () {
-    console.log('BeforeMount!');
-  },
-  mounted () {
-    console.log('Mounted!');
-  },
-  beforeUpdate () {
-    console.log('BeforeUpdate');
-  },
-  updated () {
-    console.log('undated!');
-  },
-  activated () {
-    console.log('Actived!');
-  },
-  deactivated () {
-    console.log('Deactived!');
-  },
-  beforeDestroy () {
-    console.log('BeforeDestroy!');
-  },
-  destroyed () {
-    console.log('Destroyed!');
-  }
+  // beforeCreate () {
+  //   console.log('beforeCreate!');
+  // },
+  // created () {
+  //   console.log('Created!');
+  // },
+  // beforeMount () {
+  //   console.log('BeforeMount!');
+  // },
+  // mounted () {
+  //   console.log('Mounted!');
+  // },
+  // beforeUpdate () {
+  //   console.log('BeforeUpdate');
+  // },
+  // updated () {
+  //   console.log('undated!');
+  // },
+  // activated () {
+  //   console.log('Actived!');
+  // },
+  // deactivated () {
+  //   console.log('Deactived!');
+  // },
+  // beforeDestroy () {
+  //   console.log('BeforeDestroy!');
+  // },
+  // destroyed () {
+  //   console.log('Destroyed!');
+  // }
   
 };
 </script>
@@ -563,7 +563,7 @@ export default {
       margin: 0 auto;
       padding: 56px 100px;
       b {
-        font-size: 18px;
+        font-size: 19px;
         display: block;
         font-size: bold;
         color: crimson;
@@ -579,7 +579,7 @@ export default {
       }
       p {
         text-align: center;
-        font-size: 17px;
+        font-size: 18px;
         line-height: 30px;
         color: #666;
       }

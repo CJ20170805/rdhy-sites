@@ -14,7 +14,7 @@
         <h5>CMMI意为集成的能力成熟度模型，于2002年发布，由美国国防部与卡内基—梅隆大学等共同开发研制。1998年美国卡内基-梅隆大学软件工程研究所(SEI)启动了CMMI计划，目的在于用一个统一的框架协调和集成SEI已经存在的各种模型，CMMI模型已经成为业界主要的过程管理模型，通过CMMI5级评估标志着本公司的质量管理和过程改进已跻身于全球软件业的顶尖水平</h5>
         <div class="option">
           <div class="item">
-           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes">在线咨询</a>
+           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes" target="_blank">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
           </div>
         </div>

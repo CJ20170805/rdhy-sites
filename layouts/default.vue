@@ -10,7 +10,7 @@
           <img src="~/assets/images/erweima.png" alt>
         </div>
         <div class="online">
-          <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes"></a>
+          <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes" target="_blank"></a>
         </div>
         <div class="slogan">
           <p>更专业的资质咨询服务商 !</p>
@@ -155,27 +155,27 @@
             <!-- <a href="#" class="headLogo">荣德海越</a> -->
           </div>
           <div class="fc-top-2">
-            <ul class="foot-nav">
+          <ul class="foot-nav">
               <li>
                 <a href="#">网站首页</a>
               </li>
               <li>
-                <a href="#">知识产权</a>
+                 <nuxt-link to="/detail/patent">知识产权</nuxt-link>
               </li>
               <li>
-                <a href="#">软件评测</a>
+                <nuxt-link to="/detail/softCompany">软件评测</nuxt-link>
               </li>
               <li>
-                <nuxt-link to="detail/softwareCopyright">高新企业认定</nuxt-link>
+                <nuxt-link to="/detail/softwareCopyright">高新企业认定</nuxt-link>
               </li>
               <li>
-                <a href="#">体系认定</a>
+                <nuxt-link to="/detail/90001">体系认定</nuxt-link>
               </li>
               <li>
-                <a href="#">资质认定</a>
+                <nuxt-link to="/detail/nationCompany">资质认定</nuxt-link>
               </li>
               <li>
-                <a href="#">联系我们</a>
+                <nuxt-link to="/AboutUS">联系我们</nuxt-link>
               </li>
             </ul>
             <p>地址：北京市海淀区万寿路27号院   &nbsp;   电话：010-68207631  </p>
@@ -217,11 +217,13 @@
           <i class="arrow"></i>
           <div class="inner-box">
             <div class="d-service-item clearfix">
-              <a href="#" class="clearfix">
+              <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes" target="_blank" class="clearfix">
                 <span class="circle">
                   <i class="i-qq"></i>
                 </span>
-                <h3>咨询在线客服</h3>
+                <h3>
+                  咨询在线客服
+                </h3>
               </a>
             </div>
           </div>
@@ -235,7 +237,7 @@
               </span>
               <div class="text">
                 <p>服务热线</p>
-                <p class="red number">4001-021-758</p>
+                <p class="red number">13488866647</p>
               </div>
             </div>
             <div class="d-service-intro clearfix">
@@ -244,9 +246,6 @@
               </p>
               <p>
                 <i></i>价格优惠
-              </p>
-              <p>
-                <i></i>专人对接
               </p>
             </div>
           </div>
@@ -281,7 +280,7 @@ export default {
     ]
   },
   created() {
-    console.log(this.$route.name);
+    //console.log(this.$route.name);
     this.activeIndex2 = "1";
   },
   methods: {
@@ -290,18 +289,17 @@ export default {
       $(".head-container .drop-down").removeClass("nav-dropDown-active");
     },
     handleSelect(key, keyPath) {
-      console.log(key, keyPath);
-      // this.activeIndex2 = key
-      console.log(this.activeIndex2);
+      // console.log(key, keyPath);
+      // // this.activeIndex2 = key
+      // console.log(this.activeIndex2);
     },
     getWidth(){
        let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
        this.clientWidth = htmlWidth+'px';
-       console.log('sssssssssss', htmlWidth);
     },
   },
   mounted() {
-    console.log("MOUNT", this.activeIndex2);
+    // console.log("MOUNT", this.activeIndex2);
 
     // this.getWidth();
     // // 改变窗口大小时重新设置 rem

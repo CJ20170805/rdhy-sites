@@ -19,7 +19,7 @@ ITSS（InformationTechnologyServiceStandards，信息技术服务标准，简称
         <p style="font-size: 18px;font-weight: bold;">服务热线： <span style="color: #28bbea;font-size: 30px;"> 13488866647</span></p>
         <div class="option">
           <div class="item">
-           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes">在线咨询</a>
+           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes" target="_blank">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
           </div>
         </div>

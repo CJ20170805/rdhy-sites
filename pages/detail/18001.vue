@@ -23,7 +23,7 @@
         </h5>
         <div class="option">
           <div class="item">
-           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes">在线咨询</a>
+           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes" target="_blank">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
           </div>
         </div>
@@ -147,7 +147,7 @@ export default {
       //console.log(type,index,`check${type}`);
     },
     changeTab (index) {
-      console.log(index);
+      // console.log(index);
       this.tabCurrent = index;
       // console.log('top', document.querySelector('#question'));
       // console.log(this.$refs.question);
