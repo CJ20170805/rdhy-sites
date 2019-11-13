@@ -5,7 +5,10 @@
         <img class="main-img" :src="mainImg" alt="">
         <ul>
           <li>
-            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/softCompany.jpg" alt="">
+            <img ref="firstImg" @click="checkImg($event)" src="~/assets/images/ruanjianchanpin.jpg" alt="">
+          </li>
+          <li>
+            <img @click="checkImg($event)" src="~/assets/images/softCompany.jpg" alt="">
           </li>
         </ul>
       </div>
@@ -17,7 +20,7 @@
         </h5>
         <div class="option">
           <div class="item">
-            <a href="#">在线咨询</a>
+           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
           </div>
         </div>

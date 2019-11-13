@@ -19,7 +19,7 @@ ITSS（InformationTechnologyServiceStandards，信息技术服务标准，简称
         <p style="font-size: 18px;font-weight: bold;">服务热线： <span style="color: #28bbea;font-size: 30px;"> 13488866647</span></p>
         <div class="option">
           <div class="item">
-            <a href="#">在线咨询</a>
+           <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes">在线咨询</a>
             <!-- <a href="#">QQ咨询</a> -->
           </div>
         </div>
@@ -45,12 +45,34 @@ ITSS（InformationTechnologyServiceStandards，信息技术服务标准，简称
         <div class="tab-content">
           <div class="page">
             <!-- <img src="~/assets/images/desc_001.png" style="width:100%" alt=""> -->
-            <p class="tit" id="introduce"></p>
             <p class="text">
               
 ITSS运维模型规定了各级运维服务能力成熟度在管理、人员、过程、技术 和资源方面应满足的要求。适用于运维服务供方建立、保持 和改进运维服务能力，也适用于评价供方运维服务能力。运维服务能力成熟度模型定义了逐步进化的四个等给，自低向高分别为基本级、拓展级、改进（协同）级和提升（理化）级。ITSS认证一共四个级别，四级最低，一级最高。
 
             </p>
+             <p class="tit" id="introduce">ITSS介绍</p>
+  
+
+              <p class="text">
+ 
+                ITSS(Information Technology Service Standards，信息技术服务标准，简称ITSS)是一套成体系和综合配套的信息技术服务标准库，全面规范了IT服务产品及其组成要素，用于指导实施标准化和可信赖的IT服务。<br>
+                ITSS分会在中国电子工业标准化技术协会的领导下，充分发挥平台作用，认真做好信息技术服务标准的应用推广工作;加强自身能力建设，服务于会员单位发展;稳步推进ITSS标准的符合性评估，严把评估质量关。<br>
+                ITSS充分借鉴了质量管理原理和过程改进方法的精髓，规定了IT服务的组成要素和生命周期，并对其进行标准化，如图所示：<br>
+                <span class="tit-2">组成要素：</span>服务由人员(People)、流程(Process)、技术(Technology)和资源(Resource)组成，简称PPTR。其中:<br>
+                <span class="tit-2">人员：</span>指提供IT服务所需的人员及其知识、经验和技能要求；<br>
+                <span class="tit-2">过程：</span>指提供IT服务时，合理利用必要的资源，将输入转化为输出的一组相互关联和结构化的活动；<br>
+                <span class="tit-2">技术：</span>指交付满足质量要求的IT服务应使用的技术或应具备的技术能力；<br>
+                <img src="~/assets/images/itss_desc.png" style="margin: 20px 0 0 20px;width: 300px;height: 300px;" alt="">  <br>
+                <span class="tit-2">规划设计：</span>从客户业务战略出发，以需求为中心，参照ITSS对IT服务进行全面系统的战略规划和设计，为IT服务的部署实施做好准备，以确保提供满足客户需求的IT服务；<br>
+                <span class="tit-2">部署实施：</span>在规划设计基础上，依据ITSS建立管理体系、部署专用工具及服务解决方案；<br>
+                <span class="tit-2">服务运营：</span>根据服务部署情况，依据ITSS，采用过程方法，全面管理基础设施、服务流程、人员和业务连续性，实现业务运营与IT服务运营融合；<br>
+                <span class="tit-2">持续改进：</span>根据服务运营的实际情况，定期评审IT服务满足业务运营的情况，以及IT服务本身存在的缺陷，提出改进策略和方案，并对IT服务进行重新规划设计和部署实施，以提高IT服务质量；<br>
+                <span class="tit-2">监督管理：</span>本阶段主要依据ITSS对IT服务服务质量进行评价，并对服务供方的服务过程、交付结果实施监督和绩效评估。<br>
+
+               
+
+              </p>
+
 
             <p class="tit" id="flow">【申请条件 】</p>
             <!-- <img src="~/assets/images/soft-lc.png" style="margin-bottom:20px;" alt=""> -->

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="banner">
-      <el-carousel trigger="click" height="480px">
+      <el-carousel trigger="click" height="540px">
         <!-- ~assets~/assets/images/banner001.jpg
          <img :src="item" alt> -->
         <el-carousel-item>  
@@ -20,10 +20,14 @@
         <b>荣德海越</b>
         <span></span>
         <p>
-          本公司专业从事资质咨询服务
+          <!-- 本公司专业从事资质咨询服务
           <br>自成立以来，至今已为全国上百家企业
           提供过专业的服务
-          <br>其中不乏集成行业顶级软件开发商、交通行业前十大集成商、电力行业顶级集成商等等，累积了大量的专业化经验。
+          <br>其中不乏集成行业顶级软件开发商、交通行业前十大集成商、电力行业顶级集成商等等，累积了大量的专业化经验。 -->
+
+          一站式为企业用户提供信息化建设的全流程服务
+   <br>  提供资质建设咨询服务，资质申办全流程服务。针对不同细分行业领域进行综合评估，为企业量身规划，提供全面、专业、安全、便捷的企业服务。
+ 
         </p>
       </div>
     </div>
@@ -31,7 +35,7 @@
       <div class="cs-list">
         <h1>荣德海越为您提供专业的资质咨询服务</h1>
         <div class="cs-list-wrap">
-          <div class="cs-list-item">
+          <div class="cs-list-item" @click="$router.push('detail/softwareCopyright')">
             <i></i>
             <div class="cs-list-item-desc">
               <span>通用咨询服务</span>
@@ -39,7 +43,7 @@
             </div>
           </div>
           <span class="cs-line"></span>
-          <div class="cs-list-item">
+          <div class="cs-list-item" @click="$router.push('detail/14001')">
             <i></i>
             <div class="cs-list-item-desc">
               <span>管理体系服务</span>
@@ -47,7 +51,7 @@
             </div>
           </div>
           <span class="cs-line"></span>
-          <div class="cs-list-item">
+          <div class="cs-list-item" @click="$router.push('detail/classified')">
             <i></i>
             <div class="cs-list-item-desc">
               <span>资质认证服务</span>
@@ -55,7 +59,7 @@
             </div>
           </div>
           <span class="cs-line"></span>
-          <div class="cs-list-item">
+          <div class="cs-list-item" @click="$router.push('detail/warIndustry')">
             <i></i>
             <div class="cs-list-item-desc">
               <span>军工资质认证</span>
@@ -412,7 +416,7 @@
       </div>
       <div class="cf-list">
         <ul>
-          <li>
+          <!-- <li>
             <img src="~/assets/images/clients_img04.jpg" alt>
           </li>
           <li>
@@ -441,6 +445,36 @@
           </li>
           <li>
             <img src="~/assets/images/clients_img08.jpg" alt>
+          </li> -->
+           <li>
+            <img class="ff1" src="~/assets/images/friends/f1.png" alt>
+          </li>
+           <li>
+            <img class="ff2" src="~/assets/images/friends/f2.jpg" alt>
+          </li>
+           <li>
+            <img class="ff3" src="~/assets/images/friends/f3.png" alt>
+          </li>
+           <li>
+            <img class="ff4" src="~/assets/images/friends/f4.png" alt>
+          </li>
+           <li>
+            <img src="~/assets/images/friends/f5.png" alt>
+          </li>
+           <li>
+            <img class="ff6" src="~/assets/images/friends/f6.jpg" alt>
+          </li>
+             <li>
+            <img class="ff7" src="~/assets/images/friends/f10.png" alt>
+          </li>
+             <li>
+            <img class="ff11" src="~/assets/images/friends/f11.png" alt>
+          </li>
+             <li>
+            <img class="ff8" src="~/assets/images/friends/f88.png" alt>
+          </li>
+             <li>
+            <img class="ff9" src="~/assets/images/friends/f9.png" alt>
           </li>
         </ul>
       </div>
@@ -502,20 +536,20 @@ export default {
 </script>
 
 <style lang='less' scoped>
+@bannerHeight: 540px;
 .container {
   width: 100%;
   min-height: 100vh;
-
   .banner {
     width: 100%;
-    height: 480px;
+    height: @bannerHeight;
     .el-carousel {
       width: 100%;
     }
     .el-carousel__item {
       width: 100%;
       img {
-        height: 480px;
+        height: @bannerHeight;
         width: 100%;
       }
     }
@@ -547,6 +581,7 @@ export default {
         text-align: center;
         font-size: 17px;
         line-height: 30px;
+        color: #666;
       }
     }
   }
@@ -574,6 +609,7 @@ export default {
 
         .cs-list-item {
           height: 110px;
+          cursor: pointer;
           width: 350px;
           i {
             float: left;
@@ -619,7 +655,7 @@ export default {
       width: 100%;
       height: 500px;
       background: url("~assets/images/servesbg.png") no-repeat center;
-      min-width: 1340px;
+      // min-width: 1340px;
 
       .cs-item-wrap {
         width: 1200px;
@@ -627,7 +663,7 @@ export default {
         display: flex;
         justify-content: space-around;
         .cs-detail-item {
-          width: 300px;
+          // width: 300px;
           height: 420px;
           padding: 30px 2px 0 16px;
           margin-top: 36px;
@@ -853,26 +889,61 @@ export default {
       }
     }
     .cf-list {
+      margin-top: 30px;
       ul {
-        width: 1051px;
+        width: 1146px;
         height: 180px;
-        margin: 40px auto 60px auto;
+        margin: 20px auto 40px auto;
         padding: 0;
         border-top: 1px solid #ccc;
         border-left: 1px solid #ccc;
+        border-right: none;
         li {
-          border-right: 1px solid #ccc;
           border-bottom: 1px solid #ccc;
+          border-right: 1px solid #ccc;
           list-style-type: none;
           float: left;
           padding: 2px;
           box-sizing: border-box;
           margin: 0;
           height: 90px;
-          width: 210px;
+          text-align: center;
+          width: 229px;
           img {
-            width: 206px;
+            width: 200px;
             height: 86px;
+            transform: scale(.8);
+          }
+          .ff1{
+            width: 220px!important;
+          }
+          .ff2{
+            width: 160px!important;
+            height: 80px!important;
+            transform: translateX(0px);
+          }
+          .ff3{
+            width: 120px!important;
+            height: 80px!important;
+            transform: translateX(0px);
+          }
+          .ff4{
+            width: 120px!important;
+            height: 74px!important;
+            transform: translateX(8px);
+            margin-top: 6px;
+          }
+          .ff6{
+            width: 130px!important;
+            height: 84px!important;
+            transform: translateX(0px);
+            margin-top: 0px;
+          }
+          .ff8{
+            transform: translateY(0px);
+          }
+          .ff11{
+            transform: scale(1.02);
           }
         }
       }

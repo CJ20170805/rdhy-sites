@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div class="wrapper">
     <div class="nav-contact">
       <div class="nc-content">
         <div class="phone">
-          <span>400-1234-5678</span>
-          <span style="padding-left:72px;">1234567890</span>
+          <span>010-68207631</span>
+          <span style="padding-left:92px;padding-top: 8px;">13488866647</span>
         </div>
         <div class="weixin">
-          <img src="~/assets/images/erweima.jpg" alt>
+          <img src="~/assets/images/erweima.png" alt>
         </div>
-        <div class="online"></div>
+        <div class="online">
+          <a href="http://wpa.qq.com/msgrd?v=3&uin=1543925232&site=qq&menu=yes"></a>
+        </div>
         <div class="slogan">
           <p>更专业的资质咨询服务商 !</p>
         </div>
@@ -96,7 +98,7 @@
           <el-submenu index="6">
             <template slot="title">资质认定</template>
             <el-menu-item index="6-1">
-              <nuxt-link class="child-nav" to="/detail/infoSystem">信息系统集成服务资质</nuxt-link>
+              <nuxt-link class="child-nav" to="/detail/infoSystem">信息系统集成服务资质(暂停)</nuxt-link>
             </el-menu-item>
             <!-- <el-menu-item index="6-2">信息安全服务资质</el-menu-item> -->
             <el-menu-item index="6-3">
@@ -176,16 +178,16 @@
                 <a href="#">联系我们</a>
               </li>
             </ul>
-            <p>地址：北京市海淀区万寿路27号院  电话：010-68207631  传真：86-021-xxxxxxxxxxxxxxxx</p>
-            <p>邮箱：office@anyway.org.cn 网址：www.xxxxxx.com​</p>
+            <p>地址：北京市海淀区万寿路27号院   &nbsp;   电话：010-68207631  </p>
+            <p>邮箱：office@anyway.org.cn​</p>
           </div>
           <div class="fc-top-3">
-            <div class="fc-ewm">
-              <img src="~/assets/images/erweima.jpg" alt>
+            <!-- <div class="fc-ewm">
+              <img src="~/assets/images/erweima.png" alt>
               <p>新浪微博</p>
-            </div>
+            </div> -->
             <div class="fc-ewm">
-              <img src="~/assets/images/erweima.jpg" alt>
+              <img src="~/assets/images/erweima.png" alt>
               <p>微信公众号</p>
             </div>
           </div>
@@ -193,7 +195,7 @@
       </div>
       <div class="fc-bottom">
         <div class="fc-bot-cont">
-          <p>© 2019 All Rights Reserved. ICP备案号：1234567890 版权所有：©荣德海越（北京）信息技术有限公司</p>
+          <p>© 2019 All Rights Reserved. ICP备案号：京ICP备19050390号  版权所有：©荣德海越（北京）信息技术有限公司</p>
         </div>
       </div>
     </div>
@@ -253,7 +255,7 @@
           <i class="arrow"></i>
           <div class="inner-box">
             <div class="qrcode-img">
-              <img src="~/assets/images/erweima.jpg" alt>
+              <img src="~/assets/images/erweima.png" alt>
             </div>
             <p>微信服务号</p>
           </div>
@@ -267,7 +269,8 @@ export default {
   data() {
     return {
       navName: "nav-1",
-      activeIndex2: "0"
+      activeIndex2: "0",
+      clientWidth: 1000 + 'px',
     };
   },
   head: {
@@ -290,10 +293,24 @@ export default {
       console.log(key, keyPath);
       // this.activeIndex2 = key
       console.log(this.activeIndex2);
-    }
+    },
+    getWidth(){
+       let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+       this.clientWidth = htmlWidth+'px';
+       console.log('sssssssssss', htmlWidth);
+    },
   },
   mounted() {
     console.log("MOUNT", this.activeIndex2);
+
+    // this.getWidth();
+    // // 改变窗口大小时重新设置 rem
+    // let that = this;
+    // window.onresize = function () {
+    //   console.log('rrrresize');
+    //   that.getWidth();
+    // }
+
 
     // $('.nav .nav-menu .el-menu-item').eq(1).addClass('is-active');
     // $('.nav .nav-menu .el-submenu__title').eq(0).addClass('el-menu-item-hover');
@@ -484,6 +501,10 @@ html {
   color: #fff !important;
 }
 
+.wrapper{
+  min-width: 1200px;
+}
+
 .nav-contact {
   width: 100%;
   height: 100px;
@@ -525,6 +546,7 @@ html {
       background-color: #fff;
       box-sizing: content-box;
       img {
+        transform: scale(1.1);
         width: 64px;
         height: 64px;
       }
@@ -536,6 +558,11 @@ html {
       position: absolute;
       right: 386px;
       top: 0;
+      a{
+        display: block;
+        width: 220px;
+        height: 100px;
+      }
       p {
         font-family: wenDing;
         color: #fff;

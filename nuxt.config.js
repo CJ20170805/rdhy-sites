@@ -13,7 +13,7 @@ module.exports = {
 
   router: {
     //base: '/nuxxt/',
-    base: '/'
+    base: '/rdhy'
   },
   // mode: 'spa',
 
@@ -85,6 +85,7 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
+   vendor:['axios', 'qs'],        // 防止多次打包
     extend(config, ctx) {
       // config.output.publicPath = '../_nuxttt/'
       // console.log('CONFIG：：：',config);
